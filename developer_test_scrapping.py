@@ -589,9 +589,9 @@ Contoh:
     )
 
     # Lokasi
-    parser.add_argument("--area", required=True,
+    parser.add_argument("--area", default="surabaya",
                         help="Service area GoFood (contoh: surabaya, jakarta, bandung).")
-    parser.add_argument("--locality", required=True,
+    parser.add_argument("--locality", default="sukolilo-restaurants",
                         help="Locality/kecamatan (contoh: sukolilo-restaurants, gubeng-restaurants).")
 
     # Kontrol jumlah
@@ -619,7 +619,6 @@ Contoh:
                         help="Jalankan browser non-headless (visual).")
 
     args = parser.parse_args()
-
     # ── Derived paths ──
     storage_state = OUTPUT_DIR / "session" / "gofood_storage_state.json"
     outlets_json = OUTPUT_DIR / "json" / f"gofood_{args.locality}_outlets.json"

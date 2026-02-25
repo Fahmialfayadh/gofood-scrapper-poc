@@ -2,14 +2,16 @@
 
 ## Ringkasan Eksekusi
 
-| Metrik | Surabaya (Sukolilo) | Medan (Selayang) |
-|--------|---------------------|------------------|
-| Total outlet terdeteksi (raw) | 135 | 60+ |
-| Outlet valid setelah filter | 60 | 60 |
-| Outlet di-scrape menu | 3 | 5 |
-| Success rate | 3/3 (100%) | 5/5 (100%) |
-| Total menu sections | 34 | 55 |
-| Total menu items | 222 | 331 |
+| Metrik | Surabaya (Multi-Area, 6 kecamatan) | Medan (Selayang) |
+|--------|------------------------------------|------------------|
+| Locality yang dijalankan | 6 | 1 |
+| Outlet ditemukan (unik) | 360 (60/area) | 60 |
+| Outlet di-scrape menu | 120 (20/area) | 5 |
+| Success | 117 | 5 |
+| No menu | 2 | 0 |
+| Error | 1 | 0 |
+| Total menu sections | 1,453 | 55 |
+| Total menu items | 10,340 | 331 |
 | Tanggal eksekusi | 2026-02-25 | 2026-02-25 |
 
 ## Pipeline yang Dibangun
@@ -29,7 +31,7 @@
 - **Script**: `scripts/batch/batch_menu_scraper.py` (atau Step 3 di `developer_test_scrapping.py`)
 - **Fungsi**: Iterasi outlet satu per satu, buka halaman profil, ekstrak `__NEXT_DATA__`, parse menu.
 - **Output**: JSON + CSV (dual output)
-- **Hasil Surabaya**: 3 restoran, 222 menu items
+- **Hasil Surabaya (scale test)**: 120 outlet (6 kecamatan x 20 outlet), 10,340 menu items
 - **Hasil Medan**: 5 restoran, 331 menu items
 
 ### Unified Pipeline (Baru)
@@ -37,6 +39,14 @@
 - **Fungsi**: Satu script menjalankan Step 1 → 2 → 3 secara otomatis.
 - **Penggunaan**: `python3 developer_test_scrapping.py --area medan --locality medan-selayang-restaurants --limit 5`
 - **Output**: `gofood_{locality}_outlets.json`, `gofood_{locality}_menus.json`, `gofood_{locality}_menus.csv`
+
+### Surabaya Multi-Area Runner (Baru)
+- **Script**: `scrap_sby.py`
+- **Fungsi**: Menjalankan pipeline E2E untuk beberapa kecamatan Surabaya secara berurutan (dengan delay manusiawi + progress tracking).
+- **Penggunaan**: `python3 scrap_sby.py --limit 20`
+- **Output**:
+  - Per area: `output/json/gofood_{area}_outlets.json`, `output/json/gofood_{area}_menus.json`, `output/csv/gofood_{area}_menus.csv`
+  - Ringkasan: `output/json/scrap_sby_summary.json`
 
 ## Data yang Diekstrak
 
@@ -59,6 +69,7 @@ Per menu item:
 - `variant_count` (jumlah varian/topping)
 
 ## Hasil Batch Menu (3 Restoran Pertama)
+Bagian ini adalah contoh detail per-restoran. Untuk hasil skala besar, lihat section **Hasil Scale Test** dan file output di `output/json/` dan `output/csv/`.
 
 ### 1. A&W Mall Galaxy
 | Section | Jumlah Item |
@@ -120,6 +131,19 @@ Per menu item:
 | 5 | Ayam Gepuk Jogjakarta, Komplek Tasbi 2 | 4 | 21 |
 | | **Total** | **55** | **331 items** |
 
+## Hasil Scale Test — Surabaya Multi-Area (6 Kecamatan)
+Sumber metrik: `output/json/scrap_sby_summary.json` (rekap outlet + items) dan agregasi `output/json/gofood_{area}_menus.json` (sections + status per outlet) untuk run 2026-02-25.
+
+| Area | Outlet ditemukan | Outlet di-scrape | Success | No menu | Error | Sections | Items |
+|------|------------------|------------------|---------|---------|-------|----------|------:|
+| Sukolilo | 60 | 20 | 20 | 0 | 0 | 231 | 1,877 |
+| Gubeng | 60 | 20 | 19 | 0 | 1 | 227 | 1,719 |
+| Wonokromo | 60 | 20 | 19 | 1 | 0 | 209 | 1,316 |
+| Tandes | 60 | 20 | 19 | 1 | 0 | 263 | 1,732 |
+| Tambaksari | 60 | 20 | 20 | 0 | 0 | 255 | 1,799 |
+| Mulyorejo | 60 | 20 | 20 | 0 | 0 | 268 | 1,897 |
+| **Total** | **360** | **120** | **117** | **2** | **1** | **1,453** | **10,340** |
+
 ## Contoh Data Item Menu
 
 ```json
@@ -140,12 +164,12 @@ Per menu item:
 1. **Session reuse**: `storage_state.json` di-load sebelum setiap navigasi, di-persist setelahnya.
 2. **Anti-detection headers**: User-agent Chrome, locale `id-ID`, timezone `Asia/Jakarta`.
 3. **Polite scraping**: Jeda `random(3-7)` detik antar request outlet.
-4. **Micro-batching**: Default 5 outlet per run, bisa diatur via `--limit` dan `--offset`.
+4. **Micro-batching (batch scraper)**: `scripts/batch/batch_menu_scraper.py` mendukung `--limit` dan `--offset` untuk menjalankan scraping per-batch dan melanjutkan batch berikutnya.
 5. **Browser flags**: `--disable-blink-features=AutomationControlled` untuk bypass bot detection.
 
 ## Filtering Logic (Near-Me Data)
 
-Dari 135 raw entries, 75 dibuang:
+Contoh pada run Sukolilo: dari 135 raw entries, 75 dibuang:
 - **18 kategori `CUISINE_*`**: Bukan outlet, melainkan label kategori (uid = `CUISINE_ANEKA_NASI`, dll.)
 - **57 brand "General"**: Placeholder tanpa data lokasi (e.g., "A&W General", "KFC General")
 - **Indikator outlet asli**: `core.location.latitude` != null DAN `core.location.longitude` != null
@@ -164,19 +188,22 @@ Dari 135 raw entries, 75 dibuang:
 
 | File | Deskripsi | Ukuran |
 |------|-----------|--------|
-| `output/json/gofood_nearme_outlets.json` | 60 outlet Sukolilo | ~41 KB |
-| `output/json/gofood_menus_master.json` | Menu 3 restoran (Surabaya) | ~200+ KB |
-| `output/csv/gofood_menus_master.csv` | CSV flat menu (Surabaya) | ~30 KB |
-| `output/json/gofood_medan-selayang-restaurants_outlets.json` | 60 outlet Medan Selayang | ~40 KB |
-| `output/json/gofood_medan-selayang-restaurants_menus.json` | Menu 5 restoran (Medan) | ~300+ KB |
-| `output/csv/gofood_medan-selayang-restaurants_menus.csv` | CSV flat menu (Medan, 335 rows) | ~50 KB |
 | `output/session/gofood_storage_state.json` | Session Playwright | ~5 KB |
+| `output/json/scrap_sby_summary.json` | Ringkasan Surabaya multi-area (6 kecamatan) | ~2 KB |
+| `output/json/gofood_sukolilo-restaurants_outlets.json` | 60 outlet Sukolilo | ~40 KB |
+| `output/json/gofood_sukolilo-restaurants_menus.json` | Menu 20 outlet Sukolilo | ~MB |
+| `output/csv/gofood_sukolilo-restaurants_menus.csv` | CSV flat menu Sukolilo | ~MB |
+| `output/json/gofood_medan-selayang-restaurants_outlets.json` | 60 outlet Medan Selayang | ~40 KB |
+| `output/json/gofood_medan-selayang-restaurants_menus.json` | Menu 5 outlet (Medan) | ~200+ KB |
+| `output/csv/gofood_medan-selayang-restaurants_menus.csv` | CSV flat menu (Medan) | ~150 KB |
+| `output/json/gofood_menus_master.json` | Output standalone batch scraper (default 5 outlet) | ~120 KB |
+| `output/csv/gofood_menus_master.csv` | CSV flat untuk `gofood_menus_master.json` | ~200 KB |
 
 ## Langkah Selanjutnya
 
 1. ~~**Export**: Konversi ke CSV/database untuk analisis.~~ ✅ Sudah terimplementasi (dual JSON + CSV).
-2. ~~**Multi-area**: Ulangi pipeline untuk area lain.~~ ✅ Medan Selayang berhasil 100%.
-3. **Scale up**: Jalankan batch scraper untuk semua 60 outlet per locality (`--limit 60`).
+2. ~~**Multi-area**: Ulangi pipeline untuk area lain.~~ ✅ Sudah berjalan (Surabaya multi-kecamatan + Medan).
+3. **Scale up**: Jalankan scraping untuk semua 60 outlet per locality (`--limit 60`).
 4. **Join data**: Gabungkan outlet listing + menu berdasarkan `outlet_uid` untuk analisis lintas restoran.
 5. **Multi-kota**: Expand ke Jakarta, Bandung, Yogyakarta, dll.
 6. **Hardening**: Schema guard, retry policy, logging per run.

@@ -17,7 +17,10 @@ Pipeline utama dibagi menjadi tiga tahap:
 2. **Outlet Discovery** (Mencari dan Menemukan Restoran)
 3. **Batch Menu Extraction** (Mengekstrak Katalog Menu secara Massal)
 
-Seluruh pipeline dapat dijalankan via satu perintah menggunakan `developer_test_scrapping.py`, atau secara modular menggunakan script terpisah di folder `scripts/`.
+Seluruh pipeline dapat dijalankan:
+- Per locality (single area) via `developer_test_scrapping.py`
+- Multi-area (khusus Surabaya) via `scrap_sby.py`
+- Atau secara modular via script terpisah di folder `scripts/`
 
 ---
 
@@ -34,7 +37,7 @@ Seluruh pipeline dapat dijalankan via satu perintah menggunakan `developer_test_
 **Tujuan:** Mengumpulkan seluruh daftar restoran di suatu area (misal: Sukolilo) tanpa melakukan klik manual.
 - **Skrip:** `scripts/playwright/test_nearme_interceptor.py`
 - **Cara Kerja:** Skrip ini membuka halaman direktori area `/near-me/`. Di GoFood, daftar restoran dimuat sedikit demi sedikit saat pengguna men-*scroll* layar (*infinite scroll*). Skrip ini memalsukan gerakan *scroll* ke bawah secara berkala sambil memantau (menyadap/*intercept*) jalur komunikasi API di latar belakang. Saat *server* mengirim balasan (*response*) JSON berisi restoran baru, skrip mencegat dan mengambilnya.
-- **Penyaringan (Filtering):** Data mentah yang disadap cukup kotor (ditemukan 135 *entry*). Skrip menjalankan filter berlapis: membuang data berupa Kategori Masakan (contoh: ID `CUISINE_ANEKA_NASI`) dan membuang merk tanpa titik koordinat (contoh: "KFC General"). Hasil akhirnya didapatkan **60 outlet valid**.
+- **Penyaringan (Filtering):** Data mentah yang disadap cukup kotor (contoh pada run Sukolilo: 135 *entry*). Skrip menjalankan filter berlapis: membuang data berupa Kategori Masakan (contoh: ID `CUISINE_ANEKA_NASI`) dan membuang brand placeholder tanpa titik koordinat (contoh: "KFC General"). Hasil akhirnya didapatkan **60 outlet valid**.
 - **Penyimpanan Output:** `output/json/gofood_nearme_outlets.json`
 - **Tindak Lanjut Output:** File ini berisi daftar riwayat 60 restoran beserta koordinat lengkapnya. File ini akan dibaca oleh skrip di Tahap 3 sebagai "Daftar Tugas" (*queue*) restoran mana saja yang harus dikunjungi untuk diambil menunya.
 
@@ -46,18 +49,31 @@ Seluruh pipeline dapat dijalankan via satu perintah menggunakan `developer_test_
   2. Sama sekali tidak mempedulikan tampilan visualnya, skrip mengekstrak data dari `<script id="__NEXT_DATA__">` yang tersimpan di barisan kode HTML.
   3. Mengurai data JSON tersebut untuk mendapatkan semua kategori, nama menu, beserta harganya.
   4. Beristirahat secara acak (3-7 detik) meniru jeda manusia pindah halaman.
-  5. Pindah ke Restoran B, C,... hingga batas harian tercapai. Skrip berjalan berkelompok kecil (5 resto berturut-turut lalu menyimpan hasil sementara).
+  5. Pindah ke Restoran B, C,... hingga batas yang kita tentukan. Secara default, kita menjalankan batch kecil (misalnya `--limit 5`) untuk menjaga beban tetap rendah; untuk lanjut batch berikutnya gunakan `--offset` di `scripts/batch/batch_menu_scraper.py` atau jalankan pipeline per locality lagi.
 - **Penyimpanan Output (Dual):**
   - `output/json/gofood_menus_master.json` — format JSON terstruktur (nested: restoran → section → item)
   - `output/csv/gofood_menus_master.csv` — format CSV flat (1 baris = 1 menu item, siap analisis di Excel/Data Studio)
+  - Jika dijalankan via pipeline E2E, output akan di-*namespace* per locality:
+    - `output/json/gofood_{locality}_menus.json`
+    - `output/csv/gofood_{locality}_menus.csv`
 - **Tindak Lanjut Output:** Kedua file ini adalah data master yang siap dianalisa atau dimasukkan ke dalam *database*.
 
 ### One-Command Pipeline (`developer_test_scrapping.py`)
 Seluruh Tahap 1–3 di atas dapat dijalankan dalam **satu perintah**:
 ```bash
-python3 developer_test_scrapping.py --area medan --locality medan-selayang-restaurants --limit 5
+.venv/bin/python developer_test_scrapping.py --area medan --locality medan-selayang-restaurants --limit 5
 ```
 Parameter `--area` dan `--locality` menentukan lokasi, `--limit` mengatur berapa restoran yang di-scrape. Output otomatis di-*namespace* per locality.
+
+### Multi-Area Runner Surabaya (`scrap_sby.py`)
+Untuk scraping beberapa kecamatan Surabaya sekaligus (dengan jeda manusiawi dan resume):
+```bash
+.venv/bin/python scrap_sby.py --limit 20
+```
+Script ini akan menyimpan:
+- Output per area: `output/json/gofood_{area}_outlets.json`, `output/json/gofood_{area}_menus.json`, `output/csv/gofood_{area}_menus.csv`
+- Progress untuk resume: `output/json/scrap_sby_progress.json`
+- Ringkasan akhir: `output/json/scrap_sby_summary.json`
 
 ---
 
@@ -95,18 +111,27 @@ Sistem ini menggunakan teknik siluman untuk menghindari pemblokiran Cloudflare m
 ---
 
 ## 🏁 Kesimpulan Bukti Konsep (PoC) & Langkah Berikutnya
-Pipeline telah divalidasi di **dua area berbeda**:
-- **Surabaya (Sukolilo)**: 3/3 sukses, 222 menu items.
-- **Medan (Selayang)**: 5/5 sukses, 331 menu items.
+Pipeline telah divalidasi secara nyata pada beberapa skenario:
+- **Surabaya (6 kecamatan, multi-area run)**:
+  - 360 outlet ditemukan (60/area)
+  - 120 outlet di-scrape (20/area)
+  - 117 sukses, 2 `no_menu`, 1 error
+  - Total 10,340 menu items
+- **Medan (Selayang, single locality)**:
+  - 60 outlet ditemukan
+  - 5 outlet di-scrape
+  - 5 sukses
+  - Total 331 menu items
 
-Total **8 restoran** di-scrape tanpa satupun kegagalan atau blokir WAF, membuktikan bahwa schema GoFood konsisten lintas kota.
+Ini membuktikan pipeline bisa diskalakan lintas kecamatan dan lintas kota, dengan schema menu yang konsisten.
 
 **Pencapaian Terbaru:**
 1. ✅ **Ekspor CSV** — Dual output JSON + CSV terimplementasi.
-2. ✅ **Multi-area** — Pipeline berhasil direplikasi ke kota lain (Medan).
-3. ✅ **Unified Pipeline** — Satu perintah (`developer_test_scrapping.py`) untuk seluruh proses.
+2. ✅ **Unified Pipeline** — Satu perintah (`developer_test_scrapping.py`) untuk pipeline per locality.
+3. ✅ **Multi-area Runner** — `scrap_sby.py` untuk Surabaya (progress + summary + per-area output).
+4. ✅ **Multi-kota** — Pipeline berhasil direplikasi ke kota lain (Medan).
 
 **Langkah Lanjutan:**
-1. **Skala Penuh (*Scale Up*):** Jalankan ekstraktor untuk seluruh 60 outlet per locality.
+1. **Skala Penuh (*Scale Up*):** Jalankan ekstraktor untuk seluruh 60 outlet per locality (`--limit 60`).
 2. **Ekspansi Multi-Kota:** Jakarta, Bandung, Yogyakarta, dll.
-3. **Hardening:** Schema guard, retry policy, logging per run.
+3. **Hardening:** Retry/backoff per outlet, logging per run, dan schema guard untuk perubahan payload.
