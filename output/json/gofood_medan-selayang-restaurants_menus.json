@@ -1,0 +1,3738 @@
+[
+  {
+    "restaurant_uid": "cac5e1da-543a-4d4f-9a35-056deed43b88",
+    "restaurant_name": "Aroma Bakery and Cake Shop, Sunggal",
+    "restaurant_url": "/medan/restaurant/aroma-bakery-and-cake-shop-sunggal-cac5e1da-543a-4d4f-9a35-056deed43b88",
+    "status": "success",
+    "menu_sections": [
+      {
+        "section_uid": "",
+        "section_name": "Orang-orang pada doyan ini",
+        "section_type": 7,
+        "items": [
+          {
+            "item_uid": "107b96d7-3e4d-425c-b5be-eac90af03983",
+            "item_name": "BIKA AMBON ORIGINAL PETAK",
+            "item_description": "",
+            "item_status": 1,
+            "price_units": 112500,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/e16aa899-e626-419d-a444-d6cfb8e3e598_menu-item-image_1633511409057.jpg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "8226aa64-b67a-485b-be99-504d9a7a97ff",
+            "item_name": "ROTI TAWAR BIASA",
+            "item_description": "",
+            "item_status": 1,
+            "price_units": 29500,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/55e8efe5-35e4-4a57-ab6a-cca2362a10a1_Go-Biz_20250425_045156.jpeg",
+            "variant_count": 0
+          }
+        ]
+      },
+      {
+        "section_uid": "",
+        "section_name": "Resto's top picks",
+        "section_type": 4,
+        "items": []
+      },
+      {
+        "section_uid": "f3ec614f-092e-4cc1-9aa2-550e94481fb7",
+        "section_name": "ANEKA BOLU",
+        "section_type": 1,
+        "items": [
+          {
+            "item_uid": "107b96d7-3e4d-425c-b5be-eac90af03983",
+            "item_name": "BIKA AMBON ORIGINAL PETAK",
+            "item_description": "",
+            "item_status": 1,
+            "price_units": 112500,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/e16aa899-e626-419d-a444-d6cfb8e3e598_menu-item-image_1633511409057.jpg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "509d64aa-3def-41a2-8a69-c809def9ca95",
+            "item_name": "BOLU PISANG SPESIAL PETAK",
+            "item_description": "",
+            "item_status": 1,
+            "price_units": 94000,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/3398ade9-0d54-44f6-8776-6e711ceb4ab7_Go-Biz_20220908_140606.jpeg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "27d81835-f576-4513-8bff-a20294dc83d9",
+            "item_name": "BOLU PISANG SPESIAL SEDANG",
+            "item_description": "Bolu pisang yang sangat enak diolah pengan bahan pilihan serta dengan pisang plihan menghasilkan cita rasa yang sangat enak",
+            "item_status": 1,
+            "price_units": 54000,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/0bdd0ab0-21f4-49a8-99d1-debfe63e70a9_1h2cKCyPkZjX1qo4vT-z6EUBZOuHeWB5A.jpeg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "f6a1dea0-a057-44d3-a14c-0033b8859f04",
+            "item_name": "BOLU GULUNG CAPPUCINO ROLL",
+            "item_description": "",
+            "item_status": 1,
+            "price_units": 92500,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/d06a5ee2-8123-4899-ad26-edd1da101a0d_Go-Biz_20230831_144534.jpeg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "ce137727-db7b-447e-a809-bc06f10c92a0",
+            "item_name": "Bolu Gulung Mocha Ceres",
+            "item_description": "",
+            "item_status": 1,
+            "price_units": 92500,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/9b90801f-d1f9-4b83-a19c-539233cd9fd8_Go-Biz_20230829_094810.jpeg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "e71d5d32-0dd4-4363-b391-135bcd817dc7",
+            "item_name": "BROWNIES PANGGANG PANJANG",
+            "item_description": "",
+            "item_status": 1,
+            "price_units": 75500,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/092d22b5-fc13-48ba-b37e-1e963ea03101_Go-Biz_20220908_111508.jpeg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "32a61fe1-3df3-426f-b5d9-10875b856859",
+            "item_name": "BROWNIES PANGGANG PETAK",
+            "item_description": "",
+            "item_status": 1,
+            "price_units": 92500,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/1f269fba-2121-4d61-90fc-d6589d31072f_Go-Biz_20220908_140502.jpeg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "ea2e72dc-5b2b-4c07-a747-3c3909419f71",
+            "item_name": "BROWNIES PANGGANG SEDANG",
+            "item_description": "",
+            "item_status": 1,
+            "price_units": 60000,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/ff56ced0-8934-406f-9169-bfa4f70a895f_Go-Biz_20220908_143401.jpeg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "e12ee2e2-915a-4c9a-b49d-382862666c75",
+            "item_name": "FRUIT CAKE",
+            "item_description": "",
+            "item_status": 1,
+            "price_units": 59500,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/61df0d03-4360-4f27-abc6-6e076881175e_59ae8963-fedb-4c1e-b40e-133cbd2d4adc_master-menu-item-image_1585754656561.jpg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "47f2e8a4-466a-4623-8800-a61261e7541c",
+            "item_name": "Chiffon Petak Mocha Ceres",
+            "item_description": "",
+            "item_status": 1,
+            "price_units": 58500,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/2867527a-3844-416c-94a3-5d7c468a8027_Go-Biz_20220908_142656.jpeg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "4284a4e1-f9d6-48d6-a0c4-d9134d8b5588",
+            "item_name": "CHIFFON PETAK PANDAN",
+            "item_description": "",
+            "item_status": 1,
+            "price_units": 58500,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/454bf63d-bead-4357-8510-28dc8d0ec931_Go-Biz_20230830_162112.jpeg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "e32551c5-71c6-4e34-81c6-22716d45ccdc",
+            "item_name": "CARAMEL SUSU PETAK",
+            "item_description": "",
+            "item_status": 1,
+            "price_units": 94000,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/13055656-ad8e-47d8-b4db-1d10119f1c0f_Go-Biz_20250424_171332.jpeg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "16130597-6653-4c31-914c-186a85cb7615",
+            "item_name": "Lapis Legit Prunes Petak",
+            "item_description": "",
+            "item_status": 3,
+            "price_units": 146500,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/d4bc13c8-29d8-436c-b0b3-2190923ffae9_Go-Biz_20250625_095524.jpeg",
+            "variant_count": 0
+          }
+        ]
+      },
+      {
+        "section_uid": "fbfe9e6e-f584-43d0-8da9-d2249164bb92",
+        "section_name": "ANEKA DONAT",
+        "section_type": 1,
+        "items": [
+          {
+            "item_uid": "03ada03d-a473-475b-80ca-1432d91c4561",
+            "item_name": "Donat Sate",
+            "item_description": "",
+            "item_status": 1,
+            "price_units": 12000,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/4d980a64-5c04-4f85-8610-9dfd5e2f6b26_Go-Biz_20220909_111844.jpeg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "6e4c6080-242d-4d2a-a34c-06e03e7a8ea9",
+            "item_name": "Donat Ceres",
+            "item_description": "",
+            "item_status": 1,
+            "price_units": 9500,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/033f96a1-7316-442d-9560-a233a75ff657_Go-Biz_20250625_103121.jpeg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "de1785dc-a7ff-4b30-b1ea-69f655401a09",
+            "item_name": "DONAT GLAZE MINI PAKET",
+            "item_description": "",
+            "item_status": 3,
+            "price_units": 48500,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/105963ab-9baa-4293-bc95-c9928ce73163_Go-Biz_20250625_105147.jpeg",
+            "variant_count": 0
+          }
+        ]
+      },
+      {
+        "section_uid": "913a4f6b-fb5c-4cc7-91fc-365069299f90",
+        "section_name": "ANEKA ROTI BUNGKUS",
+        "section_type": 1,
+        "items": [
+          {
+            "item_uid": "38968603-1902-4288-a6a2-105c802160b3",
+            "item_name": "ROTI BUNGKUS COKLAT KEJU",
+            "item_description": "Isian Coklat dan Keju Parut",
+            "item_status": 1,
+            "price_units": 37000,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/f99afb2c-a7c2-45bf-a4dd-810141753f8d_Go-Biz_20250425_094520.jpeg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "816c4a3b-13d9-45ba-ae81-59ab6abdd1e6",
+            "item_name": "ROTI SOBEK COKLAT",
+            "item_description": "Isian coklat dan toping coklat",
+            "item_status": 1,
+            "price_units": 28000,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/2c5db6a4-800f-4120-b33a-8121def19d8d_Go-Biz_20250424_053039.jpeg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "8226aa64-b67a-485b-be99-504d9a7a97ff",
+            "item_name": "ROTI TAWAR BIASA",
+            "item_description": "",
+            "item_status": 1,
+            "price_units": 29500,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/55e8efe5-35e4-4a57-ab6a-cca2362a10a1_Go-Biz_20250425_045156.jpeg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "b4e4b882-fb8d-4553-817a-e6fdec23bac5",
+            "item_name": "ROTI SOBEK KELAPA",
+            "item_description": "Isian Kelapa dan Panir",
+            "item_status": 1,
+            "price_units": 28000,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/d1606267-870b-4127-998d-006f4ce59c11_Go-Biz_20250424_053101.jpeg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "c8fae41f-d36c-496b-8371-ec8ff281b877",
+            "item_name": "ROTI SOBEK KACANG HIJAU",
+            "item_description": "Isian Kacang Hijau dan Toping",
+            "item_status": 1,
+            "price_units": 28000,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/043b6caf-7ac7-4261-89f4-c9c1bbfd2d7b_Go-Biz_20250424_053122.jpeg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "7a2c4c0a-995e-4804-8c83-fbf133b4ed55",
+            "item_name": "ROTI SOBEK KACANG MERAH",
+            "item_description": "Isian kacang merah dan wijen",
+            "item_status": 1,
+            "price_units": 28000,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/8d0a873c-2038-453b-ad38-c7c9a4782508_Go-Biz_20250424_053211.jpeg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "1d6b58e5-15a9-4eff-a5d6-45a5092d102c",
+            "item_name": "ROTI SOBEK COKLAT KEJU",
+            "item_description": "Isian Coklat dan Keju",
+            "item_status": 1,
+            "price_units": 28000,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/f19d70fa-6be2-44e8-93c4-6ac2bd03b794_Go-Biz_20250625_110309.jpeg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "b1c3ed5e-0c96-40d3-a0c4-8c56d114b256",
+            "item_name": "Roti Manis",
+            "item_description": "",
+            "item_status": 1,
+            "price_units": 26500,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/d3751c34-7a70-40a7-97cd-22d816deaf7c_Go-Biz_20250424_053249.jpeg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "d2e079e8-75ed-415d-8367-ee68d7d26567",
+            "item_name": "Roti Kepang Ceres Kacang",
+            "item_description": "",
+            "item_status": 1,
+            "price_units": 21700,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/76a266c2-2a0a-4eb7-a98b-9d5e366fb2b8_Go-Biz_20220907_171145.jpeg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "7ba68853-0864-4b37-8b2b-da5441e7b69d",
+            "item_name": "Roti Kepang Ceres Keju",
+            "item_description": "",
+            "item_status": 1,
+            "price_units": 23500,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/206f535b-d16b-4ad5-96cf-84ec3a927cc0_Go-Biz_20230829_141931.jpeg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "2b46124e-578c-48a7-a548-d3aa17492875",
+            "item_name": "SELAI SRIKAYA",
+            "item_description": "",
+            "item_status": 1,
+            "price_units": 16700,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/ae2833b5-c580-4ae2-830a-d108fc750422_Go-Food-Merchant_20250625_105038.jpeg",
+            "variant_count": 0
+          }
+        ]
+      },
+      {
+        "section_uid": "320d0775-33e7-4bce-8ac9-4c92cb7c9a3b",
+        "section_name": "Aneka Roti Satuan Pedas",
+        "section_type": 1,
+        "items": [
+          {
+            "item_uid": "280d2137-6aec-4a5d-946f-0cd15372c3cb",
+            "item_name": "Roti Abon Roll",
+            "item_description": "",
+            "item_status": 1,
+            "price_units": 15500,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/21f10e79-df3d-4015-a491-66de5a0380d8_Go-Biz_20250424_041132.jpeg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "e2548ec1-500b-41bd-973e-2bfd3322d22e",
+            "item_name": "ROTI ABON",
+            "item_description": "",
+            "item_status": 1,
+            "price_units": 15000,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/9db721ac-29f1-4387-8e6b-38ea39a21dc4_Go-Biz_20250424_040053.jpeg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "709a23ff-dfbf-4a11-b21d-5b7f7b6824cf",
+            "item_name": "ROTI SOSIS ABON",
+            "item_description": "Variant topping abon",
+            "item_status": 1,
+            "price_units": 15000,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/dd80d0aa-02c1-42f6-a2b5-d9a7b476b9d4_Go-Biz_20220907_153234.jpeg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "63d1b98c-fb67-4cd0-86aa-ae3de299f96b",
+            "item_name": "ROTI SOSIS BUNGA",
+            "item_description": "",
+            "item_status": 1,
+            "price_units": 13500,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/b60a2d5c-b1ca-4ade-8227-f5d8803a8643_Go-Biz_20250625_113610.jpeg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "fc4d0a47-f3e8-40ad-ac26-26b987beeb86",
+            "item_name": "ROTI BEEF",
+            "item_description": "",
+            "item_status": 3,
+            "price_units": 14000,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/1ca53017-eb66-4d17-912d-9b3943d9de18_Go-Biz_20250625_112736.jpeg",
+            "variant_count": 0
+          }
+        ]
+      },
+      {
+        "section_uid": "16eda5fc-5333-4698-9a83-4be0e896c900",
+        "section_name": "ANEKA ROTI SATUAN MANIS",
+        "section_type": 1,
+        "items": [
+          {
+            "item_uid": "51f63c9e-4a1e-4f2a-9247-d93ceb060e79",
+            "item_name": "ROTI PISANG KEJU",
+            "item_description": "",
+            "item_status": 1,
+            "price_units": 13500,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/29594205-c630-4719-8cfd-f4a4c24a56f7_Go-Biz_20220907_114618.jpeg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "0bf2be3e-100d-4359-8410-f66d10a758a8",
+            "item_name": "ROTI MEXICO COKLAT",
+            "item_description": "",
+            "item_status": 1,
+            "price_units": 12000,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/87fee1b2-89db-4777-98e1-b55e5ad31f2a_Go-Biz_20220907_163358.jpeg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "b2f483f0-468f-49ec-8627-4b018f1ef0fa",
+            "item_name": "ROTI JAGUNG KELAPA",
+            "item_description": "",
+            "item_status": 1,
+            "price_units": 12000,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/12957543-a5df-4989-b66f-46eb6d8c8605_Go-Biz_20250625_134810.jpeg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "ee757253-5175-4d26-baee-81b3788cc245",
+            "item_name": "ROTI PISANG COKLAT",
+            "item_description": "",
+            "item_status": 1,
+            "price_units": 12500,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/42c116b9-f161-4662-88b8-b03dbd6a28f8_Go-Food-Merchant_20250625_114628.jpeg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "177fc40b-089f-471a-a609-95ca3b789bb4",
+            "item_name": "ROTI KACANG HIJAU",
+            "item_description": "",
+            "item_status": 1,
+            "price_units": 11000,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/8f736086-1a27-4652-9249-758f0256748f_Go-Biz_20220907_164215.jpeg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "fa8fd71c-7796-49de-a828-44af3f9d1a2f",
+            "item_name": "ROTI KACANG MERAH",
+            "item_description": "",
+            "item_status": 1,
+            "price_units": 11000,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/7ce27007-58da-4f80-a83f-d438c686d527_Go-Biz_20250424_032908.jpeg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "da8ab726-8770-42a0-b4d9-70e3cc323fbe",
+            "item_name": "Roti Gunung Ceres",
+            "item_description": "",
+            "item_status": 1,
+            "price_units": 12000,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/52dd4641-f98b-4eb5-a459-af63d5651570_Go-Biz_20230829_142015.jpeg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "7129bbcf-c408-49b9-aaa1-407a482e3dec",
+            "item_name": "ROTI COKLAT ALMOND",
+            "item_description": "",
+            "item_status": 1,
+            "price_units": 12500,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/64a7187b-70c0-472b-903d-2deb7ea31abc_Go-Biz_20250625_115934.jpeg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "680d3115-3032-4c12-8977-392daab14769",
+            "item_name": "ROTI MOCCA COKLAT",
+            "item_description": "",
+            "item_status": 1,
+            "price_units": 12500,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/57b62757-ad22-4147-8059-e7f866674cdd_menu-item-image_1759891302124.jpg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "554560d4-9cf4-4864-a2f1-8b1ebe050f34",
+            "item_name": "ROTI KELAPA",
+            "item_description": "",
+            "item_status": 1,
+            "price_units": 10000,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/78d0da40-db0a-4c88-8e3e-31208307af70_Go-Biz_20250625_115535.jpeg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "0b56b310-8314-4be5-a8cb-7d467193609e",
+            "item_name": "ROTI COKLAT KEJU",
+            "item_description": "",
+            "item_status": 1,
+            "price_units": 12500,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/bdf38e26-02cf-47d7-a59e-600cfd48759a_Go-Biz_20250625_121011.jpeg",
+            "variant_count": 0
+          }
+        ]
+      },
+      {
+        "section_uid": "d4752c8b-9623-4ee4-a3f1-53f28f033d66",
+        "section_name": "ANEKA CAKE ULANG TAHUN",
+        "section_type": 1,
+        "items": [
+          {
+            "item_uid": "7b169005-08f9-4dbb-b4f3-b22a41294e20",
+            "item_name": "BFR 10 CM (Bulat)",
+            "item_description": "Model difoto bisa berbeda dengan yang di toko, tergantung stock yang ready.",
+            "item_status": 1,
+            "price_units": 92500,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/a62969fc-b866-45e6-956a-c09f68f73f14_Go-Biz_20250425_042423.jpeg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "85b166b2-6a23-4eb5-843f-b627ed86eeba",
+            "item_name": "BFR 15 CM ( Bulat )",
+            "item_description": "Model difoto bisa berbeda dengan yang di toko, tergantung stock yang ready.",
+            "item_status": 1,
+            "price_units": 137000,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/b39cf48e-deac-417e-b336-4d6c5ef1cf19_Go-Biz_20230829_112536.jpeg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "4ba9fe3f-dc4c-4c92-a49f-4c6dbc63f605",
+            "item_name": "BFR 20 CM ( Bulat )",
+            "item_description": "Model difoto bisa berbeda dengan yang di toko, tergantung stock yang ready.",
+            "item_status": 1,
+            "price_units": 194000,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/d7b7bd74-4ede-4f82-8074-1b162c521078_menu-item-image_1767844002282.jpg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "35c86480-2a77-41ec-ac5a-54c18a7cd4d4",
+            "item_name": "BFR 25 CM ( Bulat )",
+            "item_description": "Model difoto bisa berbeda dengan yang di toko, tergantung stock yang ready.",
+            "item_status": 1,
+            "price_units": 255500,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/40aac9f8-77a7-4828-bbec-9025a9b3c34a_Go-Biz_20230328_112534.jpeg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "fb94bd8e-5604-485b-8b37-38604895062b",
+            "item_name": "BFR 20 x 20 CM (Petak)",
+            "item_description": "Model difoto bisa berbeda dengan yang di toko, tergantung stock yang ready.",
+            "item_status": 1,
+            "price_units": 205000,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/2b3a61af-f4e6-4a7f-bf24-e323e29bacd6_menu-item-image_1767843018481.jpg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "1a9b6bb9-ada8-480a-b752-a61f8bb30c05",
+            "item_name": "BFR 25 X 25 CM (Petak)",
+            "item_description": "Model difoto bisa berbeda dengan yang di toko, tergantung stock yang ready.",
+            "item_status": 1,
+            "price_units": 263500,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/e97477e9-586c-4136-a77f-0852f3b78e3f_menu-item-image_1767843055552.jpg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "58ea4c9a-7c90-40c6-af7c-27b3fbb79347",
+            "item_name": "TART 20 X 20 CM ( Bulat)",
+            "item_description": "Model difoto bisa berbeda dengan yang di toko, tergantung stock yang ready.",
+            "item_status": 1,
+            "price_units": 108000,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/940c2b8c-df1b-4cdc-94d5-c0e9b95fe664_Go-Biz_20230830_162047.jpeg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "2951b580-1573-40de-a660-300a450ea4f1",
+            "item_name": "TART 25 X 25 CM ( Bulat )",
+            "item_description": "Model difoto bisa berbeda dengan yang di toko, tergantung stock yang ready.",
+            "item_status": 1,
+            "price_units": 134000,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/7b9748e7-5e35-4c73-819b-535e095b09ce_menu-item-image_1767843115783.jpg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "50bf8eaf-595a-4a29-9511-e0229cc2e5b6",
+            "item_name": "Chiffon Cake",
+            "item_description": "Model difoto bisa berbeda dengan yang di toko, tergantung stock yang ready.",
+            "item_status": 3,
+            "price_units": 100000,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/de3d059a-d1a2-4faf-bddd-9679f717f15b_Go-Biz_20250425_094305.jpeg",
+            "variant_count": 0
+          }
+        ]
+      }
+    ],
+    "scraped_at": "2026-02-25T20:09:20.133246+07:00"
+  },
+  {
+    "restaurant_uid": "9c1cafd1-beea-42dc-9de5-d214346330cc",
+    "restaurant_name": "Aroma Bakery, Dr Mansyur",
+    "restaurant_url": "/medan/restaurant/aroma-bakery-dr-mansyur-9c1cafd1-beea-42dc-9de5-d214346330cc",
+    "status": "success",
+    "menu_sections": [
+      {
+        "section_uid": "",
+        "section_name": "Resto's top picks",
+        "section_type": 4,
+        "items": []
+      },
+      {
+        "section_uid": "c47698a6-72d4-4f64-a102-b698097b5ee7",
+        "section_name": "ANEKA BOLU",
+        "section_type": 1,
+        "items": [
+          {
+            "item_uid": "c4e26a94-2477-4106-b197-bb70141415e9",
+            "item_name": "BIKA AMBON ORIGINAL PETAK",
+            "item_description": "",
+            "item_status": 1,
+            "price_units": 112500,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/e16aa899-e626-419d-a444-d6cfb8e3e598_menu-item-image_1633511409057.jpg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "6d49e1ec-dff4-4e1e-8a22-eb806ea6b8ea",
+            "item_name": "BOLU PISANG SPESIAL SEDANG",
+            "item_description": "Bolu pisang yang sangat enak diolah pengan bahan pilihan serta dengan pisang plihan menghasilkan cita rasa yang sangat enak",
+            "item_status": 1,
+            "price_units": 54000,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/0bdd0ab0-21f4-49a8-99d1-debfe63e70a9_1h2cKCyPkZjX1qo4vT-z6EUBZOuHeWB5A.jpeg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "38c0abf5-3764-49d8-81d6-49d3010ce886",
+            "item_name": "BOLU GULUNG CAPPUCINO ROLL",
+            "item_description": "",
+            "item_status": 1,
+            "price_units": 92500,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/d06a5ee2-8123-4899-ad26-edd1da101a0d_Go-Biz_20230831_144534.jpeg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "f7242864-2307-4a19-a2b8-b1f7442bdf5a",
+            "item_name": "Bolu Gulung Mocha Ceres",
+            "item_description": "",
+            "item_status": 1,
+            "price_units": 92500,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/9b90801f-d1f9-4b83-a19c-539233cd9fd8_Go-Biz_20230829_094810.jpeg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "6721cbf6-ea24-48e3-9368-acec9cedc339",
+            "item_name": "BROWNIES PANGGANG PANJANG",
+            "item_description": "",
+            "item_status": 1,
+            "price_units": 75500,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/092d22b5-fc13-48ba-b37e-1e963ea03101_Go-Biz_20220908_111508.jpeg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "570fae92-aa78-4309-9db4-739d4821457a",
+            "item_name": "BROWNIES PANGGANG PETAK",
+            "item_description": "",
+            "item_status": 1,
+            "price_units": 92500,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/1f269fba-2121-4d61-90fc-d6589d31072f_Go-Biz_20220908_140502.jpeg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "dafb9830-6ee7-4133-b3f5-d5fcc62e1c73",
+            "item_name": "BROWNIES PANGGANG SEDANG",
+            "item_description": "",
+            "item_status": 1,
+            "price_units": 60000,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/ff56ced0-8934-406f-9169-bfa4f70a895f_Go-Biz_20220908_143401.jpeg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "41dc6ae8-ee71-4eae-a5fa-f75788459d18",
+            "item_name": "CHIFFON PETAK PANDAN",
+            "item_description": "",
+            "item_status": 1,
+            "price_units": 58500,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/454bf63d-bead-4357-8510-28dc8d0ec931_Go-Biz_20230830_162112.jpeg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "c826ee34-9b96-4ca2-bc4a-4f42416665e3",
+            "item_name": "Lapis Legit Prunes Petak",
+            "item_description": "",
+            "item_status": 1,
+            "price_units": 146500,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/d4bc13c8-29d8-436c-b0b3-2190923ffae9_Go-Biz_20250625_095524.jpeg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "59b7ad7e-26ac-4867-8a97-a779ecadb22d",
+            "item_name": "BOLU PISANG SPESIAL PETAK",
+            "item_description": "",
+            "item_status": 3,
+            "price_units": 94000,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/3398ade9-0d54-44f6-8776-6e711ceb4ab7_Go-Biz_20220908_140606.jpeg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "5fa08c35-1915-441f-8863-91c3d3752601",
+            "item_name": "FRUIT CAKE",
+            "item_description": "",
+            "item_status": 3,
+            "price_units": 59500,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/61df0d03-4360-4f27-abc6-6e076881175e_59ae8963-fedb-4c1e-b40e-133cbd2d4adc_master-menu-item-image_1585754656561.jpg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "e8c71e7c-9df7-4873-b540-c89688d9b157",
+            "item_name": "Chiffon Petak Mocha Ceres",
+            "item_description": "",
+            "item_status": 3,
+            "price_units": 58500,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/2867527a-3844-416c-94a3-5d7c468a8027_Go-Biz_20220908_142656.jpeg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "62e13980-bc00-4732-a36f-a5b33162a1bc",
+            "item_name": "CARAMEL SUSU PETAK",
+            "item_description": "",
+            "item_status": 3,
+            "price_units": 94000,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/13055656-ad8e-47d8-b4db-1d10119f1c0f_Go-Biz_20250424_171332.jpeg",
+            "variant_count": 0
+          }
+        ]
+      },
+      {
+        "section_uid": "b21d53d6-1467-49a0-9c7c-92d8b4410246",
+        "section_name": "ANEKA DONAT",
+        "section_type": 1,
+        "items": [
+          {
+            "item_uid": "019e918f-3f25-442a-9670-604c50b35705",
+            "item_name": "Donat Sate",
+            "item_description": "",
+            "item_status": 1,
+            "price_units": 12000,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/4d980a64-5c04-4f85-8610-9dfd5e2f6b26_Go-Biz_20220909_111844.jpeg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "b7177d9c-f9e5-43f1-af79-91f55b0bd010",
+            "item_name": "Donat Ceres",
+            "item_description": "",
+            "item_status": 1,
+            "price_units": 9500,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/033f96a1-7316-442d-9560-a233a75ff657_Go-Biz_20250625_103121.jpeg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "c70fbc87-f062-4f3f-b526-74b006f9cf78",
+            "item_name": "DONAT GLAZE MINI PAKET",
+            "item_description": "",
+            "item_status": 3,
+            "price_units": 48500,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/105963ab-9baa-4293-bc95-c9928ce73163_Go-Biz_20250625_105147.jpeg",
+            "variant_count": 0
+          }
+        ]
+      },
+      {
+        "section_uid": "81eda4f7-f9a9-418a-8e66-7400ac963cbf",
+        "section_name": "ANEKA ROTI BUNGKUS",
+        "section_type": 1,
+        "items": [
+          {
+            "item_uid": "4206c974-c138-4fa7-9b6e-8b826bfb9281",
+            "item_name": "ROTI SOBEK COKLAT",
+            "item_description": "Isian coklat dan toping coklat",
+            "item_status": 1,
+            "price_units": 28000,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/2c5db6a4-800f-4120-b33a-8121def19d8d_Go-Biz_20250424_053039.jpeg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "648b0bd7-2665-48cd-a0a6-8542cc45ed31",
+            "item_name": "ROTI TAWAR BIASA",
+            "item_description": "",
+            "item_status": 1,
+            "price_units": 29500,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/55e8efe5-35e4-4a57-ab6a-cca2362a10a1_Go-Biz_20250425_045156.jpeg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "1b8009ae-da8b-45ca-bc72-aa069c968231",
+            "item_name": "ROTI SOBEK KACANG HIJAU",
+            "item_description": "Isian Kacang Hijau dan Toping",
+            "item_status": 1,
+            "price_units": 28000,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/043b6caf-7ac7-4261-89f4-c9c1bbfd2d7b_Go-Biz_20250424_053122.jpeg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "93d864e0-0830-41f4-8568-53ac78843e88",
+            "item_name": "ROTI SOBEK COKLAT KEJU",
+            "item_description": "Isian Coklat dan Keju",
+            "item_status": 1,
+            "price_units": 28000,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/f19d70fa-6be2-44e8-93c4-6ac2bd03b794_Go-Biz_20250625_110309.jpeg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "32fc9c36-c8ad-4aa5-8204-58cc962ba105",
+            "item_name": "Roti Manis",
+            "item_description": "",
+            "item_status": 1,
+            "price_units": 26500,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/d3751c34-7a70-40a7-97cd-22d816deaf7c_Go-Biz_20250424_053249.jpeg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "43b6d8cd-13a9-4830-8368-fb5cc981eae6",
+            "item_name": "Roti Kepang Ceres Keju",
+            "item_description": "",
+            "item_status": 1,
+            "price_units": 23500,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/206f535b-d16b-4ad5-96cf-84ec3a927cc0_Go-Biz_20230829_141931.jpeg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "5db40899-e74c-4f60-ab30-817651725ece",
+            "item_name": "SELAI SRIKAYA",
+            "item_description": "",
+            "item_status": 1,
+            "price_units": 16700,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/ae2833b5-c580-4ae2-830a-d108fc750422_Go-Food-Merchant_20250625_105038.jpeg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "ab31e564-39d5-4f8d-9351-e0962ebec427",
+            "item_name": "ROTI BUNGKUS COKLAT KEJU",
+            "item_description": "Isian Coklat dan Keju Parut",
+            "item_status": 3,
+            "price_units": 37000,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/f99afb2c-a7c2-45bf-a4dd-810141753f8d_Go-Biz_20250425_094520.jpeg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "33c39ef0-9bc1-4c8b-899d-cbb3c3d9b779",
+            "item_name": "ROTI SOBEK KELAPA",
+            "item_description": "Isian Kelapa dan Panir",
+            "item_status": 3,
+            "price_units": 28000,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/d1606267-870b-4127-998d-006f4ce59c11_Go-Biz_20250424_053101.jpeg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "3b5e139f-9555-4299-abdd-812ce3decaa6",
+            "item_name": "ROTI SOBEK KACANG MERAH",
+            "item_description": "Isian kacang merah dan wijen",
+            "item_status": 3,
+            "price_units": 28000,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/8d0a873c-2038-453b-ad38-c7c9a4782508_Go-Biz_20250424_053211.jpeg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "02785fbc-dfd6-4af5-b6d7-553b148dc3a7",
+            "item_name": "Roti Kepang Ceres Kacang",
+            "item_description": "",
+            "item_status": 3,
+            "price_units": 21700,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/76a266c2-2a0a-4eb7-a98b-9d5e366fb2b8_Go-Biz_20220907_171145.jpeg",
+            "variant_count": 0
+          }
+        ]
+      },
+      {
+        "section_uid": "8823e77a-f255-42f2-886f-005eb1221d87",
+        "section_name": "Aneka Roti Satuan Pedas",
+        "section_type": 1,
+        "items": [
+          {
+            "item_uid": "9d2537df-022f-4204-a8bc-4295959738e4",
+            "item_name": "Roti Abon Roll",
+            "item_description": "",
+            "item_status": 1,
+            "price_units": 15500,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/21f10e79-df3d-4015-a491-66de5a0380d8_Go-Biz_20250424_041132.jpeg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "43e00c1d-f24e-4abd-9806-63f76af8975b",
+            "item_name": "ROTI ABON",
+            "item_description": "",
+            "item_status": 1,
+            "price_units": 15000,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/9db721ac-29f1-4387-8e6b-38ea39a21dc4_Go-Biz_20250424_040053.jpeg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "d7638340-f7ff-445c-89e5-85806b5e69a1",
+            "item_name": "ROTI SOSIS ABON",
+            "item_description": "Variant topping abon",
+            "item_status": 1,
+            "price_units": 15000,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/dd80d0aa-02c1-42f6-a2b5-d9a7b476b9d4_Go-Biz_20220907_153234.jpeg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "bcfd38df-5f69-422e-a859-7c97e41bd12a",
+            "item_name": "ROTI BEEF",
+            "item_description": "",
+            "item_status": 1,
+            "price_units": 14000,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/1ca53017-eb66-4d17-912d-9b3943d9de18_Go-Biz_20250625_112736.jpeg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "33ad8b6d-bb63-4c09-9ee6-ef5786d0064f",
+            "item_name": "ROTI SOSIS BUNGA",
+            "item_description": "",
+            "item_status": 3,
+            "price_units": 13500,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/b60a2d5c-b1ca-4ade-8227-f5d8803a8643_Go-Biz_20250625_113610.jpeg",
+            "variant_count": 0
+          }
+        ]
+      },
+      {
+        "section_uid": "6a0c0727-ccd2-4001-b11c-555af094aef3",
+        "section_name": "ANEKA ROTI SATUAN MANIS",
+        "section_type": 1,
+        "items": [
+          {
+            "item_uid": "b0d56fb3-1499-4a75-a89b-5e0dd4f644ff",
+            "item_name": "ROTI PISANG COKLAT",
+            "item_description": "",
+            "item_status": 1,
+            "price_units": 12500,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/42c116b9-f161-4662-88b8-b03dbd6a28f8_Go-Food-Merchant_20250625_114628.jpeg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "dc6d9334-d91d-46b5-b55d-86659cea9911",
+            "item_name": "ROTI KACANG HIJAU",
+            "item_description": "",
+            "item_status": 1,
+            "price_units": 11000,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/8f736086-1a27-4652-9249-758f0256748f_Go-Biz_20220907_164215.jpeg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "1db0cf13-4354-4d75-aef9-578b4d7e9761",
+            "item_name": "ROTI KACANG MERAH",
+            "item_description": "",
+            "item_status": 1,
+            "price_units": 11000,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/7ce27007-58da-4f80-a83f-d438c686d527_Go-Biz_20250424_032908.jpeg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "31353124-5ea1-4c83-bdb3-a7b27a2cf1f5",
+            "item_name": "ROTI MOCCA COKLAT",
+            "item_description": "",
+            "item_status": 1,
+            "price_units": 12500,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/57b62757-ad22-4147-8059-e7f866674cdd_menu-item-image_1759891302124.jpg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "897c3691-c08c-4402-afc1-7913948fb362",
+            "item_name": "ROTI KELAPA",
+            "item_description": "",
+            "item_status": 1,
+            "price_units": 10000,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/78d0da40-db0a-4c88-8e3e-31208307af70_Go-Biz_20250625_115535.jpeg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "5d7b99f9-052e-43f7-aeeb-327b7b262472",
+            "item_name": "ROTI PISANG KEJU",
+            "item_description": "",
+            "item_status": 3,
+            "price_units": 13500,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/29594205-c630-4719-8cfd-f4a4c24a56f7_Go-Biz_20220907_114618.jpeg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "cb388e08-6d66-4a61-b62a-a6a11efc9c2d",
+            "item_name": "ROTI MEXICO COKLAT",
+            "item_description": "",
+            "item_status": 3,
+            "price_units": 12000,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/87fee1b2-89db-4777-98e1-b55e5ad31f2a_Go-Biz_20220907_163358.jpeg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "702bd732-f0d3-4c22-8a33-808a1377c136",
+            "item_name": "ROTI JAGUNG KELAPA",
+            "item_description": "",
+            "item_status": 3,
+            "price_units": 12000,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/12957543-a5df-4989-b66f-46eb6d8c8605_Go-Biz_20250625_134810.jpeg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "4cc75220-f67c-427d-86f4-48320ef7362b",
+            "item_name": "Roti Gunung Ceres",
+            "item_description": "",
+            "item_status": 3,
+            "price_units": 12000,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/52dd4641-f98b-4eb5-a459-af63d5651570_Go-Biz_20230829_142015.jpeg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "914b2515-fea3-45d3-a162-ce19c4bcf428",
+            "item_name": "ROTI COKLAT ALMOND",
+            "item_description": "",
+            "item_status": 3,
+            "price_units": 12500,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/64a7187b-70c0-472b-903d-2deb7ea31abc_Go-Biz_20250625_115934.jpeg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "9af78897-db19-4d29-827b-7db5972dbfa6",
+            "item_name": "ROTI COKLAT KEJU",
+            "item_description": "",
+            "item_status": 3,
+            "price_units": 12500,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/bdf38e26-02cf-47d7-a59e-600cfd48759a_Go-Biz_20250625_121011.jpeg",
+            "variant_count": 0
+          }
+        ]
+      },
+      {
+        "section_uid": "0b9464cb-233f-45f4-b84f-15f8ed2ef84b",
+        "section_name": "ANEKA CAKE ULANG TAHUN",
+        "section_type": 1,
+        "items": [
+          {
+            "item_uid": "ae4992f9-448c-49b2-93f4-fc3ce874a3de",
+            "item_name": "BFR 10 CM (Bulat)",
+            "item_description": "Model difoto bisa berbeda dengan yang di toko, tergantung stock yang ready.",
+            "item_status": 1,
+            "price_units": 92500,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/a62969fc-b866-45e6-956a-c09f68f73f14_Go-Biz_20250425_042423.jpeg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "dc0973bf-0e96-4f47-8758-f4dbd94d6363",
+            "item_name": "BFR 20 CM ( Bulat )",
+            "item_description": "Model difoto bisa berbeda dengan yang di toko, tergantung stock yang ready.",
+            "item_status": 1,
+            "price_units": 194000,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/d7b7bd74-4ede-4f82-8074-1b162c521078_menu-item-image_1767844002282.jpg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "14f4ab12-f189-41a3-b79c-7fc67dec0429",
+            "item_name": "BFR 25 CM ( Bulat )",
+            "item_description": "Model difoto bisa berbeda dengan yang di toko, tergantung stock yang ready.",
+            "item_status": 1,
+            "price_units": 255500,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/40aac9f8-77a7-4828-bbec-9025a9b3c34a_Go-Biz_20230328_112534.jpeg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "2a236e96-974b-4daf-97de-4ecb8c129500",
+            "item_name": "BFR 20 x 20 CM (Petak)",
+            "item_description": "Model difoto bisa berbeda dengan yang di toko, tergantung stock yang ready.",
+            "item_status": 1,
+            "price_units": 205000,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/2b3a61af-f4e6-4a7f-bf24-e323e29bacd6_menu-item-image_1767843018481.jpg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "39209fbd-c08e-40d2-8f18-ae1ac237b101",
+            "item_name": "TART 20 X 20 CM ( Bulat)",
+            "item_description": "Model difoto bisa berbeda dengan yang di toko, tergantung stock yang ready.",
+            "item_status": 1,
+            "price_units": 108000,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/940c2b8c-df1b-4cdc-94d5-c0e9b95fe664_Go-Biz_20230830_162047.jpeg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "b244f213-969c-4b6f-9250-e9ab417fb2b3",
+            "item_name": "TART 25 X 25 CM ( Bulat )",
+            "item_description": "Model difoto bisa berbeda dengan yang di toko, tergantung stock yang ready.",
+            "item_status": 1,
+            "price_units": 134000,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/7b9748e7-5e35-4c73-819b-535e095b09ce_menu-item-image_1767843115783.jpg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "c989fb21-0c86-44a8-b7d6-8e232d59b438",
+            "item_name": "Chiffon Cake",
+            "item_description": "Model difoto bisa berbeda dengan yang di toko, tergantung stock yang ready.",
+            "item_status": 1,
+            "price_units": 100000,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/de3d059a-d1a2-4faf-bddd-9679f717f15b_Go-Biz_20250425_094305.jpeg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "c55cacab-9b57-48ef-b1ac-b4da521837f3",
+            "item_name": "BFR 15 CM ( Bulat )",
+            "item_description": "Model difoto bisa berbeda dengan yang di toko, tergantung stock yang ready.",
+            "item_status": 3,
+            "price_units": 137000,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/b39cf48e-deac-417e-b336-4d6c5ef1cf19_Go-Biz_20230829_112536.jpeg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "e41bc608-b2eb-4f00-bc3a-f64bd175c3b3",
+            "item_name": "BFR 25 X 25 CM (Petak)",
+            "item_description": "Model difoto bisa berbeda dengan yang di toko, tergantung stock yang ready.",
+            "item_status": 3,
+            "price_units": 263500,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/e97477e9-586c-4136-a77f-0852f3b78e3f_menu-item-image_1767843055552.jpg",
+            "variant_count": 0
+          }
+        ]
+      }
+    ],
+    "scraped_at": "2026-02-25T20:09:33.425714+07:00"
+  },
+  {
+    "restaurant_uid": "6d2fb03a-4f6c-4b07-b1b3-c5bf98eb2b58",
+    "restaurant_name": "Asoka Corner, Ring Road",
+    "restaurant_url": "/medan/restaurant/asoka-corner-ring-road-6d2fb03a-4f6c-4b07-b1b3-c5bf98eb2b58",
+    "status": "success",
+    "menu_sections": [
+      {
+        "section_uid": "",
+        "section_name": "Resto's top picks",
+        "section_type": 4,
+        "items": []
+      },
+      {
+        "section_uid": "784e1116-cb14-4760-8f9f-ee3502caf7cb",
+        "section_name": "Promo Hari Ini",
+        "section_type": 1,
+        "items": [
+          {
+            "item_uid": "d509f884-f085-4550-87a3-3db036b69ab2",
+            "item_name": "Paket Sambal Bakar Nila",
+            "item_description": "Aneka Sambal Bakar + Nila + Nasi",
+            "item_status": 1,
+            "price_units": 51000,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/61d03095-c735-4315-a33a-2540e5d06789_Go-Biz_20231205_142602.jpeg",
+            "variant_count": 1
+          },
+          {
+            "item_uid": "82cd0217-1937-4e2b-bfbd-87f6bb63d174",
+            "item_name": "Paket Sambal Bakar Gurami",
+            "item_description": "Gurami + Aneka Sambal Bakar + Nasi",
+            "item_status": 1,
+            "price_units": 54000,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/b27d17a8-59e1-4fa3-ab84-0c943dcbb033_Go-Biz_20231205_142725.jpeg",
+            "variant_count": 1
+          },
+          {
+            "item_uid": "765c29a7-420c-43ec-9a7a-15c0bc92a1ca",
+            "item_name": "Paket Sambal Bakar Lele",
+            "item_description": "Lele + Aneka Sambal Bakar + Nasi",
+            "item_status": 1,
+            "price_units": 39000,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/64b40382-3928-495d-a407-0c6167369725_Go-Biz_20231205_142758.jpeg",
+            "variant_count": 1
+          }
+        ]
+      },
+      {
+        "section_uid": "a2e96ab5-afee-466a-adf8-1959ea6b8b65",
+        "section_name": "Pempek Palembang",
+        "section_type": 1,
+        "items": [
+          {
+            "item_uid": "7018b3aa-1764-4154-a503-f8e4b6b2c987",
+            "item_name": "Dimsum Lumpia Udang Goreng",
+            "item_description": "",
+            "item_status": 1,
+            "price_units": 27000,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/8ada4999-6e83-4bc9-9e88-be955a45bce3_f452f301-46f5-4de3-ad91-139cd09c671a_Go-Biz_20200504_162717.jpeg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "38a0b619-0be3-4049-a883-eeac75ea248e",
+            "item_name": "Dimsum Udang",
+            "item_description": "",
+            "item_status": 1,
+            "price_units": 27000,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/ff259e39-b8f3-4267-b2ad-69e63fac09a3_9f4af695-0245-492f-b651-5112e7d85d09.jpg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "1b75c6cf-58f3-4ee7-a315-131fac8e267c",
+            "item_name": "Dimsum Kepiting",
+            "item_description": "",
+            "item_status": 1,
+            "price_units": 27000,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/365c8615-4e8a-4e2c-9ee2-c45f7c5ec8a9_0081d09d-13a5-457d-88db-ff206c05268f.jpg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "df9e95b1-b86c-473c-a66b-45fecdae0b0f",
+            "item_name": "Dimsum Rumput Laut",
+            "item_description": "",
+            "item_status": 1,
+            "price_units": 27000,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/65c658aa-fdf5-487b-b584-c9e11d070ef8_ed62de40-ae57-4b16-a3e0-a06f591d4bdb.jpg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "f59cc1d0-c3d5-406e-b100-f00b982ecf62",
+            "item_name": "Dimsum Ayam",
+            "item_description": "",
+            "item_status": 1,
+            "price_units": 27000,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/35bb3e5f-8d75-4cc0-b130-2f74c693f89f_d63f04be-7b80-48a6-b155-f862af7a48c3.jpg",
+            "variant_count": 0
+          }
+        ]
+      },
+      {
+        "section_uid": "1620e244-2e3d-4599-b43b-91a5ce83c7de",
+        "section_name": "Ayam",
+        "section_type": 1,
+        "items": [
+          {
+            "item_uid": "0e56d2a5-4ed9-4784-9e89-49d4692011b4",
+            "item_name": "Ayam Bakar Spesial 1 Ekor",
+            "item_description": "Bumbunya Meresap Sampai Ketulang",
+            "item_status": 1,
+            "price_units": 115000,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/b3f48c97-3fe9-4a84-aaf8-6b38b6e81dca_Go-Biz_20220527_195332.jpeg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "bd472e8b-7e11-4ace-bde6-940f3972562e",
+            "item_name": "Ayam Goreng Cabe Hijau 1 Ekor",
+            "item_description": "Cabe Hijau dan Cabe Rawit yang Ditumis Rasanya Gurih Dan Pedas",
+            "item_status": 1,
+            "price_units": 115000,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/5f7ab068-5364-43ed-8621-a66aba2c678c_Go-Biz_20220527_201317.jpeg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "d879b5c7-c7d9-47dc-8455-dcc00ac4ecda",
+            "item_name": "Ayam Goreng Mentega 1 Ekor",
+            "item_description": "Lumer Mentega Nya Rasa Nya Manis Dan Gurih",
+            "item_status": 1,
+            "price_units": 115000,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/cf8f44e3-b3de-4363-8895-7f62b8293b21_Go-Biz_20220527_201353.jpeg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "467c1daf-8692-4b21-9e0b-2b924a00931b",
+            "item_name": "Ayam Goreng Sedap Wangi 1 Ekor",
+            "item_description": "",
+            "item_status": 1,
+            "price_units": 115000,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/cbbecdbe-9b7c-40b2-8671-2b61284f4ed0_Go-Biz_20220701_111252.jpeg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "87e87c5b-f433-4f67-8b14-601bc3a0bfe2",
+            "item_name": "Ayam Penyet Asoka / Potong",
+            "item_description": "",
+            "item_status": 1,
+            "price_units": 34000,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/2248d5a8-52aa-40d6-8336-39de9a24279b_Go-Biz_20220710_143345.jpeg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "6e4ab03a-0ea1-4f42-81f5-e4266b6e7b32",
+            "item_name": "Ayam Goreng/Potong",
+            "item_description": "",
+            "item_status": 1,
+            "price_units": 30000,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/df0f7002-cc17-4595-b822-bc39c9465d2c_Go-Biz_20220710_143403.jpeg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "01549c6f-b29b-4b07-9e87-079ffd828fab",
+            "item_name": "Ayam Geprek Asoka/Potong",
+            "item_description": "",
+            "item_status": 1,
+            "price_units": 34000,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/477091e9-5aa5-45be-972f-f45f88fd6e25_Go-Biz_20220528_201707.jpeg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "c54624f8-f21d-4c60-a37a-09092f02300d",
+            "item_name": "Ayam Geprek/Potong",
+            "item_description": "",
+            "item_status": 1,
+            "price_units": 30000,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/610001a1-b5ed-4952-8be9-0aba0a9061dc_Go-Biz_20220710_143447.jpeg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "08d2dbb7-02b9-4a06-9a1c-cea61cfeead1",
+            "item_name": "Ayam Bakar/Potong",
+            "item_description": "",
+            "item_status": 1,
+            "price_units": 35500,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/a35f0e96-16af-4e1f-9cb1-638fda35c8a2_Go-Biz_20231205_142905.jpeg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "da3fb0f7-46fb-4d38-a7d8-5001bd42c992",
+            "item_name": "Ayam Bistik",
+            "item_description": "",
+            "item_status": 1,
+            "price_units": 45000,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/943c6087-00e5-4ea4-befc-35aef9b70085_Go-Biz_20220701_111704.jpeg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "131b7aa3-1f08-42e0-8063-a181737f0b7a",
+            "item_name": "Sate Kacang Ayam",
+            "item_description": "",
+            "item_status": 1,
+            "price_units": 31000,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/65140510-4384-4618-aab7-4a270d65e961_Go-Biz_20231205_143020.jpeg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "57f0c07f-31e0-4f93-a641-5f6ac2618f5b",
+            "item_name": "Ayam Cabe Hijau 1/2ekor",
+            "item_description": "",
+            "item_status": 1,
+            "price_units": 76000,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/9804baf4-e6a6-4965-a3d4-84a3ea7c31bd_Go-Biz_20250813_121227.jpeg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "815d497f-f6e0-4ff6-b3ed-b27ba25c6e45",
+            "item_name": "Ayam Mentega 1/2ekor",
+            "item_description": "Rasa Nya Manis Dan Gurih",
+            "item_status": 1,
+            "price_units": 76000,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/3eaa54a8-356c-48ae-8b48-dde45258c0d3_Go-Biz_20240309_160907.jpeg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "459ffc0b-9339-4fed-a471-fe2b47c2b6b4",
+            "item_name": "Ayam Sedap Wangi 1/2ekor",
+            "item_description": "",
+            "item_status": 1,
+            "price_units": 76000,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/f14eeab6-f9cf-422b-9069-1221e0294bb3_Go-Biz_20240309_160946.jpeg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "6efeff32-e014-4f30-b894-e23c8632a4d7",
+            "item_name": "Ayam Bombay 1/2ekor",
+            "item_description": "",
+            "item_status": 1,
+            "price_units": 80000,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/1d701e11-8aec-46f6-8971-ebf92cf1e301_Go-Biz_20240309_161037.jpeg",
+            "variant_count": 0
+          }
+        ]
+      },
+      {
+        "section_uid": "942e37df-ea86-4576-a60b-e16cbcab8e3e",
+        "section_name": "Bebek",
+        "section_type": 1,
+        "items": [
+          {
+            "item_uid": "b36ee9ee-efa6-4033-8075-0e805eff246a",
+            "item_name": "Bebek Tofu Ala Asoka 1 Ekor",
+            "item_description": "",
+            "item_status": 1,
+            "price_units": 142000,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/e8cea683-78a2-4f1f-afe0-db7ce616b837_Go-Biz_20220529_132146.jpeg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "b2fe3a16-e8c7-4b12-be92-3431bea24994",
+            "item_name": "Bebek Tofu Ala Asoka 1/2 Ekot",
+            "item_description": "",
+            "item_status": 1,
+            "price_units": 81000,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/e6cb9929-600f-4964-a14f-ab957c4340b4_Go-Biz_20220529_132429.jpeg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "b2bae64c-ae3f-4c04-9c7b-ee4c7d15baee",
+            "item_name": "Bebek Panggang 1 Ekor",
+            "item_description": "",
+            "item_status": 1,
+            "price_units": 142000,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/d51c414c-9806-49cf-ac0b-795f493bff34_Go-Biz_20220727_172458.jpeg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "e803c4d0-cd96-4139-b884-6477af605be0",
+            "item_name": "Bebek Panggang 1/2 Ekor",
+            "item_description": "",
+            "item_status": 1,
+            "price_units": 78500,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/bed495f7-557b-4a2e-83be-37fe3eac0b05_Go-Biz_20220727_172507.jpeg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "88a3478c-e758-4a5d-a059-267493ba6cee",
+            "item_name": "Bebek Cabe Ijo 1/2 Ekor",
+            "item_description": "",
+            "item_status": 1,
+            "price_units": 78500,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/6fcf6df3-7fdc-44d5-84bf-6e8c12ee8820_Go-Biz_20220710_144011.jpeg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "7a224dbe-bbc9-43f3-9900-d4c6a3a2fa3e",
+            "item_name": "Bebek Penyet Asoka",
+            "item_description": "",
+            "item_status": 1,
+            "price_units": 43500,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/dce2dca7-3bf3-4534-a1c4-ce8d1cdc40fb_Go-Biz_20220701_112507.jpeg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "0e0043e7-c794-416f-b393-f28212f19d6a",
+            "item_name": "Bebek Geprek Asoka",
+            "item_description": "",
+            "item_status": 1,
+            "price_units": 43500,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/cdf41a87-a168-44a1-919e-a2e8a2b2090e_Go-Biz_20220701_112543.jpeg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "e44ae819-4e3f-4545-a8e3-10b9f5cc807b",
+            "item_name": "Bebek Penyet Asoka / Potong",
+            "item_description": "",
+            "item_status": 1,
+            "price_units": 43500,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/69533d80-15de-4f4e-8a87-1b12c2a229aa_Go-Biz_20220701_112704.jpeg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "f283948f-ccde-4aad-8520-5a38ff1b6971",
+            "item_name": "Bebek Geprek Asoka / Potong",
+            "item_description": "",
+            "item_status": 1,
+            "price_units": 43500,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/923ecbd1-90c8-42d0-bd17-c691ec154fef_Go-Biz_20220701_112620.jpeg",
+            "variant_count": 0
+          }
+        ]
+      },
+      {
+        "section_uid": "396e6c55-f3b8-4ac5-917a-88c037dbe884",
+        "section_name": "Sapi",
+        "section_type": 1,
+        "items": [
+          {
+            "item_uid": "0235166b-cb29-4de8-95f8-daa9cd07dc2e",
+            "item_name": "Sapi Lada Hitam",
+            "item_description": "",
+            "item_status": 1,
+            "price_units": 47500,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/0e7617ff-91b9-4a76-8d6e-53f70aebf50a_Go-Biz_20231205_143107.jpeg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "4d4dca80-4266-49b4-bb43-01c0eefa5ce7",
+            "item_name": "Sapi Cabe Hijau",
+            "item_description": "",
+            "item_status": 1,
+            "price_units": 47500,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/4a7ef9ff-3d6e-445d-95bc-5db53ead1256_Go-Biz_20220710_144307.jpeg",
+            "variant_count": 0
+          }
+        ]
+      },
+      {
+        "section_uid": "b993e81c-2aa8-48f1-8c4e-54b01e0678b1",
+        "section_name": "Udang  Dan Cumi",
+        "section_type": 1,
+        "items": [
+          {
+            "item_uid": "0fcf9f3b-a535-4544-991f-6cfb9de56196",
+            "item_name": "Udang Saus Padang",
+            "item_description": "",
+            "item_status": 1,
+            "price_units": 65000,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/5570fc6f-76f1-40ce-81ef-813e3f78e8d4_Go-Biz_20220701_114058.jpeg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "83ce7168-116f-4b26-a847-2d45e804ba5c",
+            "item_name": "Udang Goreng Mentega",
+            "item_description": "Rasanya Manis Dan Gurih",
+            "item_status": 1,
+            "price_units": 65000,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/ca4ce533-f61a-4dd8-bb48-ade8a34ed238_Go-Biz_20220710_144409.jpeg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "fb5bbc7a-1daa-43d6-b8ee-f59b68c28ccc",
+            "item_name": "Udang Goreng Nestum",
+            "item_description": "",
+            "item_status": 1,
+            "price_units": 67500,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/a7758a01-0b88-4a3e-b918-bdc8230e83f1_Go-Biz_20220701_114151.jpeg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "110ef2e1-a851-4523-a79f-194f74abf329",
+            "item_name": "Udang Telur Asin",
+            "item_description": "",
+            "item_status": 1,
+            "price_units": 67500,
+            "currency_code": "IDR",
+            "image_url": "",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "73d71d79-56c0-4e8b-bb59-13e6fd58aca2",
+            "item_name": "Cumi Goreng Tepung",
+            "item_description": "",
+            "item_status": 1,
+            "price_units": 47500,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/0d65ab1b-07a9-427e-863a-5c4a7ff059fd_Go-Biz_20220727_172705.jpeg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "2c51b458-65c0-4f1b-9d73-8b0608e59934",
+            "item_name": "Cumi Asam Manis",
+            "item_description": "",
+            "item_status": 1,
+            "price_units": 50000,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/ad4174f2-de1e-476f-bfd8-e9abb7e11b3f_Go-Biz_20220807_214539.jpeg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "b720e18e-ce79-42b8-845b-c42b01516bee",
+            "item_name": "Cumi Nestum",
+            "item_description": "",
+            "item_status": 1,
+            "price_units": 53000,
+            "currency_code": "IDR",
+            "image_url": "",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "ec6f5ec5-70bf-463d-9525-1cfb37d7b963",
+            "item_name": "Cumi Telur Asin",
+            "item_description": "",
+            "item_status": 1,
+            "price_units": 53000,
+            "currency_code": "IDR",
+            "image_url": "",
+            "variant_count": 0
+          }
+        ]
+      },
+      {
+        "section_uid": "74ac9740-e4dd-4595-9cc9-0e48bc6654e1",
+        "section_name": "Seafood",
+        "section_type": 1,
+        "items": [
+          {
+            "item_uid": "0ff20c8a-10f7-4149-9eb9-8f05b4f26d24",
+            "item_name": "Bawal Ala Thai",
+            "item_description": "",
+            "item_status": 1,
+            "price_units": 115000,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/960a3f4f-03e0-4942-9034-97e4404a6c93_Go-Biz_20231205_143159.jpeg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "bb022e20-9613-4a72-ac30-2d43a3e3ac7d",
+            "item_name": "Bawal Steam",
+            "item_description": "",
+            "item_status": 1,
+            "price_units": 111000,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/e83e48fb-0b95-4d26-bcb7-ca4d0f5e7fc1_Go-Biz_20220527_193147.jpeg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "95f4efca-e591-4827-bc39-a752df81d57e",
+            "item_name": "Bawal Asam Manis",
+            "item_description": "",
+            "item_status": 1,
+            "price_units": 107000,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/78d36255-e3f8-4b5e-be78-ffff064129f6_Go-Biz_20231205_143309.jpeg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "c0a2cec4-b79a-46b2-bc9c-7e89fbfbf9ee",
+            "item_name": "Bawal Bakar",
+            "item_description": "",
+            "item_status": 1,
+            "price_units": 107000,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/cea11573-e587-4d48-a89c-786aa49a2af0_Go-Biz_20220807_215424.jpeg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "2196e242-664a-4bed-ad0b-8bb77fb46778",
+            "item_name": "Gurami Ala Thai Sedang",
+            "item_description": "",
+            "item_status": 1,
+            "price_units": 101500,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/c8f45347-873e-4b5a-845c-5dac51c759e1_Go-Biz_20220527_192940.jpeg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "c5f8e6d1-bde9-468d-be5e-dfbe32bd6d56",
+            "item_name": "Gurami Ala Thai Besar",
+            "item_description": "",
+            "item_status": 1,
+            "price_units": 120000,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/d42805e5-56cf-47c4-a3e8-a3db94abb5c9_Go-Biz_20220527_193022.jpeg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "c4a8ddee-1f54-4db1-93f8-0f4e806593e6",
+            "item_name": "Gurami Asam Manis Sedang",
+            "item_description": "",
+            "item_status": 1,
+            "price_units": 101500,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/09f81a2c-9da9-436b-95ae-f4b81910a092_Go-Biz_20220724_213338.jpeg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "84c2d627-ace9-493a-8413-4d489e309924",
+            "item_name": "Gurami Asam Manis Besar",
+            "item_description": "",
+            "item_status": 1,
+            "price_units": 120000,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/dee0738d-35ea-4b9e-a464-d27b152600b9_Go-Biz_20220724_213354.jpeg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "e8609b08-10cd-4ac1-93da-9211f4a76936",
+            "item_name": "Gurami Tauco Sedang",
+            "item_description": "",
+            "item_status": 1,
+            "price_units": 101500,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/ad762308-68f7-418e-b1ed-c612dd29242c_Go-Biz_20220724_213410.jpeg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "5a8e275f-0b44-42f3-881d-d340753455aa",
+            "item_name": "Gurami Tauco Besar",
+            "item_description": "",
+            "item_status": 1,
+            "price_units": 120000,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/ef1c2100-1438-4417-a898-f80b7b3eb0e5_Go-Biz_20220724_213431.jpeg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "a2c51937-8567-4fa2-ac36-5ddd5b865384",
+            "item_name": "Gurami Bakar Sedang",
+            "item_description": "",
+            "item_status": 1,
+            "price_units": 101500,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/2cad9670-a9a5-4970-840f-dba016bcefc2_Go-Biz_20220527_193037.jpeg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "a46cedc9-93e4-4d43-815e-99263e95d774",
+            "item_name": "Gurami Bakar Besar",
+            "item_description": "",
+            "item_status": 1,
+            "price_units": 120000,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/bc639137-4e11-40b0-aeff-a595daa9d0aa_Go-Biz_20220527_193049.jpeg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "65c2aeae-b4cb-46f3-a947-32348a3bbeec",
+            "item_name": "Gurami Goreng Sedang",
+            "item_description": "",
+            "item_status": 1,
+            "price_units": 81000,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/bab23b95-4dd3-415d-b374-a7a9ec4cdc3b_Go-Biz_20220527_193101.jpeg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "2c228cfb-6989-425b-993e-6c6340c4461a",
+            "item_name": "Gurami Goreng Besar",
+            "item_description": "",
+            "item_status": 1,
+            "price_units": 101500,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/93015c0c-8fbe-439c-a676-7ba522c8fcf9_Go-Biz_20220527_193112.jpeg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "e6a29c50-926d-49f0-bf96-f8e19ccdb7d7",
+            "item_name": "Nila Ala Thai",
+            "item_description": "",
+            "item_status": 1,
+            "price_units": 92000,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/b6f4fba7-a08d-47ad-a4ca-a3c41c958446_Go-Biz_20231205_143610.jpeg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "1590b345-6e4a-478a-b5bb-ed3fc5c16611",
+            "item_name": "Nila Steam Tomyam",
+            "item_description": "",
+            "item_status": 1,
+            "price_units": 92000,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/3b266708-98cf-4a63-83e1-c37e11c64e63_Go-Biz_20220527_193128.jpeg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "4c22560f-af0e-498c-ba87-c337e44cb8c6",
+            "item_name": "Nila Asam Manis",
+            "item_description": "",
+            "item_status": 1,
+            "price_units": 92000,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/79f63c09-e4e4-4894-a07e-3fc0f4ca9e13_Go-Biz_20231205_143758.jpeg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "3e95ff81-db28-47b7-bdc2-765516894071",
+            "item_name": "Nila Tauco",
+            "item_description": "",
+            "item_status": 1,
+            "price_units": 92000,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/d969d1f1-c0d3-4219-9a50-dda463337304_Go-Biz_20231205_144311.jpeg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "35bf620e-b260-4488-b163-5264f4322203",
+            "item_name": "Nila Bakar",
+            "item_description": "",
+            "item_status": 1,
+            "price_units": 92000,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/29869d53-08b1-4f67-b4d8-c4689d72c974_Go-Biz_20231205_144503.jpeg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "05775565-4615-4be0-baad-28bd67761154",
+            "item_name": "Kepiting Asam Manis",
+            "item_description": "",
+            "item_status": 1,
+            "price_units": 115000,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/8c910e7b-04c6-4de0-8f35-c8695de818bc_Go-Biz_20220701_113013.jpeg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "310461a1-434d-41d6-99aa-c57299ded56e",
+            "item_name": "Kepiting Lada Hitam",
+            "item_description": "",
+            "item_status": 1,
+            "price_units": 115000,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/d37d17d7-cbe1-48bd-98af-9e0d8cd5e5f7_Go-Biz_20220807_214714.jpeg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "c63ce4d5-6227-4fa2-9f6e-36e8e5e4ec56",
+            "item_name": "Kepiting Saus Padang",
+            "item_description": "",
+            "item_status": 1,
+            "price_units": 115000,
+            "currency_code": "IDR",
+            "image_url": "",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "d93685f5-95fc-4c43-95f9-f3ee858e16aa",
+            "item_name": "Kepiting Telur Saus Tiram Bawang",
+            "item_description": "",
+            "item_status": 1,
+            "price_units": 115000,
+            "currency_code": "IDR",
+            "image_url": "",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "b584f78c-b843-4aa4-9b37-acfe99575a16",
+            "item_name": "Fillet Ikan Asam Manis",
+            "item_description": "",
+            "item_status": 1,
+            "price_units": 54000,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/310467be-ba79-4495-bcea-4201fe3cd433_Go-Biz_20220701_113114.jpeg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "c55d6151-0d19-4c32-b5a9-52a5bf1bf3b3",
+            "item_name": "Kepah Saus Padang/Tauco",
+            "item_description": "",
+            "item_status": 1,
+            "price_units": 49000,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/9b8f3470-bb79-4a6f-ad3b-1942549db21f_Go-Biz_20220527_193350.jpeg",
+            "variant_count": 0
+          }
+        ]
+      },
+      {
+        "section_uid": "60c36599-c775-4607-8358-3321c6671678",
+        "section_name": "Mie",
+        "section_type": 1,
+        "items": [
+          {
+            "item_uid": "9f82dded-6efd-412f-8048-c19bf7a2bddb",
+            "item_name": "Mihun Goreng Seafood/Fillet Ayam",
+            "item_description": "",
+            "item_status": 1,
+            "price_units": 40000,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/64bf5bfb-1819-4519-b1cc-23ccb28296c5_Go-Biz_20220724_214047.jpeg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "b9835bc2-37a7-4923-93a6-0417a0ebe334",
+            "item_name": "Mihun Goreng Telur",
+            "item_description": "",
+            "item_status": 1,
+            "price_units": 27000,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/b031b08d-752a-4bc8-b0a6-4db3d5a0fca5_Go-Biz_20220724_214020.jpeg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "9ac45d2e-8026-4654-90d4-a7d6101f9b25",
+            "item_name": "Ifumie Goreng Seafood/Fillet Ayam",
+            "item_description": "",
+            "item_status": 1,
+            "price_units": 43500,
+            "currency_code": "IDR",
+            "image_url": "",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "251239ad-aed8-4533-ae3d-a1be74421a75",
+            "item_name": "Ifumie Goreng Telur",
+            "item_description": "",
+            "item_status": 1,
+            "price_units": 32500,
+            "currency_code": "IDR",
+            "image_url": "",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "5c7950c6-293a-4438-a09e-54a0c780060d",
+            "item_name": "Ifumie Siram Seafood/Fillet Ayam",
+            "item_description": "",
+            "item_status": 1,
+            "price_units": 46000,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/884003ab-bfec-4579-9caa-2eb9aebcbf9a_Go-Biz_20220724_213636.jpeg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "aa39bf53-5e6d-4fb0-b3f5-3da56d45f0b7",
+            "item_name": "Ifumie Siram Sapi",
+            "item_description": "",
+            "item_status": 1,
+            "price_units": 48500,
+            "currency_code": "IDR",
+            "image_url": "",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "cb36f4ed-6340-44f0-9677-500b9a6ca092",
+            "item_name": "Mie Goreng Indonesia",
+            "item_description": "",
+            "item_status": 1,
+            "price_units": 47500,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/e8a77d82-5ecf-426d-8117-03f081db2b41_Go-Biz_20220724_213700.jpeg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "f9730622-ad39-4659-85fd-55afacbe5688",
+            "item_name": "Mie Udon Kuah Seafood",
+            "item_description": "",
+            "item_status": 1,
+            "price_units": 54000,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/b965dff7-ecdc-499c-8a39-939014072aba_Go-Biz_20220724_213759.jpeg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "bb9f2d3f-785b-4063-8d45-f62e097eb7da",
+            "item_name": "Mie Udon Goreng Lada Hitam Sapi",
+            "item_description": "",
+            "item_status": 1,
+            "price_units": 54000,
+            "currency_code": "IDR",
+            "image_url": "",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "cc7d4e89-900b-4bd8-af58-06bcd6356cd1",
+            "item_name": "Mihun Kuah Spesial Dori",
+            "item_description": "",
+            "item_status": 1,
+            "price_units": 40000,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/4f0eec16-a1db-438d-b4c7-c9de7103e048_Go-Biz_20240319_191412.jpeg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "0c8b93a9-c118-4698-8efe-108a1e99d1c3",
+            "item_name": "Mihun Kuah Spesial Seafood",
+            "item_description": "",
+            "item_status": 1,
+            "price_units": 47500,
+            "currency_code": "IDR",
+            "image_url": "",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "c483a884-00e4-47ee-8b9b-bc6004108507",
+            "item_name": "Mihun Kuah Spesial Sapi",
+            "item_description": "",
+            "item_status": 1,
+            "price_units": 54000,
+            "currency_code": "IDR",
+            "image_url": "",
+            "variant_count": 0
+          }
+        ]
+      },
+      {
+        "section_uid": "8e31161c-b58c-4c87-9a20-c79dfcc45f45",
+        "section_name": "Nasi Goreng",
+        "section_type": 1,
+        "items": [
+          {
+            "item_uid": "8da924bb-d782-4048-9c2e-d9b549ad5ebb",
+            "item_name": "Nasi Goreng Tomyam Seafood",
+            "item_description": "",
+            "item_status": 1,
+            "price_units": 43500,
+            "currency_code": "IDR",
+            "image_url": "",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "ed79085f-669f-4c52-94c5-1271c6acdf1b",
+            "item_name": "Nasi Goreng Seafood",
+            "item_description": "",
+            "item_status": 1,
+            "price_units": 38000,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/69e573ba-d31c-49a0-a2f9-ace8b8f24a0e_Go-Biz_20240309_161608.jpeg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "f9339103-1909-483f-a84d-2e45c652683d",
+            "item_name": "Nasi Goreng Kampung",
+            "item_description": "",
+            "item_status": 1,
+            "price_units": 26000,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/337eca52-7e21-45b9-b0f5-d997c812522c_Go-Biz_20231205_144817.jpeg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "0f96a1eb-b149-4a34-915b-cb9febb6efef",
+            "item_name": "Nasi Goreng Sosis Sapi",
+            "item_description": "",
+            "item_status": 1,
+            "price_units": 31000,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/8ee4bcde-2c8f-47d5-b37a-1b25796d8f31_Go-Biz_20240313_124216.jpeg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "b39850cc-421c-4985-9562-82b21d710c2b",
+            "item_name": "Nasi Goreng Telur",
+            "item_description": "",
+            "item_status": 1,
+            "price_units": 22000,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/36027414-cc7e-48c2-89b1-292f001421d7_36342d15-0a42-43a2-b5aa-6e7f5567eff9.jpg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "b3399459-422a-46c6-9ad7-b529df8f5982",
+            "item_name": "Nasi Goreng Matahari",
+            "item_description": "Nasi Goreng + Telur",
+            "item_status": 1,
+            "price_units": 39500,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/89d1ffcd-61f2-4d82-a5fe-99acb61d2fc3_Go-Biz_20231205_144850.jpeg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "e588c20a-7723-4f16-b74f-eaa2401bcda7",
+            "item_name": "Nasi Goreng Ayam",
+            "item_description": "",
+            "item_status": 1,
+            "price_units": 39500,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/1e6947c2-9c5c-404d-a058-a9dc9c80b636_Go-Biz_20240309_161512.jpeg",
+            "variant_count": 0
+          }
+        ]
+      },
+      {
+        "section_uid": "092bf0f5-be31-4d29-af5e-2aaf07786845",
+        "section_name": "Sayuran",
+        "section_type": 1,
+        "items": [
+          {
+            "item_uid": "5774bbf2-2c5f-466f-9ee4-9fbe3480cae1",
+            "item_name": "Gado-gado Medan",
+            "item_description": "",
+            "item_status": 1,
+            "price_units": 38000,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/a7d2678d-96cf-45bc-982d-36ec99a036e4_Go-Biz_20220723_202822.jpeg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "e834613f-b6e3-4b25-9e76-c00056bafbb2",
+            "item_name": "Kangkung Tumis Terasi",
+            "item_description": "",
+            "item_status": 1,
+            "price_units": 24500,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/dbbebe70-5fdf-4dbc-adc6-92f4c99671b0_Go-Biz_20220727_174152.jpeg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "29041323-46cd-40c0-91ab-ca0b88a24fb2",
+            "item_name": "Kangkung Bawang Putih",
+            "item_description": "",
+            "item_status": 1,
+            "price_units": 21500,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/b3277774-4a5f-4ae2-ab28-42853d004635_Go-Biz_20220724_212507.jpeg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "1f879070-2c6a-4fb7-bbe2-b891172535fa",
+            "item_name": "Kangkung Tumis Seafood",
+            "item_description": "",
+            "item_status": 1,
+            "price_units": 34000,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/464c5116-9810-4c58-9811-97caf384a0bb_Go-Biz_20220727_174330.jpeg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "2a606aa4-f7e0-4744-bdbc-a0c103974045",
+            "item_name": "Genjer Terasi",
+            "item_description": "",
+            "item_status": 1,
+            "price_units": 24500,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/a7556c2c-27c3-4656-86f1-87114aa71cee_Go-Biz_20220724_212649.jpeg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "4a68305e-6954-4188-bc31-38ed601f93d0",
+            "item_name": "Genjer Seafood",
+            "item_description": "",
+            "item_status": 1,
+            "price_units": 34000,
+            "currency_code": "IDR",
+            "image_url": "",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "cdab0710-a50b-481a-8a61-db80b8125d32",
+            "item_name": "Tauge Seafood",
+            "item_description": "",
+            "item_status": 1,
+            "price_units": 34000,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/8d8263f4-9dbd-4ad1-9dd6-f8f7a1b335c3_Go-Biz_20220724_212744.jpeg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "30a7814c-b419-4c44-b4ce-6c1277eb0ac6",
+            "item_name": "Tauge Ikan Asin",
+            "item_description": "",
+            "item_status": 1,
+            "price_units": 30000,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/1f63e5a8-09f5-48ae-bcf7-392275a203da_Go-Biz_20220724_212801.jpeg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "3543f02a-9b6a-4d09-80d0-faf48fb4ffc7",
+            "item_name": "Capcai Jamur",
+            "item_description": "",
+            "item_status": 1,
+            "price_units": 32500,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/e2c204b3-2369-403b-93ff-7887e8d91b20_Go-Biz_20220724_212852.jpeg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "b373f2c8-30de-416a-84ac-7b21c0c23cfe",
+            "item_name": "Capcai Seafood Jamur",
+            "item_description": "",
+            "item_status": 1,
+            "price_units": 39500,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/bd47ce15-75c5-4a8b-a0ce-d11c25676dff_Go-Biz_20220724_212908.jpeg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "2023e73f-8a50-4bde-b64b-e1cc47c16f48",
+            "item_name": "Tahu Siram Daging Kepiting",
+            "item_description": "",
+            "item_status": 1,
+            "price_units": 38000,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/072ffa43-1636-45ea-b82c-9df7ed794d98_Go-Biz_20240313_124332.jpeg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "466706a8-ae85-49ee-bda8-3fb9d55bec0d",
+            "item_name": "Tahu Siram Daging Sapi",
+            "item_description": "",
+            "item_status": 1,
+            "price_units": 43500,
+            "currency_code": "IDR",
+            "image_url": "",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "4b70119b-8b8a-4d58-b90c-df332b5953ac",
+            "item_name": "Fuyunghai Seafood",
+            "item_description": "",
+            "item_status": 1,
+            "price_units": 43500,
+            "currency_code": "IDR",
+            "image_url": "",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "b67cd49a-8bdf-4e00-bd8e-67e0fe4b03ff",
+            "item_name": "Telur Dadar",
+            "item_description": "",
+            "item_status": 1,
+            "price_units": 11000,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/3361a8ec-95bd-4948-bc60-a237dade0b20_Go-Biz_20220727_175119.jpeg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "df8d7676-b6cc-41bb-9a2b-050ae659978a",
+            "item_name": "Telur Mata Sapi",
+            "item_description": "",
+            "item_status": 1,
+            "price_units": 11000,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/2d52d087-24f6-4fd7-8d8d-b612fb047ce8_Go-Biz_20220724_213014.jpeg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "46adc64c-e720-4812-8dce-c45ab3a1e673",
+            "item_name": "Nasi Putih",
+            "item_description": "",
+            "item_status": 1,
+            "price_units": 11000,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/3509fbe7-aeb1-4fcd-9b75-e8068f016971_Go-Biz_20220724_213100.jpeg",
+            "variant_count": 0
+          }
+        ]
+      },
+      {
+        "section_uid": "4435c66c-9e96-4964-bc02-91fc29b69f3b",
+        "section_name": "Terong Dan Tempe Penyet",
+        "section_type": 1,
+        "items": [
+          {
+            "item_uid": "cf114af1-7dd3-4973-8cd7-2854d817b681",
+            "item_name": "Terong Penyet",
+            "item_description": "",
+            "item_status": 1,
+            "price_units": 20500,
+            "currency_code": "IDR",
+            "image_url": "",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "d1b6fc12-aa04-4517-ab51-3fa10548bc7f",
+            "item_name": "Terong Bakar",
+            "item_description": "",
+            "item_status": 1,
+            "price_units": 20500,
+            "currency_code": "IDR",
+            "image_url": "",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "da4d805c-7389-4369-9961-92be1ab5c9b7",
+            "item_name": "Tempe Penyet",
+            "item_description": "",
+            "item_status": 1,
+            "price_units": 20500,
+            "currency_code": "IDR",
+            "image_url": "",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "6f797026-acbb-4dab-b13e-e7cee64c2a99",
+            "item_name": "Terong Cabe Garam",
+            "item_description": "",
+            "item_status": 1,
+            "price_units": 34000,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/0781025e-2f29-4157-b270-0d3adc3cef30_Go-Biz_20240313_124422.jpeg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "660e762a-626f-45e5-921b-7147310ed060",
+            "item_name": "Tahu Cabe Garam",
+            "item_description": "",
+            "item_status": 1,
+            "price_units": 39500,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/d3abd259-a139-46cd-8520-b50cfba9ed64_Go-Biz_20240313_124446.jpeg",
+            "variant_count": 0
+          }
+        ]
+      },
+      {
+        "section_uid": "c42a4648-af5f-49de-9dc5-6a91fc563033",
+        "section_name": "Sop",
+        "section_type": 1,
+        "items": [
+          {
+            "item_uid": "c2c261d8-a9d1-46dd-8546-ecc5f643e330",
+            "item_name": "Sop Ikan Gurami Sedang",
+            "item_description": "",
+            "item_status": 1,
+            "price_units": 97500,
+            "currency_code": "IDR",
+            "image_url": "",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "110914ac-26f9-4ce0-9b11-f4820b773432",
+            "item_name": "Sop Ikan Gurami Besar",
+            "item_description": "",
+            "item_status": 1,
+            "price_units": 117000,
+            "currency_code": "IDR",
+            "image_url": "",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "23c579ed-57b8-4575-adb0-3a4f61976a1a",
+            "item_name": "Sop Buntut",
+            "item_description": "",
+            "item_status": 1,
+            "price_units": 80000,
+            "currency_code": "IDR",
+            "image_url": "",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "e24b44c9-74c6-482a-86ab-cbf953eb43a8",
+            "item_name": "Sop Daging Sapi",
+            "item_description": "",
+            "item_status": 1,
+            "price_units": 54000,
+            "currency_code": "IDR",
+            "image_url": "",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "7498a9b7-11bf-459c-8057-32220436b147",
+            "item_name": "Sop Tomyam Seafood/Ayam",
+            "item_description": "",
+            "item_status": 1,
+            "price_units": 50000,
+            "currency_code": "IDR",
+            "image_url": "",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "687051e7-9e3a-46c5-9f3f-d76a669d9fdc",
+            "item_name": "Sop Asparagus Jagung Kepiting",
+            "item_description": "",
+            "item_status": 1,
+            "price_units": 40500,
+            "currency_code": "IDR",
+            "image_url": "",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "724a0b07-48f8-464e-bf9b-5efc8a58f86e",
+            "item_name": "Sop Tahu Jepang",
+            "item_description": "",
+            "item_status": 1,
+            "price_units": 47500,
+            "currency_code": "IDR",
+            "image_url": "",
+            "variant_count": 0
+          }
+        ]
+      },
+      {
+        "section_uid": "8b6b6196-f586-4840-9615-80d1256c8e79",
+        "section_name": "Snacks",
+        "section_type": 1,
+        "items": [
+          {
+            "item_uid": "01ded3db-cc2f-4e74-a9af-f8cedc6d0256",
+            "item_name": "Triple Robak Coklat Keju",
+            "item_description": "",
+            "item_status": 1,
+            "price_units": 27000,
+            "currency_code": "IDR",
+            "image_url": "",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "288a42c6-09a7-44af-9dc2-4ea7b1f664a3",
+            "item_name": "Triple Robak Chocolicius",
+            "item_description": "",
+            "item_status": 1,
+            "price_units": 24000,
+            "currency_code": "IDR",
+            "image_url": "",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "674f615f-d6c8-4a47-9189-4ccbac84c357",
+            "item_name": "Pisang Lumpia Coklat Lumer",
+            "item_description": "",
+            "item_status": 1,
+            "price_units": 23000,
+            "currency_code": "IDR",
+            "image_url": "",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "54f30f46-6632-4508-8358-d26e3bb93645",
+            "item_name": "Pisang Lumpia Coklat Keju",
+            "item_description": "",
+            "item_status": 1,
+            "price_units": 25500,
+            "currency_code": "IDR",
+            "image_url": "",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "d0c84c97-4848-43f9-8323-92014af9cfcb",
+            "item_name": "Telur 1/2 Masak (3 Butir)",
+            "item_description": "",
+            "item_status": 1,
+            "price_units": 22000,
+            "currency_code": "IDR",
+            "image_url": "",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "e1ef7d93-8efc-431b-95a1-28b172bf5596",
+            "item_name": "Telur 1/2 Masak (2 Butir)",
+            "item_description": "",
+            "item_status": 1,
+            "price_units": 18000,
+            "currency_code": "IDR",
+            "image_url": "",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "ff5d3548-3f03-443a-8754-05f13aa92d07",
+            "item_name": "Kentang Goreng",
+            "item_description": "",
+            "item_status": 1,
+            "price_units": 21500,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/722e3136-3322-49f0-9a96-effc2dc4447d_5520c9e5-59a2-4e23-aed0-544a87f47ee4_file20190401-30440-kcb360.jpeg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "239699c7-643c-4baa-b885-c6901f686412",
+            "item_name": "Chicken Drumstick",
+            "item_description": "",
+            "item_status": 1,
+            "price_units": 43500,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/f30a55c4-5611-4cf5-b515-a53cf14f44b3_Go-Biz_20220724_214424.jpeg",
+            "variant_count": 0
+          }
+        ]
+      },
+      {
+        "section_uid": "c24b32d2-66f7-4822-ad0f-26dc9707437f",
+        "section_name": "Burger & Hotdog",
+        "section_type": 1,
+        "items": [
+          {
+            "item_uid": "d58dd3a5-01ab-4df6-9fdf-e697dfc64cca",
+            "item_name": "Asoka Beef Burger",
+            "item_description": "Daging Sapi Jumbo + Keju + Telur + Tomat + Timun + Mayonaise",
+            "item_status": 1,
+            "price_units": 27000,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/8ed57ef2-e8ea-41e6-9ee4-b8a94d934454_c5a87d78-bb2c-4bd3-91ce-27dead79bd38.jpg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "25948a48-4ed6-4e8c-a98d-7a62e3525479",
+            "item_name": "Cheese Burger + Kentang",
+            "item_description": "",
+            "item_status": 1,
+            "price_units": 27000,
+            "currency_code": "IDR",
+            "image_url": "",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "de5cbb50-75cb-4eb8-a880-d32923ff19fa",
+            "item_name": "Fave Chicken Burger",
+            "item_description": "Daging Ayam Crispy + Keju Slice + Telur + Tomat + Timun + Saus + Mayonaise",
+            "item_status": 1,
+            "price_units": 27000,
+            "currency_code": "IDR",
+            "image_url": "",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "0d596fef-5adb-4702-b3fa-15e57de7a778",
+            "item_name": "Cheese Burger",
+            "item_description": "Keju + Daging Sapi + Telur + Abon Sapi + Tomat + Timun + Mayonaise",
+            "item_status": 1,
+            "price_units": 24000,
+            "currency_code": "IDR",
+            "image_url": "",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "26e4685f-dfae-4170-9d79-97933a3d8be9",
+            "item_name": "Crispy Chicken Burger",
+            "item_description": "",
+            "item_status": 1,
+            "price_units": 23000,
+            "currency_code": "IDR",
+            "image_url": "",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "fb68d0c9-0aeb-45d9-aef5-6fc97df3dedc",
+            "item_name": "Hotdog Sosis Komplit",
+            "item_description": "",
+            "item_status": 1,
+            "price_units": 30000,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/148f40b3-74bc-4938-b578-5291a3954ecc_Go-Biz_20220727_154943.jpeg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "668bb321-ff4c-435b-b473-8d9e1f4acf02",
+            "item_name": "Hotdog Sosis Sapi",
+            "item_description": "",
+            "item_status": 1,
+            "price_units": 27000,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/c8bc4899-86a9-41e7-b91d-41021b3aed72_Go-Biz_20220727_154926.jpeg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "42879f05-a318-41a6-b0fd-f5fcb47e5778",
+            "item_name": "Hotdog Sapi Lada Hitam",
+            "item_description": "",
+            "item_status": 1,
+            "price_units": 31000,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/aa6f422b-8ac4-4c5c-a3a2-1b4a6922c5a2_Go-Biz_20220727_154910.jpeg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "2792639d-5d92-408c-a7dc-9f9d33058ef2",
+            "item_name": "Hotdog Chicken Crispy",
+            "item_description": "",
+            "item_status": 1,
+            "price_units": 27000,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/b5924f48-3b17-4dad-b8a9-bfeccde1329e_Go-Biz_20220727_154854.jpeg",
+            "variant_count": 0
+          }
+        ]
+      },
+      {
+        "section_uid": "4814b135-2d78-4163-833d-9c95a3488c67",
+        "section_name": "Fresh Juice",
+        "section_type": 1,
+        "items": [
+          {
+            "item_uid": "1b47e59f-fd6a-41c3-b6bf-4a7c9e3c811e",
+            "item_name": "Jus Alpukat",
+            "item_description": "",
+            "item_status": 1,
+            "price_units": 25500,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/c4db2e89-8512-4cd3-b2c0-0b471b4ae3bc_Go-Biz_20220727_162842.jpeg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "b759748e-787e-43b7-a4f1-d5ab2a3965c1",
+            "item_name": "Jus Jeruk",
+            "item_description": "",
+            "item_status": 1,
+            "price_units": 25500,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/3ed28fd2-484f-4e43-8415-867d142ee6dd_Go-Biz_20220727_162938.jpeg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "a98d89d3-f372-49d0-a408-e10e012380b6",
+            "item_name": "Timun Kerok",
+            "item_description": "",
+            "item_status": 1,
+            "price_units": 25500,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/23644f74-7900-4fcf-a4e9-d613d92e0ab6_Go-Biz_20220727_163410.jpeg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "5fc98faa-bbc1-4375-bd20-37fcc9f29c77",
+            "item_name": "Jus Kuini",
+            "item_description": "",
+            "item_status": 1,
+            "price_units": 25500,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/dc21b5cf-df55-4603-9e46-a24be9b98fa7_Go-Biz_20220727_163426.jpeg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "a2f022f0-22c3-440d-9034-706f56bcbd1a",
+            "item_name": "Jus Marquisa",
+            "item_description": "",
+            "item_status": 1,
+            "price_units": 25500,
+            "currency_code": "IDR",
+            "image_url": "",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "c4fe5d93-66c2-4964-90ee-2d06fd128ce0",
+            "item_name": "Jus Semangka",
+            "item_description": "",
+            "item_status": 1,
+            "price_units": 25500,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/17072918-544d-430c-86fd-e35d9b333e4c_Go-Biz_20220727_163631.jpeg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "c1223b4b-99f4-47c8-adc5-b55eadf16550",
+            "item_name": "Jus Sirsak",
+            "item_description": "",
+            "item_status": 1,
+            "price_units": 27000,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/2a6f06b7-dbd1-4541-96eb-c2380a215a33_Go-Biz_20220727_163618.jpeg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "971bc63d-1aab-4f0e-87e1-2eb28cfc20db",
+            "item_name": "Jus Terong Belanda",
+            "item_description": "",
+            "item_status": 1,
+            "price_units": 27000,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/6087a56d-1f83-4539-be67-56fd72ed528f_Go-Biz_20220727_163644.jpeg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "92f18765-dad6-48da-a65d-11f7cddd26dc",
+            "item_name": "Jus Buah Naga",
+            "item_description": "",
+            "item_status": 1,
+            "price_units": 27000,
+            "currency_code": "IDR",
+            "image_url": "",
+            "variant_count": 0
+          }
+        ]
+      },
+      {
+        "section_uid": "5173eda9-4869-402c-902a-1677e1ebcfef",
+        "section_name": "Fresh Juice Combination",
+        "section_type": 1,
+        "items": [
+          {
+            "item_uid": "0ad3ac4d-e1b9-46ad-9e0a-0db5e529249c",
+            "item_name": "Tropical Sunset",
+            "item_description": "",
+            "item_status": 1,
+            "price_units": 35000,
+            "currency_code": "IDR",
+            "image_url": "",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "516f2a08-d5ad-458b-a593-56ace66dd355",
+            "item_name": "Es Jeruk Kelapa",
+            "item_description": "",
+            "item_status": 1,
+            "price_units": 32500,
+            "currency_code": "IDR",
+            "image_url": "",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "2d96da15-4bdf-4ff0-ad7d-f46cbf3c32bd",
+            "item_name": "Sirsak Buah Naga",
+            "item_description": "",
+            "item_status": 1,
+            "price_units": 32500,
+            "currency_code": "IDR",
+            "image_url": "",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "e7d6af2e-5e90-4f46-9dda-19a6f7c2b58b",
+            "item_name": "Carrot Punch",
+            "item_description": "",
+            "item_status": 1,
+            "price_units": 32500,
+            "currency_code": "IDR",
+            "image_url": "",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "418f86b1-5362-414e-aa39-65d0c69fefe1",
+            "item_name": "Martabe",
+            "item_description": "",
+            "item_status": 1,
+            "price_units": 32500,
+            "currency_code": "IDR",
+            "image_url": "",
+            "variant_count": 0
+          }
+        ]
+      },
+      {
+        "section_uid": "cda60065-10c5-4df4-8147-3ab233b9e0f2",
+        "section_name": "Special Drinks",
+        "section_type": 1,
+        "items": [
+          {
+            "item_uid": "374c2278-ab6d-482b-9937-f60e2ab627ff",
+            "item_name": "Milkshake Coklat",
+            "item_description": "",
+            "item_status": 1,
+            "price_units": 25500,
+            "currency_code": "IDR",
+            "image_url": "",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "4bba2da0-8e7d-4de4-a551-847793444e3e",
+            "item_name": "Milkshake Strowberry",
+            "item_description": "",
+            "item_status": 1,
+            "price_units": 25500,
+            "currency_code": "IDR",
+            "image_url": "",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "8970e2c5-59c7-42cb-818a-4d382c026027",
+            "item_name": "Lime Honey Squash",
+            "item_description": "",
+            "item_status": 3,
+            "price_units": 31000,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/755883dd-e8e8-41f8-9405-028e0c9c0eb8_Go-Biz_20220728_214237.jpeg",
+            "variant_count": 0
+          }
+        ]
+      },
+      {
+        "section_uid": "93e2d313-d6f5-4aa0-8cc3-e6596d2b8a7d",
+        "section_name": "Special Ice",
+        "section_type": 1,
+        "items": [
+          {
+            "item_uid": "22ab108a-c396-4a7f-b900-577a0910c156",
+            "item_name": "Es Campur",
+            "item_description": "",
+            "item_status": 1,
+            "price_units": 30000,
+            "currency_code": "IDR",
+            "image_url": "",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "8f7cb9df-85e8-46b6-bcae-49ff25758853",
+            "item_name": "Es Teller",
+            "item_description": "",
+            "item_status": 1,
+            "price_units": 30000,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/480b666d-b31d-4be8-ad54-f6e8b129c8d9_Go-Biz_20220727_163808.jpeg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "a45bc2e1-9c6a-483c-8601-db4536c9d646",
+            "item_name": "Es Cincau Aren",
+            "item_description": "",
+            "item_status": 1,
+            "price_units": 27000,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/057f0060-130e-491c-a640-9c0aff4851b0_Go-Biz_20220701_114833.jpeg",
+            "variant_count": 0
+          }
+        ]
+      },
+      {
+        "section_uid": "a031c8b0-337a-42cc-8462-1bccbc03b75d",
+        "section_name": "Chocolate Dan Green Tea",
+        "section_type": 1,
+        "items": [
+          {
+            "item_uid": "6c2be08f-470d-4b8a-9899-9360e7e144f7",
+            "item_name": "Milk Chocolate",
+            "item_description": "",
+            "item_status": 1,
+            "price_units": 36500,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/2d7f71a2-88ad-4032-a3f4-0f1548f14e05_Go-Biz_20220701_115036.jpeg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "baed930e-a841-4ad8-9feb-312d66762ed7",
+            "item_name": "Milo Dino",
+            "item_description": "",
+            "item_status": 1,
+            "price_units": 34000,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/8a71ab88-4ca9-4ead-a07f-4b9cf73f1bd4_Go-Biz_20220727_172148.jpeg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "fdb13eff-d1b8-4c4c-974c-e1d36f166c57",
+            "item_name": "Green Tea Latte",
+            "item_description": "",
+            "item_status": 1,
+            "price_units": 36500,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/2583eb23-21cf-49c7-b916-39be49330a4b_Go-Biz_20220727_171905.jpeg",
+            "variant_count": 0
+          }
+        ]
+      },
+      {
+        "section_uid": "06c52f9c-5705-4561-9ce7-d265a740d2aa",
+        "section_name": "Others",
+        "section_type": 1,
+        "items": [
+          {
+            "item_uid": "98a8998e-472a-4528-97a6-bd0f2dddefe9",
+            "item_name": "Lemon Tea",
+            "item_description": "",
+            "item_status": 1,
+            "price_units": 23000,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/d033b7c2-7d73-465f-9722-c421376fc5ba_Go-Biz_20220727_170440.jpeg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "1d3b5d0d-d2ba-4c39-8f95-a9223581d317",
+            "item_name": "Teh Manis",
+            "item_description": "",
+            "item_status": 1,
+            "price_units": 10000,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/ff7c2e76-d150-4d84-be0d-39da6bd25e1c_Go-Biz_20220815_201726.jpeg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "acd64c15-efa2-4e18-887d-ed02476022c8",
+            "item_name": "Teh Pahit",
+            "item_description": "",
+            "item_status": 1,
+            "price_units": 6000,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/c7fd08aa-0854-423e-a3e9-579d629c33ce_Go-Biz_20220815_201858.jpeg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "8431344a-0798-4606-8fc6-a3759d7ea95c",
+            "item_name": "Es Kosong",
+            "item_description": "",
+            "item_status": 1,
+            "price_units": 4000,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/cdf6d1f2-0833-404d-a6fa-e002db53ffe2_Go-Biz_20220815_202238.jpeg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "67fcfcb4-ca2a-4ba6-873c-a70c74ec92eb",
+            "item_name": "Aqua 330 Ml",
+            "item_description": "",
+            "item_status": 1,
+            "price_units": 8000,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/fbade161-e6f6-4d09-959d-fbfff6ccb0eb_Go-Biz_20220727_171031.jpeg",
+            "variant_count": 0
+          }
+        ]
+      },
+      {
+        "section_uid": "4e86c1c9-1768-4845-95ef-967d6bbc149d",
+        "section_name": "Ice Cream",
+        "section_type": 1,
+        "items": [
+          {
+            "item_uid": "19e0afe9-637b-46c1-83dc-3414791eb714",
+            "item_name": "Fantasy Sundae",
+            "item_description": "",
+            "item_status": 1,
+            "price_units": 23000,
+            "currency_code": "IDR",
+            "image_url": "",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "60f685b8-42c2-4647-ad90-01606d0feaa2",
+            "item_name": "Chocolate Sundae",
+            "item_description": "",
+            "item_status": 1,
+            "price_units": 21000,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/f6b33848-5793-4cee-91f5-de1c6221227d_9e1e439c-ea05-468f-bbce-4800c9e5761f.jpg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "063b1d2b-1662-4f2c-bfbc-85631a57129b",
+            "item_name": "Cherry Sundae",
+            "item_description": "",
+            "item_status": 1,
+            "price_units": 21000,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/d74b47f1-947c-484b-84a3-31aab8b2af1a_2849ff45-9d87-4156-a340-6dc1e35b9038.jpg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "b5e4a5bf-dfd2-4724-a483-3dcbf0f98b64",
+            "item_name": "Extra Float Ice Cream",
+            "item_description": "",
+            "item_status": 1,
+            "price_units": 5500,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/02ea49e3-5c3c-4edb-ae4c-49a6c79a0ca4_Go-Biz_20220727_164330.jpeg",
+            "variant_count": 0
+          }
+        ]
+      },
+      {
+        "section_uid": "a3dcd3fa-9231-4b5c-bd51-876e40993b7b",
+        "section_name": "Coffe",
+        "section_type": 1,
+        "items": [
+          {
+            "item_uid": "28749820-f5c5-489f-9e55-0341d37ded94",
+            "item_name": "Americano",
+            "item_description": "",
+            "item_status": 1,
+            "price_units": 20500,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/4f4d6939-796c-494e-93bc-14baaad02887_Go-Biz_20220727_170159.jpeg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "883a656d-e98c-4ce2-8f37-bb6593cc4a30",
+            "item_name": "Kopi Susu",
+            "item_description": "",
+            "item_status": 1,
+            "price_units": 29500,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/c936f62a-7afb-4220-9ad1-71cd1c344435_Go-Biz_20220727_165752.jpeg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "e8ff1c71-3aa3-4282-938c-9a8e0163ea4e",
+            "item_name": "Kopi Susu Aren",
+            "item_description": "",
+            "item_status": 1,
+            "price_units": 31000,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/821a6935-1d31-414a-9b10-4f97bb1e8a95_Go-Biz_20220727_165648.jpeg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "b9126d52-22dc-4b33-aea6-039b0ced99f0",
+            "item_name": "Extra Cincau",
+            "item_description": "",
+            "item_status": 1,
+            "price_units": 4000,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/86f4f8a9-347b-4de8-b0a9-aaf5a230dd92_Go-Biz_20220727_164924.jpeg",
+            "variant_count": 0
+          }
+        ]
+      }
+    ],
+    "scraped_at": "2026-02-25T20:09:48.024228+07:00"
+  },
+  {
+    "restaurant_uid": "71914089-a680-4d4d-8e2f-2ae4ab8ed11b",
+    "restaurant_name": "Ayam Geprek & Bento “PrekBen”, Jl. Abdul Hakim",
+    "restaurant_url": "/medan/restaurant/ayam-geprek-bento-prekben-jl-abdul-hakim-71914089-a680-4d4d-8e2f-2ae4ab8ed11b",
+    "status": "success",
+    "menu_sections": [
+      {
+        "section_uid": "",
+        "section_name": "Orang-orang pada doyan ini",
+        "section_type": 7,
+        "items": [
+          {
+            "item_uid": "e4938fef-651e-4f06-af67-693be2c317e5",
+            "item_name": "2 Ayam Geprek Nasi Mie+ Teh Manis Dingin",
+            "item_description": "2 Ayam Geprek+Nasi+mie+Teh Manis Dingin",
+            "item_status": 1,
+            "price_units": 45000,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/bdfb4192-d93f-414e-ba38-9ba461a920e4_Go-Biz_20231024_234008.jpeg",
+            "variant_count": 1
+          },
+          {
+            "item_uid": "0484f7b7-06e9-4a9b-ad5b-9e65071a9f3f",
+            "item_name": "Geprek + Nasi",
+            "item_description": "",
+            "item_status": 1,
+            "price_units": 18500,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/81d70361-7c13-4502-a8ee-a24700649c89_Go-Biz_20231024_234235.jpeg",
+            "variant_count": 1
+          },
+          {
+            "item_uid": "e761194e-c5c8-447e-a308-2068c789aad7",
+            "item_name": "Promo1",
+            "item_description": "Ayam Geprek + Nasi + Mie Geprek + Telur + Mandi",
+            "item_status": 1,
+            "price_units": 22500,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/d74c7efb-420c-4039-ba1a-a5bd7b4c836a_Go-Biz_20231024_233803.jpeg",
+            "variant_count": 1
+          },
+          {
+            "item_uid": "7388b10d-8712-422e-85df-658b3d0bfe3e",
+            "item_name": "Ayam Mie Geprek",
+            "item_description": "Ayam geprek + mie geprek",
+            "item_status": 1,
+            "price_units": 18500,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/fe1806e3-0f07-4073-b4a4-7415d42f4c5b_Go-Biz_20231025_001803.jpeg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "a264c81c-a784-4d36-b974-9c3e0134c2e0",
+            "item_name": "Ayam Mie Mandi",
+            "item_description": "Ayam geprek nasi mie geprek teh manis dingin",
+            "item_status": 1,
+            "price_units": 30000,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/6bce4997-d80d-44ef-a6d6-6f79625f2059_Go-Biz_20231025_003121.jpeg",
+            "variant_count": 0
+          }
+        ]
+      },
+      {
+        "section_uid": "",
+        "section_name": "Menu Banting Harga",
+        "section_type": 2,
+        "items": [
+          {
+            "item_uid": "4c859d8e-d622-497d-8cc5-ffb0466ac7ec",
+            "item_name": "Ayam Geprek Mie",
+            "item_description": "Ayam geprek nasi mie geprek",
+            "item_status": 1,
+            "price_units": 23500,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/11cf1760-5001-4316-8378-04dcd5c94ecf_Go-Biz_20231025_003013.jpeg",
+            "variant_count": 1
+          },
+          {
+            "item_uid": "a264c81c-a784-4d36-b974-9c3e0134c2e0",
+            "item_name": "Ayam Mie Mandi",
+            "item_description": "Ayam geprek nasi mie geprek teh manis dingin",
+            "item_status": 1,
+            "price_units": 30000,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/6bce4997-d80d-44ef-a6d6-6f79625f2059_Go-Biz_20231025_003121.jpeg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "e2dea692-6b01-4189-a8c2-05b959d8992a",
+            "item_name": "Paket Bertiga",
+            "item_description": "3 nasi ayam geprek + 3 teh manis",
+            "item_status": 1,
+            "price_units": 75000,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/28ff05d1-b19b-4cc7-bf5d-3d2dc9d72caa_menu-item-image_1746251462563.jpg",
+            "variant_count": 1
+          }
+        ]
+      },
+      {
+        "section_uid": "",
+        "section_name": "Resto's top picks",
+        "section_type": 4,
+        "items": []
+      },
+      {
+        "section_uid": "c068daab-a4d4-462c-b458-b5fd5008037d",
+        "section_name": "Menu Promo",
+        "section_type": 1,
+        "items": [
+          {
+            "item_uid": "e2dea692-6b01-4189-a8c2-05b959d8992a",
+            "item_name": "Paket Bertiga",
+            "item_description": "3 nasi ayam geprek + 3 teh manis",
+            "item_status": 1,
+            "price_units": 75000,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/28ff05d1-b19b-4cc7-bf5d-3d2dc9d72caa_menu-item-image_1746251462563.jpg",
+            "variant_count": 1
+          },
+          {
+            "item_uid": "5fc2b0be-3785-458e-9db3-757b3ceeb0f3",
+            "item_name": "Paket Berdua",
+            "item_description": "2 ayam geprek nasi mie + 2 teh manis dingin",
+            "item_status": 1,
+            "price_units": 45000,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/a4c0f2c8-9bba-4e01-8eab-4fbfb4d63b70_menu-item-image_1746251478993.jpg",
+            "variant_count": 1
+          },
+          {
+            "item_uid": "572b3feb-0e09-4360-ab88-df58d03b9506",
+            "item_name": "Paket Jomblo",
+            "item_description": "Ayam mie geprek",
+            "item_status": 1,
+            "price_units": 18500,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/8bf35514-85b1-4cfb-8d2a-aeb2a880b148_menu-item-image_1746251495922.jpg",
+            "variant_count": 1
+          }
+        ]
+      },
+      {
+        "section_uid": "5481c9db-89fb-46c5-b845-a6d6dba1448e",
+        "section_name": "Dapur Prekben Halal Thoyib",
+        "section_type": 1,
+        "items": [
+          {
+            "item_uid": "8cda2293-adcf-4180-b2c8-876e6676cd89",
+            "item_name": "Nasi Sayur Ayam Rendang",
+            "item_description": "Nasi Ayam Rendang Disiram Kuah Gulai",
+            "item_status": 1,
+            "price_units": 18500,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/5036aa81-9c17-45c1-9e61-902279c803ec_Go-Biz_20260221_052014.jpeg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "7f77fa97-049a-4128-8396-ab40ea3e6a65",
+            "item_name": "Nasi Sayur Telur Bulat",
+            "item_description": "Nasi Telur Balado",
+            "item_status": 1,
+            "price_units": 17000,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/8b7c5f11-6350-4de1-820d-ca60daa66661_Go-Biz_20260221_052058.jpeg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "441f601c-d148-4297-9014-095b469a2a56",
+            "item_name": "Nasi Sayur Nila Asam Manis",
+            "item_description": "Nasi+sayur+nila asam manis",
+            "item_status": 1,
+            "price_units": 18500,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/a19dbb0f-4ae8-4d52-9546-737cf1e4aca1_Go-Biz_20260221_052145.jpeg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "41db6b39-27b2-444d-a0e6-3649d9f489c0",
+            "item_name": "Nasi Sayur Nila Goreng",
+            "item_description": "Nasi+sayur+nila goreng",
+            "item_status": 1,
+            "price_units": 18500,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/a8b86545-1e1f-47b5-930d-ad948cacbce7_Go-Biz_20260221_052213.jpeg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "1d9e4510-87a1-4281-8b5c-e85f6b6424e8",
+            "item_name": "Nasi Sayur Nila Sambal Ijo",
+            "item_description": "Nasi+sayur+nila sambal ijo",
+            "item_status": 1,
+            "price_units": 18500,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/28991a02-c016-4078-bc1b-7ee4c9f22725_Go-Biz_20260221_052237.jpeg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "ca267b0c-eb1e-407f-ad2a-22ffe68eeb68",
+            "item_name": "Nasi Sayur Ayam Gulai",
+            "item_description": "Nasi+sayur+ayam gulai",
+            "item_status": 1,
+            "price_units": 18500,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/9e986bf8-f497-4bc6-b394-e4571fd65887_Go-Biz_20260221_052758.jpeg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "06447591-875f-446b-a144-ac55623be5bc",
+            "item_name": "Nasi Sayur Ikan Dencis",
+            "item_description": "Nasi+sayur+ikan dencis",
+            "item_status": 1,
+            "price_units": 18500,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/5d2694ee-65c8-486b-ae86-f168e1279adf_Go-Biz_20260221_053755.jpeg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "79fcc1e5-6f74-4f93-985b-459a0e6b8481",
+            "item_name": "Nasi Sayur Lele Sambal Ijo",
+            "item_description": "Nasi+sayur+lele Sambal Ijo",
+            "item_status": 1,
+            "price_units": 18500,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/0aed79e3-9262-4120-9e05-338339d833c4_Go-Biz_20260221_053824.jpeg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "67229a94-1108-418c-8303-09f8abcb23d6",
+            "item_name": "Nasi Sayur Ayam Semur",
+            "item_description": "Nasi+sayur+ayam Semur",
+            "item_status": 1,
+            "price_units": 18500,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/79f6302b-5fd2-4d84-ac5e-7ca6d5d41469_Go-Food-Merchant_20260222_105038.jpeg",
+            "variant_count": 0
+          }
+        ]
+      },
+      {
+        "section_uid": "ef83bc87-9f4d-422d-92f9-a9d67f5fff5b",
+        "section_name": "Paket Berdua",
+        "section_type": 1,
+        "items": [
+          {
+            "item_uid": "e4938fef-651e-4f06-af67-693be2c317e5",
+            "item_name": "2 Ayam Geprek Nasi Mie+ Teh Manis Dingin",
+            "item_description": "2 Ayam Geprek+Nasi+mie+Teh Manis Dingin",
+            "item_status": 1,
+            "price_units": 45000,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/bdfb4192-d93f-414e-ba38-9ba461a920e4_Go-Biz_20231024_234008.jpeg",
+            "variant_count": 1
+          }
+        ]
+      },
+      {
+        "section_uid": "753da2a9-23dc-4997-92c5-da404e216a1f",
+        "section_name": "Promo",
+        "section_type": 1,
+        "items": [
+          {
+            "item_uid": "e761194e-c5c8-447e-a308-2068c789aad7",
+            "item_name": "Promo1",
+            "item_description": "Ayam Geprek + Nasi + Mie Geprek + Telur + Mandi",
+            "item_status": 1,
+            "price_units": 22500,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/d74c7efb-420c-4039-ba1a-a5bd7b4c836a_Go-Biz_20231024_233803.jpeg",
+            "variant_count": 1
+          },
+          {
+            "item_uid": "1b20026d-7540-445d-831b-1515efba95ce",
+            "item_name": "#FlashSale 2 Ayam Geprek Nasi Mie + Teh Manis Dingin",
+            "item_description": "2  ayam geprek + 1 nasi + 1 mie + 1 teh manis",
+            "item_status": 1,
+            "price_units": 45000,
+            "currency_code": "IDR",
+            "image_url": "",
+            "variant_count": 1
+          },
+          {
+            "item_uid": "38b78276-e91c-4b7c-9e5f-5f4383256a29",
+            "item_name": "#FlashSale Ayam Geprek Mie",
+            "item_description": "1 ayam geprek + 1 nasi + 1 mie",
+            "item_status": 1,
+            "price_units": 20300,
+            "currency_code": "IDR",
+            "image_url": "",
+            "variant_count": 0
+          }
+        ]
+      },
+      {
+        "section_uid": "7c93272a-905d-4984-84b3-65713da19467",
+        "section_name": "Ayam Geprek",
+        "section_type": 1,
+        "items": [
+          {
+            "item_uid": "33333b77-2933-43c6-b6b7-02067d504ed7",
+            "item_name": "Geprek Only",
+            "item_description": "Ayam Only",
+            "item_status": 1,
+            "price_units": 14000,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/660b5e69-4cdf-400c-b5e9-a65f7aa4aade_Go-Biz_20231024_234210.jpeg",
+            "variant_count": 1
+          },
+          {
+            "item_uid": "0484f7b7-06e9-4a9b-ad5b-9e65071a9f3f",
+            "item_name": "Geprek + Nasi",
+            "item_description": "",
+            "item_status": 1,
+            "price_units": 18500,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/81d70361-7c13-4502-a8ee-a24700649c89_Go-Biz_20231024_234235.jpeg",
+            "variant_count": 1
+          },
+          {
+            "item_uid": "7388b10d-8712-422e-85df-658b3d0bfe3e",
+            "item_name": "Ayam Mie Geprek",
+            "item_description": "Ayam geprek + mie geprek",
+            "item_status": 1,
+            "price_units": 18500,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/fe1806e3-0f07-4073-b4a4-7415d42f4c5b_Go-Biz_20231025_001803.jpeg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "4c859d8e-d622-497d-8cc5-ffb0466ac7ec",
+            "item_name": "Ayam Geprek Mie",
+            "item_description": "Ayam geprek nasi mie geprek",
+            "item_status": 1,
+            "price_units": 23500,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/11cf1760-5001-4316-8378-04dcd5c94ecf_Go-Biz_20231025_003013.jpeg",
+            "variant_count": 1
+          },
+          {
+            "item_uid": "a264c81c-a784-4d36-b974-9c3e0134c2e0",
+            "item_name": "Ayam Mie Mandi",
+            "item_description": "Ayam geprek nasi mie geprek teh manis dingin",
+            "item_status": 1,
+            "price_units": 30000,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/6bce4997-d80d-44ef-a6d6-6f79625f2059_Go-Biz_20231025_003121.jpeg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "e64e6fb0-faaa-49c2-b04d-b8fe43dbaaf4",
+            "item_name": "Geprek Mandi",
+            "item_description": "ayam geprek nasi manis dingin /panas",
+            "item_status": 1,
+            "price_units": 19500,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/fca9668d-244b-4ed8-8392-864d9fb12f37_Go-Biz_20231024_235756.jpeg",
+            "variant_count": 1
+          }
+        ]
+      },
+      {
+        "section_uid": "7d9bb371-84d4-46da-8992-fa0bb51e5a99",
+        "section_name": "Seafood",
+        "section_type": 1,
+        "items": [
+          {
+            "item_uid": "abd9195a-0ec8-450e-a38e-f4622e2770e0",
+            "item_name": "Ikan Dori Tepung Komplit",
+            "item_description": "Ikan nasi Mie Geprek",
+            "item_status": 1,
+            "price_units": 22000,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/69252f72-38ba-4751-80d2-4027e36bc431_Go-Biz_20231025_060008.jpeg",
+            "variant_count": 1
+          }
+        ]
+      },
+      {
+        "section_uid": "48bc0fdf-8828-439f-b063-bb095d356700",
+        "section_name": "Nasi Goreng",
+        "section_type": 1,
+        "items": [
+          {
+            "item_uid": "219f24f9-fca2-492c-a1ce-a3b5b2259bb5",
+            "item_name": "Nasi goreng",
+            "item_description": "Nasi Goreng Telur Dadar Kerupuk",
+            "item_status": 1,
+            "price_units": 14900,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/046381e5-bf1f-4f22-9c1d-b934b2c8ef3c_Go-Biz_20200729_113452.jpeg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "6dc7c353-fb11-4607-9657-0f939027db20",
+            "item_name": "Nasi Goreng Geprek",
+            "item_description": "Nasi Goreng Ayam Geprek Kerupuk",
+            "item_status": 1,
+            "price_units": 21500,
+            "currency_code": "IDR",
+            "image_url": "",
+            "variant_count": 0
+          }
+        ]
+      },
+      {
+        "section_uid": "b04cb513-ca4b-41ea-b54f-d9109ea0aede",
+        "section_name": "Lain-lain",
+        "section_type": 1,
+        "items": [
+          {
+            "item_uid": "afec7cb4-bef7-4f0b-af00-2c2f8ca147df",
+            "item_name": "Nasi Putih",
+            "item_description": "Nasi Only",
+            "item_status": 1,
+            "price_units": 6000,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/fc6e7bcb-7f26-46f0-9b25-373e701e8583_1dc4bca3-c994-4cb4-9572-9dd154921696_master-menu-item-image_1584007719563.jpg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "702415b5-9311-4b14-a0e3-cbbf7d5a74a0",
+            "item_name": "Mie Geprek",
+            "item_description": "",
+            "item_status": 1,
+            "price_units": 9500,
+            "currency_code": "IDR",
+            "image_url": "",
+            "variant_count": 0
+          }
+        ]
+      },
+      {
+        "section_uid": "e4c7c8c0-e354-4bdf-87b6-fa637e2fe2a8",
+        "section_name": "Minuman",
+        "section_type": 1,
+        "items": [
+          {
+            "item_uid": "769038a3-a4a2-4ef2-9bf9-86b673575251",
+            "item_name": "Es Teh",
+            "item_description": "Es teh manis dingin / panas",
+            "item_status": 1,
+            "price_units": 7000,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/4e2702f6-eaaa-4f27-960e-c713fba231d2_Go-Biz_20231025_060154.jpeg",
+            "variant_count": 0
+          }
+        ]
+      },
+      {
+        "section_uid": "dee66a3d-3ddd-48d5-b3a4-469381986ac4",
+        "section_name": "Chicken Katsu",
+        "section_type": 1,
+        "items": [
+          {
+            "item_uid": "f398e95d-a68f-4043-b200-9fd58274ad1e",
+            "item_name": "Chicken Katsu",
+            "item_description": "Chicken Katsu Nasi Salad Sayur Saos",
+            "item_status": 3,
+            "price_units": 22500,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/45e95191-0848-4531-92c3-2b1254a6a99f_Go-Biz_20231025_003415.jpeg",
+            "variant_count": 0
+          }
+        ]
+      }
+    ],
+    "scraped_at": "2026-02-25T20:10:04.777994+07:00"
+  },
+  {
+    "restaurant_uid": "875feff7-8302-4ee9-899e-a898c9003e0c",
+    "restaurant_name": "Ayam Gepuk Jogjakarta, Komplek Tasbi 2",
+    "restaurant_url": "/medan/restaurant/ayam-gepuk-jogjakarta-komplek-tasbi-2-875feff7-8302-4ee9-899e-a898c9003e0c",
+    "status": "success",
+    "menu_sections": [
+      {
+        "section_uid": "",
+        "section_name": "Resto's top picks",
+        "section_type": 4,
+        "items": [
+          {
+            "item_uid": "063cc994-efc7-4315-8226-7214d613fa92",
+            "item_name": "Tahu/Tempe",
+            "item_description": "",
+            "item_status": 1,
+            "price_units": 3450,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/5353d7f6-1978-4830-a668-41cf8bec91ae_2ced041d-11cd-4c51-9f69-abf198c91853.jpg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "06f296c6-f25b-4753-87aa-2a63a9d70bb0",
+            "item_name": "Kol Goreng",
+            "item_description": "",
+            "item_status": 1,
+            "price_units": 4100,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/5c3b3dea-fc1e-4b16-8050-44ea81c2bdf5_7c6c17c1-6fbc-47b8-af3f-c60cdd62c87d.jpg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "48d4b914-7040-48d7-9b8c-4b149ba16bdf",
+            "item_name": "Paket Ayam Gepuk 1",
+            "item_description": "Ayam Gepuk + Nasi + Lalapan + Tahu Tempe",
+            "item_status": 1,
+            "price_units": 25000,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/4518eb6f-7434-4d4a-b142-2066f54ff510_72f867e6-0990-4a22-a33d-a71a90926824.jpg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "dbbbd7b5-f4a8-46e6-8d69-6e9542ccddae",
+            "item_name": "Ayam Gepuk Dada/paha",
+            "item_description": "",
+            "item_status": 1,
+            "price_units": 17000,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/9e10b939-441c-48e5-a424-6d48656efe62_6569b73e-7f6f-474a-8a69-36103ebb35f5.jpg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "f62f3add-0a19-4842-be6e-8805a6dd1fe5",
+            "item_name": "Paket Ayam Gepuk 2",
+            "item_description": "Ayam Gepuk + Nasi + Lalapan",
+            "item_status": 1,
+            "price_units": 22000,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/effe4ddc-b619-4b9c-a6f1-78665a93f045_a1c6bb3a-51dd-46e5-b6f0-5ca433d3d891.jpg",
+            "variant_count": 0
+          }
+        ]
+      },
+      {
+        "section_uid": "85d30754-226c-4fee-b97b-6b1afb439fc1",
+        "section_name": "Minuman",
+        "section_type": 1,
+        "items": [
+          {
+            "item_uid": "1a643570-7d4d-4067-a20b-afd332baa5dd",
+            "item_name": "Cappucino Panas/dingin",
+            "item_description": "",
+            "item_status": 1,
+            "price_units": 10000,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/92553029-8960-4ce2-a121-6c69ba0dce6a_f640baf5-6238-46d7-b9af-13d218d48a01_Go-Biz_20200101_063149.jpeg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "e6f9e687-5cd8-46b0-ac8b-734de8c4929b",
+            "item_name": "Teh Manis Panas/dingin",
+            "item_description": "",
+            "item_status": 1,
+            "price_units": 6000,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/bf1bbbb2-db5f-4148-8e84-59d77d946c50_50a27bd2-7e75-4b6b-8b16-527880267781.jpg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "ff65728c-fd9e-4546-9304-45bf18bbcc60",
+            "item_name": "Kopi Ulee Kareng",
+            "item_description": "",
+            "item_status": 1,
+            "price_units": 8000,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/643b47be-f945-4d41-8448-bd848ec38f0c_1f99806a-1b48-4af4-b07c-719c876be0a2_Go-Biz_20200101_063223.jpeg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "94b771ec-69f5-4cc5-b6cf-f12166899bd8",
+            "item_name": "Milo Panas/Dingin",
+            "item_description": "",
+            "item_status": 1,
+            "price_units": 10000,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/3ec9fde8-7e19-4e5c-b1ce-d5dd191b0914_ecde37ca-5f1b-4a35-939a-ef9fca779e58.jpg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "606e3cb4-a7bd-4d8a-94f9-e0582a84f163",
+            "item_name": "Jus Jeruk",
+            "item_description": "",
+            "item_status": 3,
+            "price_units": 12000,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/3853f4ec-8465-44ed-ab16-b1c4be637f2f_771a9ac1-b017-487e-b809-87494271afa0.jpg",
+            "variant_count": 0
+          }
+        ]
+      },
+      {
+        "section_uid": "527ed674-46a2-4b09-aa91-3785fb74a3d2",
+        "section_name": "Makanan",
+        "section_type": 1,
+        "items": [
+          {
+            "item_uid": "063cc994-efc7-4315-8226-7214d613fa92",
+            "item_name": "Tahu/Tempe",
+            "item_description": "",
+            "item_status": 1,
+            "price_units": 3450,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/5353d7f6-1978-4830-a668-41cf8bec91ae_2ced041d-11cd-4c51-9f69-abf198c91853.jpg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "06f296c6-f25b-4753-87aa-2a63a9d70bb0",
+            "item_name": "Kol Goreng",
+            "item_description": "",
+            "item_status": 1,
+            "price_units": 4100,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/5c3b3dea-fc1e-4b16-8050-44ea81c2bdf5_7c6c17c1-6fbc-47b8-af3f-c60cdd62c87d.jpg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "48d4b914-7040-48d7-9b8c-4b149ba16bdf",
+            "item_name": "Paket Ayam Gepuk 1",
+            "item_description": "Ayam Gepuk + Nasi + Lalapan + Tahu Tempe",
+            "item_status": 1,
+            "price_units": 25000,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/4518eb6f-7434-4d4a-b142-2066f54ff510_72f867e6-0990-4a22-a33d-a71a90926824.jpg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "dbbbd7b5-f4a8-46e6-8d69-6e9542ccddae",
+            "item_name": "Ayam Gepuk Dada/paha",
+            "item_description": "",
+            "item_status": 1,
+            "price_units": 17000,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/9e10b939-441c-48e5-a424-6d48656efe62_6569b73e-7f6f-474a-8a69-36103ebb35f5.jpg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "f62f3add-0a19-4842-be6e-8805a6dd1fe5",
+            "item_name": "Paket Ayam Gepuk 2",
+            "item_description": "Ayam Gepuk + Nasi + Lalapan",
+            "item_status": 1,
+            "price_units": 22000,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/effe4ddc-b619-4b9c-a6f1-78665a93f045_a1c6bb3a-51dd-46e5-b6f0-5ca433d3d891.jpg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "3fac035a-097c-4107-8e5d-31c49c5685e7",
+            "item_name": "Mie Goreng",
+            "item_description": "",
+            "item_status": 1,
+            "price_units": 15500,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/f00a57b1-ab6e-4cd9-b216-3a01436f8b93_4bf73c50-0efb-4a3b-8612-50ec2f578241_Go-Biz_20200101_061804.jpeg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "bae91dab-61a5-47f8-b956-f4ee19be60fe",
+            "item_name": "Terong Goreng",
+            "item_description": "Terong",
+            "item_status": 1,
+            "price_units": 5600,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/4c1f6c83-08fd-4286-a4fd-422cf6de261e_Go-Biz_20201010_140759.jpeg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "d89b951a-6e83-4387-9171-01db2005ae60",
+            "item_name": "Pisang/Ubi Goreng",
+            "item_description": "",
+            "item_status": 3,
+            "price_units": 12000,
+            "currency_code": "IDR",
+            "image_url": "",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "fad9db15-9a24-4bf8-8ece-d7e5694a169a",
+            "item_name": "Roti Bakar",
+            "item_description": "",
+            "item_status": 3,
+            "price_units": 12000,
+            "currency_code": "IDR",
+            "image_url": "",
+            "variant_count": 0
+          }
+        ]
+      },
+      {
+        "section_uid": "79893fb5-c5f7-4942-9334-0ecf476874b3",
+        "section_name": "Paket",
+        "section_type": 1,
+        "items": [
+          {
+            "item_uid": "33e09cc5-8767-4922-ac7e-4c2b978dc0d0",
+            "item_name": "Menu Ber 4",
+            "item_description": "4 ayam + 4 nasi + 4 tempe + 4 tahu + sambal + lalapan",
+            "item_status": 1,
+            "price_units": 95000,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/4a229fe7-cca9-4eb3-a7d3-dd0d9bf37212_35c8481d-8185-4722-b10d-412a2df9b0d2_Go-Biz_20200101_061340.jpeg",
+            "variant_count": 0
+          },
+          {
+            "item_uid": "7383ef4f-abb5-4dcb-a2dc-0d21864e3b3c",
+            "item_name": "Paket Ber 2",
+            "item_description": "2 ayam + 2 nasi + 2tahu + 2 tempe + sambal + lalapan",
+            "item_status": 1,
+            "price_units": 48000,
+            "currency_code": "IDR",
+            "image_url": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/d6218757-ceb6-40eb-b2bd-f3833ecfaf22_17a89870-7766-40e0-a614-a7f362ede752_Go-Biz_20200101_061435.jpeg",
+            "variant_count": 0
+          }
+        ]
+      }
+    ],
+    "scraped_at": "2026-02-25T20:10:20.851384+07:00"
+  }
+]

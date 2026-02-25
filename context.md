@@ -1,10 +1,11 @@
 # Project Context - Scrapper GoFood
 
 ## Snapshot
-- Tanggal konteks: 2026-02-25
-- Area uji listing: `surabaya/sukolilo-restaurants`
+- Tanggal konteks: 2026-02-25 (updated)
+- Area uji listing: `surabaya/sukolilo-restaurants`, `medan/medan-selayang-restaurants`
 - Profil uji detail: `mie-mapan-pakuwon-city-mall-0fc57cda-a004-4a16-9b43-2ff88d3c754d`
 - Tujuan aktif: ekstraksi data listing + profil/menu restoran secara stabil dengan pendekatan offline-first.
+- Pipeline sudah tervalidasi **multi-area** (Surabaya + Medan).
 
 ## Objective Project
 Pipeline ekstraksi data GoFood berbasis `__NEXT_DATA__`:
@@ -41,16 +42,23 @@ Pipeline ekstraksi data GoFood berbasis `__NEXT_DATA__`:
   - Polite scraping: jeda `random.uniform(3, 7)` detik antar outlet.
   - Error handling per outlet (skip + log, batch tidak crash).
   - Session di-persist setelah tiap outlet.
-  - Output ke `output/json/gofood_menus_master.json`.
-  - **Run pertama (batch 3)**: 3/3 success, 34 sections, 222 menu items total.
+  - **Dual output**: JSON (`output/json/gofood_menus_master.json`) + CSV (`output/csv/gofood_menus_master.csv`).
+  - **Run pertama (Surabaya, batch 3)**: 3/3 success, 34 sections, 222 menu items total.
     - A&W Mall Galaxy: 14 sections, 122 items
     - Alesha Lapis Kukus Surabaya, Semolowaru: 14 sections, 60 items
     - Amanda Brownies, Mulyosari: 6 sections, 40 items
+- `developer_test_scrapping.py`:
+  - **Unified E2E pipeline** — satu script menjalani seluruh tahap: session bootstrap → outlet discovery → batch menu extraction.
+  - Parameter lokasi fleksibel: `--area` dan `--locality`.
+  - Parameter jumlah outlet: `--limit`.
+  - Output di-*namespace* per locality: `gofood_{locality}_outlets.json`, `gofood_{locality}_menus.json`, `gofood_{locality}_menus.csv`.
+  - **Run pertama (Medan Selayang)**: 60 outlet ditemukan, 5/5 success, 55 sections, 331 menu items.
 
 ## Struktur Folder
 - `scripts/`: semua skrip (http/playwright/parsers/batch)
 - `output/html/`: semua HTML hasil fetch
 - `output/json/`: semua JSON hasil ekstraksi
+- `output/csv/`: semua CSV flat hasil ekstraksi menu
 - `output/screenshots/`: screenshot Playwright
 - `output/session/`: cookies + storage state Playwright
 
@@ -62,6 +70,7 @@ Pipeline ekstraksi data GoFood berbasis `__NEXT_DATA__`:
 - `scripts/playwright/test_nearme_interceptor.py`
 - `scripts/parsers/parser_next_data.py`
 - `scripts/batch/batch_menu_scraper.py`
+- `developer_test_scrapping.py` ← **unified E2E pipeline**
 - `output/html/gofood_raw_output.html`
 - `output/html/gofood_playwright_output.html`
 - `output/screenshots/gofood_playwright_screenshot.png`
@@ -72,6 +81,10 @@ Pipeline ekstraksi data GoFood berbasis `__NEXT_DATA__`:
 - `output/json/gofood_nearme_outlets.json`
 - `output/json/gofood_nearme_raw_responses.json` (debug, opsional)
 - `output/json/gofood_menus_master.json`
+- `output/csv/gofood_menus_master.csv`
+- `output/json/gofood_medan-selayang-restaurants_outlets.json`
+- `output/json/gofood_medan-selayang-restaurants_menus.json`
+- `output/csv/gofood_medan-selayang-restaurants_menus.csv`
 
 ## Struktur JSON Yang Sudah Teridentifikasi
 
@@ -152,45 +165,32 @@ Key penting:
 6. API near-me mengembalikan 3 jenis objek ber-`uid`: outlet asli (punya `core.location`), brand "General" (placeholder tanpa data), dan kategori `CUISINE_*`. Hanya outlet asli yang berguna.
 7. Path profil restoran mengikuti pattern `/{service_area}/restaurant/{slugified_name}-{uid}` — bisa di-generate dari displayName + uid.
 8. Batch menu scraper berhasil mengekstrak menu dari 3 outlet pertama tanpa error atau blokir WAF. Schema `catalog.sections[*].items[*]` konsisten di ketiga restoran.
+9. **Pipeline tervalidasi multi-area**: run di Medan Selayang (area berbeda dari Surabaya) berhasil 5/5 success, 331 menu items — membuktikan schema GoFood konsisten lintas kota.
+10. **Unified E2E script** (`developer_test_scrapping.py`) memungkinkan one-command run dari bootstrap sampai CSV output dengan parameter `--area` dan `--locality`.
 
 ## Rencana Aktif (Updated)
-### Phase 2A - Listing Extractor
-Target output: `output/json/gofood_extracted_data.json` dari `output/json/gofood_next_data.json`.
+### Phase 2A - Listing Extractor ✅
+- Selesai via `test_nearme_interceptor.py` dan `developer_test_scrapping.py` Step 2.
+- Output: `gofood_{locality}_outlets.json`
 
-Field minimal:
-- `outlet_uid`
-- `outlet_name`
-- `path`
-- `full_url`
-- `short_link`
-- `rating_average`
-- `distance_km`
-- `price_level`
-- `is_deliverable`
-
-### Phase 2B - Profile Menu Extractor
-Target output: `output/json/gofood_profile_mapan_extracted.json` (atau CSV) dari `output/json/gofood_profile_mapan.json`.
-
-Field minimal:
-- `outlet_uid`
-- `outlet_name`
-- `outlet_url`
-- `section_name`
-- `item_uid`
-- `item_name`
-- `item_price_units`
-- `currency_code`
-- `item_status`
+### Phase 2B - Profile Menu Extractor ✅
+- Selesai via `batch_menu_scraper.py` dan `developer_test_scrapping.py` Step 3.
+- Output: dual JSON + CSV.
 
 ### Phase 3 - Join & Scale
-1. Join listing output dengan profile output berdasarkan `outlet_uid`.
-2. Jalankan terhadap beberapa outlet lain untuk validasi schema.
+1. ~~Join listing output dengan profile output berdasarkan `outlet_uid`.~~ → Sudah terintegrasi di `developer_test_scrapping.py`.
+2. ~~Jalankan terhadap beberapa outlet lain untuk validasi schema.~~ → Tervalidasi 8 outlet (3 Surabaya + 5 Medan).
 3. Tambah throttle + retry policy agar stabil.
 
 ### Phase 4 - Hardening
 1. Tambah schema guard jika key/path berubah.
 2. Tambah logging per run (timestamp, target URL, status, jumlah item).
 3. Tambah fallback saat `__NEXT_DATA__` tidak ditemukan.
+
+### Phase 5 - Scale Out (Baru)
+1. Jalankan pipeline penuh (60 outlet) per locality.
+2. Cakupan multi-kota: Jakarta, Bandung, Yogyakarta, dll.
+3. Ekspor ke database / dashboard.
 
 ## Risiko dan Batasan
 - WAF/challenge dapat berubah sewaktu-waktu.
@@ -199,6 +199,10 @@ Field minimal:
 
 ## Definition of Done (Milestone Berikutnya)
 - [x] Extractor listing menghasilkan dataset outlet yang konsisten. (60 outlet via near-me interceptor)
-- [x] Extractor profile menghasilkan dataset menu per item. (batch scraper, 3/3 success)
-- [ ] Mapping `outlet_uid` antar listing dan profile tervalidasi.
-- [x] Diuji minimal pada 2-3 outlet berbeda untuk cek ketahanan schema. (3 outlet: A&W, Alesha, Amanda)
+- [x] Extractor profile menghasilkan dataset menu per item. (batch scraper, 3/3 success Surabaya)
+- [x] Diuji minimal pada 2-3 outlet berbeda untuk cek ketahanan schema. (8 outlet: 3 Surabaya + 5 Medan)
+- [x] Export CSV terimplementasi. (dual output JSON + CSV)
+- [x] Unified E2E pipeline script. (`developer_test_scrapping.py`)
+- [x] Multi-area tervalidasi. (Surabaya Sukolilo + Medan Selayang, keduanya 100% success)
+- [ ] Scale ke 60+ outlet per area.
+- [ ] Multi-kota coverage (Jakarta, Bandung, dll).

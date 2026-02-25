@@ -17,6 +17,8 @@ Pipeline utama dibagi menjadi tiga tahap:
 2. **Outlet Discovery** (Mencari dan Menemukan Restoran)
 3. **Batch Menu Extraction** (Mengekstrak Katalog Menu secara Massal)
 
+Seluruh pipeline dapat dijalankan via satu perintah menggunakan `developer_test_scrapping.py`, atau secara modular menggunakan script terpisah di folder `scripts/`.
+
 ---
 
 ## 🚀 Alur Kerja per Tahap (Pipeline)
@@ -38,15 +40,24 @@ Pipeline utama dibagi menjadi tiga tahap:
 
 ### Tahap 3: Panen Katalog Menu (Batch Menu Extraction)
 **Tujuan:** Mengunjungi setiap profil restoran yang dikumpulkan di Tahap 2 dan menambang data menunya secara mendalam.
-- **Skrip:** `scripts/batch/batch_menu_scraper.py`
-- **Cara Kerja:** Skrip membaca daftar 60 restoran tadi. Memanfaatkan "tiket" sesi dari Tahap 1, skrip akan berkeliling:
+- **Skrip:** `scripts/batch/batch_menu_scraper.py` atau Step 3 di `developer_test_scrapping.py`
+- **Cara Kerja:** Skrip membaca daftar restoran tadi. Memanfaatkan "tiket" sesi dari Tahap 1, skrip akan berkeliling:
   1. Membuka URL web profil Restoran A.
   2. Sama sekali tidak mempedulikan tampilan visualnya, skrip mengekstrak data dari `<script id="__NEXT_DATA__">` yang tersimpan di barisan kode HTML.
   3. Mengurai data JSON tersebut untuk mendapatkan semua kategori, nama menu, beserta harganya.
   4. Beristirahat secara acak (3-7 detik) meniru jeda manusia pindah halaman.
   5. Pindah ke Restoran B, C,... hingga batas harian tercapai. Skrip berjalan berkelompok kecil (5 resto berturut-turut lalu menyimpan hasil sementara).
-- **Penyimpanan Output:** `output/json/gofood_menus_master.json`
-- **Tindak Lanjut Output:** File ini adalah data master (berisi struktur ratusan menu terintegrasi) yang siap dianalisa, dimasukkan ke dalam *database*, atau dikonversi ke *format* Excel/CSV.
+- **Penyimpanan Output (Dual):**
+  - `output/json/gofood_menus_master.json` — format JSON terstruktur (nested: restoran → section → item)
+  - `output/csv/gofood_menus_master.csv` — format CSV flat (1 baris = 1 menu item, siap analisis di Excel/Data Studio)
+- **Tindak Lanjut Output:** Kedua file ini adalah data master yang siap dianalisa atau dimasukkan ke dalam *database*.
+
+### One-Command Pipeline (`developer_test_scrapping.py`)
+Seluruh Tahap 1–3 di atas dapat dijalankan dalam **satu perintah**:
+```bash
+python3 developer_test_scrapping.py --area medan --locality medan-selayang-restaurants --limit 5
+```
+Parameter `--area` dan `--locality` menentukan lokasi, `--limit` mengatur berapa restoran yang di-scrape. Output otomatis di-*namespace* per locality.
 
 ---
 
@@ -84,9 +95,18 @@ Sistem ini menggunakan teknik siluman untuk menghindari pemblokiran Cloudflare m
 ---
 
 ## 🏁 Kesimpulan Bukti Konsep (PoC) & Langkah Berikutnya
-Pengujian eksperimental yang dilakukan di area Sukolilo mencatatkan **tingkat keberhasilan 100% (3/3 sukses)** pada percobaan Batch Menu yang mengangkut total **222 menu** tanpa mengalami kras atau blokir WAF satupun.
+Pipeline telah divalidasi di **dua area berbeda**:
+- **Surabaya (Sukolilo)**: 3/3 sukses, 222 menu items.
+- **Medan (Selayang)**: 5/5 sukses, 331 menu items.
+
+Total **8 restoran** di-scrape tanpa satupun kegagalan atau blokir WAF, membuktikan bahwa schema GoFood konsisten lintas kota.
+
+**Pencapaian Terbaru:**
+1. ✅ **Ekspor CSV** — Dual output JSON + CSV terimplementasi.
+2. ✅ **Multi-area** — Pipeline berhasil direplikasi ke kota lain (Medan).
+3. ✅ **Unified Pipeline** — Satu perintah (`developer_test_scrapping.py`) untuk seluruh proses.
 
 **Langkah Lanjutan:**
-1. **Skala Penuh (*Scale Up*):** Jika sebelumnya hanya menguji 3 resto, sekarang jalankan ekstraktor menu untuk meraup 60 profil outlet di Sukolilo sepenuhnya.
-2. **Ekspor Data:** Buat logika untuk menggabungkan (*join*) JSON restoran dan menu berdasarkan atribut `uid` menjadi format lajur kolom *CSV* yang dapat dimuat ke *dashboard* Data Studio atau dibaca analis.
-3. **Ekspansi Area:** Karena sudah terbukti kebal blokir, pipeline ini siap diulang (direplikasi) untuk area yang lebih besar (Gubeng, Tegalsari, dll.).
+1. **Skala Penuh (*Scale Up*):** Jalankan ekstraktor untuk seluruh 60 outlet per locality.
+2. **Ekspansi Multi-Kota:** Jakarta, Bandung, Yogyakarta, dll.
+3. **Hardening:** Schema guard, retry policy, logging per run.
