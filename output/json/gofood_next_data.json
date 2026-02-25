@@ -1,0 +1,2399 @@
+{
+  "props": {
+    "pageProps": {
+      "tenant": {
+        "uid": "gofood",
+        "countryCode": "ID",
+        "currencyCode": "IDR",
+        "features": {
+          "loginEnable": true,
+          "useMiniFooter": false,
+          "showPopularLocations": true,
+          "showLanguagesPicker": true,
+          "showMiniFooterText": false,
+          "downloadAppsEnable": true,
+          "sidenavOngoingOrdersEnable": false,
+          "helpTicketEnable": true,
+          "showInstagramLink": true,
+          "showSearchNav": true,
+          "displayPasPage": true
+        }
+      },
+      "activitySource": "gofood",
+      "auth": {
+        "isAuth": false,
+        "user": null,
+        "isOrderPrevented": false
+      },
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+      "userLocation": {
+        "ipLocation": {
+          "city": null,
+          "geolocation": null
+        },
+        "chosenLocation": {
+          "locality": "sukolilo",
+          "name": "Sukolilo, Surabaya",
+          "serviceArea": "surabaya",
+          "serviceAreaId": "4",
+          "latitude": -7.2881839,
+          "longitude": 112.8165095,
+          "category": "",
+          "timezone": "Asia/Jakarta",
+          "found": true
+        }
+      },
+      "pathLocation": {
+        "locality": "sukolilo",
+        "name": "Sukolilo, Surabaya",
+        "serviceArea": "surabaya",
+        "serviceAreaId": "4",
+        "latitude": -7.2881839,
+        "longitude": 112.8165095,
+        "category": "",
+        "timezone": "Asia/Jakarta",
+        "found": true
+      },
+      "banner": {
+        "title": "Sukolilo",
+        "description": "Cari yang enak di sini, dari resto dengan rating jempolan sampai hidangan legendaris."
+      },
+      "breadcrumbs": [
+        {
+          "name": "Surabaya",
+          "href": "/surabaya/restaurants"
+        },
+        {
+          "name": "Restoran Sukolilo",
+          "href": "/surabaya/sukolilo-restaurants"
+        }
+      ],
+      "contents": [
+        {
+          "title": "Rekomendasi kami",
+          "description": "Ini nih jalan pintas menuju nikmat.",
+          "type": "COLLECTION",
+          "data": [
+            {
+              "name": "Terdekat",
+              "path": "/surabaya/sukolilo-restaurants/near_me",
+              "id": "NEAR_ME",
+              "logoUrl": "https://i.gojekapi.com/darkroom/gofood-id/v2/images/uploads/03e6f8cf-25f2-46ed-ab93-d0d64a1ea188_gofood_categories_near_me.png",
+              "bannerUrl": "https://i.gojekapi.com/darkroom/gofood-id/v2/images/uploads/5d194f5f-13e7-4112-8295-3828433f1c46_near-me.png"
+            },
+            {
+              "name": "Terlaris",
+              "path": "/surabaya/sukolilo-restaurants/best_seller",
+              "id": "BEST_SELLER",
+              "logoUrl": "https://i.gojekapi.com/darkroom/gofood-id/v2/images/uploads/57fafe35-8b39-4842-9e7a-18a2e2eb302b_gofood_categories_best_sellers.png",
+              "bannerUrl": "https://i.gojekapi.com/darkroom/gofood-id/v2/images/uploads/4a098a55-c2a3-40cb-b540-5b13e9626e3c_best-seller.png"
+            },
+            {
+              "name": "Menu hemat",
+              "path": "/surabaya/sukolilo-restaurants/affordable_price",
+              "id": "AFFORDABLE_PRICE",
+              "logoUrl": "https://i.gojekapi.com/darkroom/gofood-id/v2/images/uploads/d94e8f34-300a-43d0-ab19-438b392281c7_budget-meal.png",
+              "bannerUrl": "https://i.gojekapi.com/darkroom/gofood-id/v2/images/uploads/1e7d8232-b7b6-4cfa-96ba-641c43931f74_budget-meal.png"
+            },
+            {
+              "name": "Terfavorit",
+              "path": "/surabaya/sukolilo-restaurants/most_loved",
+              "id": "MOST_LOVED",
+              "logoUrl": "https://i.gojekapi.com/darkroom/gofood-id/v2/images/uploads/9e241706-2fbe-4249-a0d7-9cb5cfd58a1e_gofood_categories_most_loved.png",
+              "bannerUrl": "https://i.gojekapi.com/darkroom/gofood-id/v2/images/uploads/7a1d6311-f371-4c57-95a5-0cb86e375362_most-loved.png"
+            },
+            {
+              "name": "24 jam",
+              "path": "/surabaya/sukolilo-restaurants/24_hours",
+              "id": "24_HOURS",
+              "logoUrl": "https://i.gojekapi.com/darkroom/gofood-id/v2/images/uploads/6278c6f9-d28e-4663-8c31-d0c9d722067a_gofood_categories_twenty_four_hours.png",
+              "bannerUrl": "https://i.gojekapi.com/darkroom/gofood-id/v2/images/uploads/a1188c57-b6b6-4991-9250-65681201eca7_24-hours.png"
+            },
+            {
+              "name": "Menu sehat",
+              "path": "/surabaya/sukolilo-restaurants/healthy_food",
+              "id": "HEALTHY_FOOD",
+              "logoUrl": "https://i.gojekapi.com/darkroom/gofood-id/v2/images/uploads/9550dc29-2fbb-4734-90e0-40b91a847549_gofood_categories_lebaran_healthy_food.png",
+              "bannerUrl": "https://i.gojekapi.com/darkroom/gofood-id/v2/images/uploads/370f4f1c-f65a-4ffc-83ab-aec6affa227a_healthy-food.png"
+            },
+            {
+              "name": "Pasti Ada Promo",
+              "path": "/surabaya/sukolilo-restaurants/mkd_megapromo_all",
+              "id": "MKD_MEGAPROMO_ALL",
+              "logoUrl": "https://i.gojekapi.com/darkroom/gofood-id/v2/images/uploads/7bbf55f7-c896-4efb-8227-b83e828d1e43_categories_foodiskon.png",
+              "bannerUrl": "https://i.gojekapi.com/darkroom/gofood-id/v2/images/uploads/8c1d6d94-197d-43bf-8a0c-4cb6a61e72ab_pasti-ada-promo.png"
+            }
+          ],
+          "showAll": true
+        },
+        {
+          "title": "Aneka kuliner menarik",
+          "description": "Liat-liat aja dulu siapa tau jadi ngidam.",
+          "type": "CUISINE",
+          "data": [
+            {
+              "name": "Martabak",
+              "path": "/surabaya/sukolilo-restaurants/martabak",
+              "id": "MARTABAK",
+              "logoUrl": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/936f68da-bc95-4fb4-8da0-1b351f151384_tag-image_1608203044480.jpg?fit=crop&w=200&h=200",
+              "bannerUrl": "https://i.gojekapi.com/darkroom/butler-id/v2/images/images/bf94423b-8781-440d-ad51-c37d4cd75add_cuisine-martabak-banner.png"
+            },
+            {
+              "name": "Bakso & soto",
+              "path": "/surabaya/sukolilo-restaurants/soto_bakso_sop",
+              "id": "SOTO_BAKSO_SOP",
+              "logoUrl": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/92004beb-7acf-46f1-9e21-6b80bd10a8ae_tag-image_1608203017089.jpg?fit=crop&w=200&h=200",
+              "bannerUrl": "https://i.gojekapi.com/darkroom/butler-id/v2/images/images/6a7bbb72-962e-4dff-ba2e-caf3cdac39f7_cuisine-soto_bakso_sop-banner.png"
+            },
+            {
+              "name": "Roti",
+              "path": "/surabaya/sukolilo-restaurants/roti",
+              "id": "ROTI",
+              "logoUrl": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/dbd649d7-fcd7-404f-91f3-537af629044f_tag-image_1608203186648.jpg?fit=crop&w=200&h=200",
+              "bannerUrl": "https://i.gojekapi.com/darkroom/butler-id/v2/images/images/ea0db4c2-79b8-4a69-8b00-ea634e7ff3c9_cuisine-roti-banner.png"
+            },
+            {
+              "name": "Chinese",
+              "path": "/surabaya/sukolilo-restaurants/chinese",
+              "id": "CHINESE",
+              "logoUrl": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/860e68ff-2310-48cd-8968-78a1c3dc50c1_tag-image_1608203200532.jpg?fit=crop&w=200&h=200",
+              "bannerUrl": "https://i.gojekapi.com/darkroom/butler-id/v2/images/images/e152cfa1-1813-4be7-aebb-62b84cd0d38f_cuisine-chinese-banner.png"
+            },
+            {
+              "name": "Barat",
+              "path": "/surabaya/sukolilo-restaurants/burger_sandwich_steak",
+              "id": "BURGER_SANDWICH_STEAK",
+              "logoUrl": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/f4d04db3-d207-4dfe-b9c5-11e2ac962ec4_tag-image_1608203122039.jpg?fit=crop&w=200&h=200",
+              "bannerUrl": "https://i.gojekapi.com/darkroom/butler-id/v2/images/images/00847dea-ca14-4ecc-8cdf-f97a8d221d53_cuisine-burger_sandwich_steak-banner.png"
+            },
+            {
+              "name": "Cepat saji",
+              "path": "/surabaya/sukolilo-restaurants/fastfood",
+              "id": "FASTFOOD",
+              "logoUrl": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/7761a441-928a-487a-acd5-0df24f318c91_tag-image_1608202965341.jpg?fit=crop&w=200&h=200",
+              "bannerUrl": "https://i.gojekapi.com/darkroom/butler-id/v2/images/images/292379c7-fcdd-44e9-8821-ede3a09765b1_fastfood.png"
+            },
+            {
+              "name": "Jepang",
+              "path": "/surabaya/sukolilo-restaurants/japanese",
+              "id": "JAPANESE",
+              "logoUrl": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/99246e0a-2a58-49e8-a6b8-f33ce52d9778_tag-image_1608202998270.jpg?fit=crop&w=200&h=200",
+              "bannerUrl": "https://i.gojekapi.com/darkroom/butler-id/v2/images/images/2629fa53-06eb-41d2-a3c4-089b926b50d9_cuisine-japanese-banner.png"
+            },
+            {
+              "name": "Jajanan",
+              "path": "/surabaya/sukolilo-restaurants/snacks_jajanan",
+              "id": "SNACKS_JAJANAN",
+              "logoUrl": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/93cd9871-814f-4121-94d9-96430c3111a4_tag-image_1608202898934.jpg?fit=crop&w=200&h=200",
+              "bannerUrl": "https://i.gojekapi.com/darkroom/butler-id/v2/images/images/3736ae85-1d0d-45e8-aaf6-22d72172fa7f_cuisine-snacks_jajanan-banner.png"
+            },
+            {
+              "name": "Sate",
+              "path": "/surabaya/sukolilo-restaurants/sate",
+              "id": "SATE",
+              "logoUrl": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/f73fcf40-e003-45e3-839c-8fcd720a516c_tag-image_1650979503503.jpg?fit=crop&w=200&h=200",
+              "bannerUrl": "https://i.gojekapi.com/darkroom/butler-id/v2/images/images/391bf0f8-6439-464d-8d18-404282c095bc_cuisine-sate-banner.png"
+            },
+            {
+              "name": "Pizza & pasta",
+              "path": "/surabaya/sukolilo-restaurants/pizza_pasta",
+              "id": "PIZZA_PASTA",
+              "logoUrl": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/5b1a9111-fc01-4938-b9e6-1991ecc3fd18_tag-image_1608203062369.jpg?fit=crop&w=200&h=200",
+              "bannerUrl": "https://i.gojekapi.com/darkroom/butler-id/v2/images/images/75552961-9b1b-4502-a4de-8ccae44e7652_cuisine-pizza_pasta-banner.png"
+            },
+            {
+              "name": "Bakmie",
+              "path": "/surabaya/sukolilo-restaurants/bakmie",
+              "id": "BAKMIE",
+              "logoUrl": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/e709853b-1a90-4d64-90b4-1f547334685d_tag-image_1608203031931.jpg?fit=crop&w=200&h=200",
+              "bannerUrl": "https://i.gojekapi.com/darkroom/butler-id/v2/images/images/07676c1b-d55f-42ea-b510-ca7182a80cf5_cuisine-bakmie-banner.png"
+            },
+            {
+              "name": "Minuman",
+              "path": "/surabaya/sukolilo-restaurants/minuman",
+              "id": "MINUMAN",
+              "logoUrl": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/8e133f59-d50f-41b0-bfa7-1a61a074cc8b_tag-image_1608202870005.jpg?fit=crop&w=200&h=200",
+              "bannerUrl": "https://i.gojekapi.com/darkroom/butler-id/v2/images/images/b976d6df-d347-439c-9c2d-a58da79ce99d_cuisine-minuman-banner.png"
+            },
+            {
+              "name": "Korea",
+              "path": "/surabaya/sukolilo-restaurants/korean",
+              "id": "KOREAN",
+              "logoUrl": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/5b23658e-522c-438e-ad95-0eca5d5d0c7f_tag-image_1608203075313.jpg?fit=crop&w=200&h=200",
+              "bannerUrl": "https://i.gojekapi.com/darkroom/butler-id/v2/images/images/ffb775f4-0ed5-4d29-bac6-cbe816897a27_korean.png"
+            },
+            {
+              "name": "Seafood",
+              "path": "/surabaya/sukolilo-restaurants/seafood",
+              "id": "SEAFOOD",
+              "logoUrl": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/5e117b21-4c43-46e0-9b78-05f67960fb36_tag-image_1608203141910.jpg?fit=crop&w=200&h=200",
+              "bannerUrl": "https://i.gojekapi.com/darkroom/butler-id/v2/images/images/7c07d872-f386-413b-861b-6319be426f53_cuisine-seafood-banner.png"
+            },
+            {
+              "name": "Kopi",
+              "path": "/surabaya/sukolilo-restaurants/coffee_shop",
+              "id": "COFFEE_SHOP",
+              "logoUrl": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/6a782354-f3af-4da5-8550-48e8572b3321_tag-image_1608203089151.jpg?fit=crop&w=200&h=200",
+              "bannerUrl": "https://i.gojekapi.com/darkroom/butler-id/v2/images/images/5e269ed6-8cdf-4c5f-bdb3-f0c9cef5add2_FH210302-cuisine-merchantbanner-FA-12-min[1].png"
+            },
+            {
+              "name": "India",
+              "path": "/surabaya/sukolilo-restaurants/indian_food",
+              "id": "INDIAN_FOOD",
+              "logoUrl": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/2b86391f-5f74-439f-9440-2249e7243db0_tag-image_1608203176176.jpg?fit=crop&w=200&h=200",
+              "bannerUrl": "https://i.gojekapi.com/darkroom/butler-id/v2/images/images/492d45a2-b79b-424a-9ccf-50c65f3a3788_cuisine-indian_food-banner.png"
+            },
+            {
+              "name": "Timur Tengah",
+              "path": "/surabaya/sukolilo-restaurants/middle_eastern",
+              "id": "MIDDLE_EASTERN",
+              "logoUrl": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/e59878b4-a46e-4cbb-a887-23df3e8b5eda_tag-image_1608203153518.jpg?fit=crop&w=200&h=200",
+              "bannerUrl": "https://i.gojekapi.com/darkroom/butler-id/v2/images/images/5955fb46-70d3-4f34-908f-defc12884ce5_middle-east.jpg"
+            }
+          ]
+        },
+        {
+          "title": "Populer di areamu",
+          "description": "Orang-orang doyan pesen dari sini.",
+          "type": "BRAND",
+          "showAll": true,
+          "data": [
+            {
+              "id": "226ea0d5-c763-40dc-aad3-9a233ed04f86",
+              "bannerUrl": "",
+              "logoUrl": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/c1b19e28-b7a6-4b8b-b2c1-4a5afb0b529a_brand-logo_1589280488944.jpg",
+              "name": "McDonald's",
+              "path": "/surabaya/sukolilo-restaurants/brand/226ea0d5-c763-40dc-aad3-9a233ed04f86"
+            },
+            {
+              "id": "efa96fcb-553b-4052-a5cd-a9688032a094",
+              "bannerUrl": "",
+              "logoUrl": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/2d496671-e316-49ff-b19e-2cc2c41184c0_brand-logo_1602482305026.jpg",
+              "name": "KFC General",
+              "path": "/surabaya/sukolilo-restaurants/brand/efa96fcb-553b-4052-a5cd-a9688032a094"
+            },
+            {
+              "id": "a8531ec8-adbf-4bbf-92c7-9e91dde0556a",
+              "bannerUrl": "",
+              "logoUrl": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/a04fb4c2-984d-4467-b7f5-2466b409b92f_brand-logo_1589280392426.jpg",
+              "name": "Solaria",
+              "path": "/surabaya/sukolilo-restaurants/brand/a8531ec8-adbf-4bbf-92c7-9e91dde0556a"
+            },
+            {
+              "id": "732dbae0-642e-4785-87ad-b36ec8114b74",
+              "bannerUrl": "",
+              "logoUrl": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/524eb76b-8ad6-4fa4-99b5-b525307b93dc_brand-logo_1589280132994.jpg",
+              "name": "HokBen General",
+              "path": "/surabaya/sukolilo-restaurants/brand/732dbae0-642e-4785-87ad-b36ec8114b74"
+            },
+            {
+              "id": "2b7a33c5-a5e2-4da4-bddc-9825cb038b84",
+              "bannerUrl": "",
+              "logoUrl": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/fbc13dde-553f-4a9e-9489-ce2b6c3332d1_brand-logo_1604309966956.jpg",
+              "name": "Kopi Kenangan General",
+              "path": "/surabaya/sukolilo-restaurants/brand/2b7a33c5-a5e2-4da4-bddc-9825cb038b84"
+            },
+            {
+              "id": "1138bc70-b1f0-436b-a2cb-cc2ef8264c9c",
+              "bannerUrl": "",
+              "logoUrl": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/04e2e645-0db2-4034-a936-763df96fccc9_brand-logo_1769747104800.jpg",
+              "name": "Domino's Pizza",
+              "path": "/surabaya/sukolilo-restaurants/brand/1138bc70-b1f0-436b-a2cb-cc2ef8264c9c"
+            },
+            {
+              "id": "62b20488-b906-4e21-98d7-031d3e49b5be",
+              "bannerUrl": "",
+              "logoUrl": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/b38ac2ff-d435-45fd-b162-c440aa5c9e17_brand-logo_1589280361375.jpg",
+              "name": "Richeese Factory",
+              "path": "/surabaya/sukolilo-restaurants/brand/62b20488-b906-4e21-98d7-031d3e49b5be"
+            },
+            {
+              "id": "336eb59c-621a-4704-811c-e1024f970e2e",
+              "bannerUrl": "",
+              "logoUrl": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/f9bc4b88-61d8-4643-b16e-5c74ca0b31af_brand-logo_1655178203896.jpg",
+              "name": "Pizza Hut Delivery - PHD",
+              "path": "/surabaya/sukolilo-restaurants/brand/336eb59c-621a-4704-811c-e1024f970e2e"
+            },
+            {
+              "id": "18374397-87f2-4f1c-8a32-6f603c66960b",
+              "bannerUrl": "",
+              "logoUrl": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/ee09c101-5a38-483e-978a-54308988b43b_brand-logo_1764843214252.jpg",
+              "name": "MOMOYO General",
+              "path": "/surabaya/sukolilo-restaurants/brand/18374397-87f2-4f1c-8a32-6f603c66960b"
+            },
+            {
+              "id": "d978519c-7192-4834-b209-cf173e7e5c53",
+              "bannerUrl": "",
+              "logoUrl": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/056bec30-d973-4098-9891-55df51685ef5_brand-logo_1690358439636.jpg",
+              "name": "Martabak Pecenongan 78",
+              "path": "/surabaya/sukolilo-restaurants/brand/d978519c-7192-4834-b209-cf173e7e5c53"
+            },
+            {
+              "id": "81b57de6-13ac-429d-a9b3-c8f7cfb2a87f",
+              "bannerUrl": "",
+              "logoUrl": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/21cdeae6-b98f-4969-87a5-c24fd9390523_brand-logo_1668478644124.jpg",
+              "name": "Sec Bowl",
+              "path": "/surabaya/sukolilo-restaurants/brand/81b57de6-13ac-429d-a9b3-c8f7cfb2a87f"
+            },
+            {
+              "id": "4aa202c1-c4c2-44be-9d1c-365581ebd88b",
+              "bannerUrl": "",
+              "logoUrl": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/0d23219c-bbe3-472a-8ec2-170b61468815_brand-logo_1710925951393.jpg",
+              "name": "Uncle W",
+              "path": "/surabaya/sukolilo-restaurants/brand/4aa202c1-c4c2-44be-9d1c-365581ebd88b"
+            }
+          ]
+        },
+        {
+          "title": "Rekomendasi resto di areamu",
+          "description": "Kami pilihin yang enak dan dekat.",
+          "type": "OUTLET",
+          "data": [
+            {
+              "key": "tenants/gofood/outlets/0f16c855-3a7e-48b7-a0e4-0c9c825d999d",
+              "tenantUid": "gofood",
+              "uid": "0f16c855-3a7e-48b7-a0e4-0c9c825d999d",
+              "core": {
+                "key": "tenants/gofood/outlets/0f16c855-3a7e-48b7-a0e4-0c9c825d999d",
+                "tenantUid": "gofood",
+                "uid": "0f16c855-3a7e-48b7-a0e4-0c9c825d999d",
+                "displayName": "Cheesycake, Sukolilo",
+                "description": "",
+                "highlights": [],
+                "location": {
+                  "latitude": -7.29484,
+                  "longitude": 112.81069
+                },
+                "countryCode": "ID",
+                "timeZone": "Asia/Jakarta",
+                "serviceArea": {
+                  "id": 4,
+                  "name": "",
+                  "zoneId": 0,
+                  "zoneName": ""
+                },
+                "status": 1,
+                "openPeriods": [
+                  {
+                    "day": 1,
+                    "startTime": {
+                      "hours": 9,
+                      "minutes": 0,
+                      "seconds": 0,
+                      "nanos": 0
+                    },
+                    "endTime": {
+                      "hours": 20,
+                      "minutes": 0,
+                      "seconds": 0,
+                      "nanos": 0
+                    }
+                  },
+                  {
+                    "day": 2,
+                    "startTime": {
+                      "hours": 9,
+                      "minutes": 0,
+                      "seconds": 0,
+                      "nanos": 0
+                    },
+                    "endTime": {
+                      "hours": 20,
+                      "minutes": 0,
+                      "seconds": 0,
+                      "nanos": 0
+                    }
+                  },
+                  {
+                    "day": 3,
+                    "startTime": {
+                      "hours": 9,
+                      "minutes": 0,
+                      "seconds": 0,
+                      "nanos": 0
+                    },
+                    "endTime": {
+                      "hours": 20,
+                      "minutes": 0,
+                      "seconds": 0,
+                      "nanos": 0
+                    }
+                  },
+                  {
+                    "day": 4,
+                    "startTime": {
+                      "hours": 9,
+                      "minutes": 0,
+                      "seconds": 0,
+                      "nanos": 0
+                    },
+                    "endTime": {
+                      "hours": 20,
+                      "minutes": 0,
+                      "seconds": 0,
+                      "nanos": 0
+                    }
+                  },
+                  {
+                    "day": 5,
+                    "startTime": {
+                      "hours": 9,
+                      "minutes": 0,
+                      "seconds": 0,
+                      "nanos": 0
+                    },
+                    "endTime": {
+                      "hours": 20,
+                      "minutes": 0,
+                      "seconds": 0,
+                      "nanos": 0
+                    }
+                  },
+                  {
+                    "day": 7,
+                    "startTime": {
+                      "hours": 7,
+                      "minutes": 0,
+                      "seconds": 0,
+                      "nanos": 0
+                    },
+                    "endTime": {
+                      "hours": 20,
+                      "minutes": 0,
+                      "seconds": 0,
+                      "nanos": 0
+                    }
+                  }
+                ],
+                "createTime": "2018-04-14T12:13:51.405Z",
+                "brandUid": "3cfe94e5-a5a3-4d8b-9367-a526babe0918",
+                "idempotencyKey": "",
+                "badges": [],
+                "notes": "",
+                "blockedReason": "",
+                "shortLink": "https://gofood.link/u/81zRB",
+                "nextCloseTime": "2026-02-25T13:00:00.000Z",
+                "brand": {
+                  "key": "tenants/gofood/brands/3cfe94e5-a5a3-4d8b-9367-a526babe0918",
+                  "tenantUid": "gofood",
+                  "uid": "3cfe94e5-a5a3-4d8b-9367-a526babe0918",
+                  "displayName": "Cheesycake, Pekalongan",
+                  "description": "",
+                  "idempotencyKey": ""
+                },
+                "tags": [
+                  {
+                    "key": "tenants/gofood/tags/CUISINE_SWEETS_DESSERTS",
+                    "tenantUid": "gofood",
+                    "uid": "CUISINE_SWEETS_DESSERTS",
+                    "displayName": "Sweets",
+                    "description": "",
+                    "taxonomy": 2,
+                    "parentKey": ""
+                  },
+                  {
+                    "key": "tenants/gofood/tags/CUISINE_SNACKS_JAJANAN",
+                    "tenantUid": "gofood",
+                    "uid": "CUISINE_SNACKS_JAJANAN",
+                    "displayName": "Jajanan",
+                    "description": "",
+                    "taxonomy": 2,
+                    "parentKey": ""
+                  }
+                ]
+              },
+              "delivery": {
+                "enabled": false,
+                "maxRadiusKm": 0,
+                "maxRouteKm": 0,
+                "maxItems": 0,
+                "eta": {
+                  "seconds": 1500,
+                  "nanos": 0
+                },
+                "distanceKm": 0.98,
+                "deliverable": true,
+                "handlingAndDeliveryFee": 0
+              },
+              "pickup": {
+                "enabled": true
+              },
+              "ratings": {
+                "average": 4.4,
+                "total": 0
+              },
+              "maf": {
+                "enabled": true,
+                "autoAcceptEnabled": false
+              },
+              "media": {
+                "logoImgUrl": "",
+                "coverImgUrl": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/c092dfbe-27b9-479a-afa6-4dc2849004d2_Go-Biz_20240102_172014.jpeg"
+              },
+              "view": 0,
+              "priceLevel": 2,
+              "brandOutletsGrouped": false,
+              "offers": [],
+              "cannedReviews": [],
+              "offeringToken": "",
+              "path": "/surabaya/restaurant/cheesycake-sukolilo-0f16c855-3a7e-48b7-a0e4-0c9c825d999d"
+            },
+            {
+              "key": "tenants/gofood/outlets/0fc57cda-a004-4a16-9b43-2ff88d3c754d",
+              "tenantUid": "gofood",
+              "uid": "0fc57cda-a004-4a16-9b43-2ff88d3c754d",
+              "core": {
+                "key": "tenants/gofood/outlets/0fc57cda-a004-4a16-9b43-2ff88d3c754d",
+                "tenantUid": "gofood",
+                "uid": "0fc57cda-a004-4a16-9b43-2ff88d3c754d",
+                "displayName": "Mie Mapan, Pakuwon City Mall",
+                "description": "",
+                "highlights": [],
+                "location": {
+                  "latitude": -7.2768783926490315,
+                  "longitude": 112.80618824064732
+                },
+                "countryCode": "ID",
+                "timeZone": "Asia/Jakarta",
+                "serviceArea": {
+                  "id": 4,
+                  "name": "",
+                  "zoneId": 0,
+                  "zoneName": ""
+                },
+                "status": 1,
+                "openPeriods": [
+                  {
+                    "day": 1,
+                    "startTime": {
+                      "hours": 10,
+                      "minutes": 0,
+                      "seconds": 0,
+                      "nanos": 0
+                    },
+                    "endTime": {
+                      "hours": 21,
+                      "minutes": 30,
+                      "seconds": 0,
+                      "nanos": 0
+                    }
+                  },
+                  {
+                    "day": 2,
+                    "startTime": {
+                      "hours": 10,
+                      "minutes": 0,
+                      "seconds": 0,
+                      "nanos": 0
+                    },
+                    "endTime": {
+                      "hours": 21,
+                      "minutes": 30,
+                      "seconds": 0,
+                      "nanos": 0
+                    }
+                  },
+                  {
+                    "day": 3,
+                    "startTime": {
+                      "hours": 10,
+                      "minutes": 0,
+                      "seconds": 0,
+                      "nanos": 0
+                    },
+                    "endTime": {
+                      "hours": 21,
+                      "minutes": 30,
+                      "seconds": 0,
+                      "nanos": 0
+                    }
+                  },
+                  {
+                    "day": 4,
+                    "startTime": {
+                      "hours": 10,
+                      "minutes": 0,
+                      "seconds": 0,
+                      "nanos": 0
+                    },
+                    "endTime": {
+                      "hours": 21,
+                      "minutes": 30,
+                      "seconds": 0,
+                      "nanos": 0
+                    }
+                  },
+                  {
+                    "day": 5,
+                    "startTime": {
+                      "hours": 10,
+                      "minutes": 0,
+                      "seconds": 0,
+                      "nanos": 0
+                    },
+                    "endTime": {
+                      "hours": 21,
+                      "minutes": 30,
+                      "seconds": 0,
+                      "nanos": 0
+                    }
+                  },
+                  {
+                    "day": 6,
+                    "startTime": {
+                      "hours": 10,
+                      "minutes": 0,
+                      "seconds": 0,
+                      "nanos": 0
+                    },
+                    "endTime": {
+                      "hours": 21,
+                      "minutes": 30,
+                      "seconds": 0,
+                      "nanos": 0
+                    }
+                  },
+                  {
+                    "day": 7,
+                    "startTime": {
+                      "hours": 10,
+                      "minutes": 0,
+                      "seconds": 0,
+                      "nanos": 0
+                    },
+                    "endTime": {
+                      "hours": 21,
+                      "minutes": 30,
+                      "seconds": 0,
+                      "nanos": 0
+                    }
+                  }
+                ],
+                "createTime": "2017-01-25T10:36:56.390Z",
+                "brandUid": "7cdd0085-719a-4493-be6f-0ba307e968d2",
+                "idempotencyKey": "",
+                "badges": [],
+                "notes": "",
+                "blockedReason": "",
+                "shortLink": "https://gofood.link/u/bw4Oq",
+                "nextCloseTime": "2026-02-25T14:30:00.000Z",
+                "brand": {
+                  "key": "tenants/gofood/brands/7cdd0085-719a-4493-be6f-0ba307e968d2",
+                  "tenantUid": "gofood",
+                  "uid": "7cdd0085-719a-4493-be6f-0ba307e968d2",
+                  "displayName": "Mie Mapan",
+                  "description": "",
+                  "idempotencyKey": ""
+                },
+                "tags": [
+                  {
+                    "key": "tenants/gofood/tags/CUISINE_BAKMIE",
+                    "tenantUid": "gofood",
+                    "uid": "CUISINE_BAKMIE",
+                    "displayName": "Bakmie",
+                    "description": "",
+                    "taxonomy": 2,
+                    "parentKey": ""
+                  },
+                  {
+                    "key": "tenants/gofood/tags/CUISINE_ANEKA_AYAM_BEBEK",
+                    "tenantUid": "gofood",
+                    "uid": "CUISINE_ANEKA_AYAM_BEBEK",
+                    "displayName": "Ayam & bebek",
+                    "description": "",
+                    "taxonomy": 2,
+                    "parentKey": ""
+                  }
+                ]
+              },
+              "delivery": {
+                "enabled": false,
+                "maxRadiusKm": 0,
+                "maxRouteKm": 0,
+                "maxItems": 0,
+                "eta": {
+                  "seconds": 1380,
+                  "nanos": 0
+                },
+                "distanceKm": 1.69,
+                "deliverable": true,
+                "handlingAndDeliveryFee": 0
+              },
+              "pickup": {
+                "enabled": false
+              },
+              "ratings": {
+                "average": 4.8,
+                "total": 0
+              },
+              "maf": {
+                "enabled": true,
+                "autoAcceptEnabled": false
+              },
+              "media": {
+                "logoImgUrl": "",
+                "coverImgUrl": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/43d161bb-e711-4fb0-9909-2af36ba95bdd_Go-Food-Merchant_20260204_111328.jpeg"
+              },
+              "view": 0,
+              "priceLevel": 4,
+              "brandOutletsGrouped": false,
+              "offers": [],
+              "cannedReviews": [],
+              "offeringToken": "",
+              "path": "/surabaya/restaurant/mie-mapan-pakuwon-city-mall-0fc57cda-a004-4a16-9b43-2ff88d3c754d"
+            },
+            {
+              "key": "tenants/gofood/outlets/331719f5-1425-404c-a7fc-e65d53cb9920",
+              "tenantUid": "gofood",
+              "uid": "331719f5-1425-404c-a7fc-e65d53cb9920",
+              "core": {
+                "key": "tenants/gofood/outlets/331719f5-1425-404c-a7fc-e65d53cb9920",
+                "tenantUid": "gofood",
+                "uid": "331719f5-1425-404c-a7fc-e65d53cb9920",
+                "displayName": "Chatime, Pakuwon City Mall",
+                "description": "",
+                "highlights": [],
+                "location": {
+                  "latitude": -7.2768486,
+                  "longitude": 112.8061607
+                },
+                "countryCode": "ID",
+                "timeZone": "Asia/Jakarta",
+                "serviceArea": {
+                  "id": 4,
+                  "name": "",
+                  "zoneId": 0,
+                  "zoneName": ""
+                },
+                "status": 1,
+                "openPeriods": [
+                  {
+                    "day": 1,
+                    "startTime": {
+                      "hours": 10,
+                      "minutes": 0,
+                      "seconds": 0,
+                      "nanos": 0
+                    },
+                    "endTime": {
+                      "hours": 21,
+                      "minutes": 45,
+                      "seconds": 0,
+                      "nanos": 0
+                    }
+                  },
+                  {
+                    "day": 2,
+                    "startTime": {
+                      "hours": 10,
+                      "minutes": 0,
+                      "seconds": 0,
+                      "nanos": 0
+                    },
+                    "endTime": {
+                      "hours": 21,
+                      "minutes": 45,
+                      "seconds": 0,
+                      "nanos": 0
+                    }
+                  },
+                  {
+                    "day": 3,
+                    "startTime": {
+                      "hours": 10,
+                      "minutes": 0,
+                      "seconds": 0,
+                      "nanos": 0
+                    },
+                    "endTime": {
+                      "hours": 21,
+                      "minutes": 45,
+                      "seconds": 0,
+                      "nanos": 0
+                    }
+                  },
+                  {
+                    "day": 4,
+                    "startTime": {
+                      "hours": 10,
+                      "minutes": 0,
+                      "seconds": 0,
+                      "nanos": 0
+                    },
+                    "endTime": {
+                      "hours": 21,
+                      "minutes": 45,
+                      "seconds": 0,
+                      "nanos": 0
+                    }
+                  },
+                  {
+                    "day": 5,
+                    "startTime": {
+                      "hours": 10,
+                      "minutes": 0,
+                      "seconds": 0,
+                      "nanos": 0
+                    },
+                    "endTime": {
+                      "hours": 21,
+                      "minutes": 45,
+                      "seconds": 0,
+                      "nanos": 0
+                    }
+                  },
+                  {
+                    "day": 6,
+                    "startTime": {
+                      "hours": 10,
+                      "minutes": 0,
+                      "seconds": 0,
+                      "nanos": 0
+                    },
+                    "endTime": {
+                      "hours": 21,
+                      "minutes": 45,
+                      "seconds": 0,
+                      "nanos": 0
+                    }
+                  },
+                  {
+                    "day": 7,
+                    "startTime": {
+                      "hours": 10,
+                      "minutes": 0,
+                      "seconds": 0,
+                      "nanos": 0
+                    },
+                    "endTime": {
+                      "hours": 21,
+                      "minutes": 45,
+                      "seconds": 0,
+                      "nanos": 0
+                    }
+                  }
+                ],
+                "createTime": "2016-06-20T10:23:15.400Z",
+                "brandUid": "0b34748d-8cf2-4404-b224-8bf323996538",
+                "idempotencyKey": "",
+                "badges": [],
+                "notes": "",
+                "blockedReason": "",
+                "shortLink": "https://gofood.link/u/ROOJ",
+                "nextCloseTime": "2026-02-25T14:45:00.000Z",
+                "brand": {
+                  "key": "tenants/gofood/brands/0b34748d-8cf2-4404-b224-8bf323996538",
+                  "tenantUid": "gofood",
+                  "uid": "0b34748d-8cf2-4404-b224-8bf323996538",
+                  "displayName": "Chatime General",
+                  "description": "",
+                  "idempotencyKey": ""
+                },
+                "tags": [
+                  {
+                    "key": "tenants/gofood/tags/CUISINE_MINUMAN",
+                    "tenantUid": "gofood",
+                    "uid": "CUISINE_MINUMAN",
+                    "displayName": "Minuman",
+                    "description": "",
+                    "taxonomy": 2,
+                    "parentKey": ""
+                  },
+                  {
+                    "key": "tenants/gofood/tags/CUISINE_COFFEE_SHOP",
+                    "tenantUid": "gofood",
+                    "uid": "CUISINE_COFFEE_SHOP",
+                    "displayName": "Kopi",
+                    "description": "",
+                    "taxonomy": 2,
+                    "parentKey": ""
+                  },
+                  {
+                    "key": "tenants/gofood/tags/CUISINE_SWEETS_DESSERTS",
+                    "tenantUid": "gofood",
+                    "uid": "CUISINE_SWEETS_DESSERTS",
+                    "displayName": "Sweets",
+                    "description": "",
+                    "taxonomy": 2,
+                    "parentKey": ""
+                  }
+                ]
+              },
+              "delivery": {
+                "enabled": false,
+                "maxRadiusKm": 0,
+                "maxRouteKm": 0,
+                "maxItems": 0,
+                "eta": {
+                  "seconds": 1500,
+                  "nanos": 0
+                },
+                "distanceKm": 1.7,
+                "deliverable": true,
+                "handlingAndDeliveryFee": 0
+              },
+              "pickup": {
+                "enabled": false
+              },
+              "ratings": {
+                "average": 4.9,
+                "total": 0
+              },
+              "maf": {
+                "enabled": true,
+                "autoAcceptEnabled": true
+              },
+              "media": {
+                "logoImgUrl": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/559449f3-138e-489c-b1da-0bdeca8bfccc_brand-logo_1589279955952.jpg",
+                "coverImgUrl": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/5f9d8bc9-e935-4cd3-b881-e0949b047440_brand-image_1770695075867.jpg"
+              },
+              "view": 0,
+              "priceLevel": 3,
+              "brandOutletsGrouped": false,
+              "offers": [],
+              "cannedReviews": [],
+              "offeringToken": "",
+              "path": "/surabaya/restaurant/chatime-pakuwon-city-mall-331719f5-1425-404c-a7fc-e65d53cb9920"
+            },
+            {
+              "key": "tenants/gofood/outlets/daf7f846-812a-49a7-bfef-153610799af2",
+              "tenantUid": "gofood",
+              "uid": "daf7f846-812a-49a7-bfef-153610799af2",
+              "core": {
+                "key": "tenants/gofood/outlets/daf7f846-812a-49a7-bfef-153610799af2",
+                "tenantUid": "gofood",
+                "uid": "daf7f846-812a-49a7-bfef-153610799af2",
+                "displayName": "House Of Wok, East Coast Center",
+                "description": "",
+                "highlights": [],
+                "location": {
+                  "latitude": -7.276670280113849,
+                  "longitude": 112.8060923002704
+                },
+                "countryCode": "ID",
+                "timeZone": "Asia/Jakarta",
+                "serviceArea": {
+                  "id": 4,
+                  "name": "",
+                  "zoneId": 0,
+                  "zoneName": ""
+                },
+                "status": 1,
+                "openPeriods": [
+                  {
+                    "day": 1,
+                    "startTime": {
+                      "hours": 10,
+                      "minutes": 0,
+                      "seconds": 0,
+                      "nanos": 0
+                    },
+                    "endTime": {
+                      "hours": 21,
+                      "minutes": 45,
+                      "seconds": 0,
+                      "nanos": 0
+                    }
+                  },
+                  {
+                    "day": 2,
+                    "startTime": {
+                      "hours": 10,
+                      "minutes": 0,
+                      "seconds": 0,
+                      "nanos": 0
+                    },
+                    "endTime": {
+                      "hours": 21,
+                      "minutes": 45,
+                      "seconds": 0,
+                      "nanos": 0
+                    }
+                  },
+                  {
+                    "day": 3,
+                    "startTime": {
+                      "hours": 10,
+                      "minutes": 0,
+                      "seconds": 0,
+                      "nanos": 0
+                    },
+                    "endTime": {
+                      "hours": 21,
+                      "minutes": 45,
+                      "seconds": 0,
+                      "nanos": 0
+                    }
+                  },
+                  {
+                    "day": 4,
+                    "startTime": {
+                      "hours": 10,
+                      "minutes": 0,
+                      "seconds": 0,
+                      "nanos": 0
+                    },
+                    "endTime": {
+                      "hours": 21,
+                      "minutes": 45,
+                      "seconds": 0,
+                      "nanos": 0
+                    }
+                  },
+                  {
+                    "day": 5,
+                    "startTime": {
+                      "hours": 10,
+                      "minutes": 0,
+                      "seconds": 0,
+                      "nanos": 0
+                    },
+                    "endTime": {
+                      "hours": 21,
+                      "minutes": 45,
+                      "seconds": 0,
+                      "nanos": 0
+                    }
+                  },
+                  {
+                    "day": 6,
+                    "startTime": {
+                      "hours": 10,
+                      "minutes": 0,
+                      "seconds": 0,
+                      "nanos": 0
+                    },
+                    "endTime": {
+                      "hours": 21,
+                      "minutes": 45,
+                      "seconds": 0,
+                      "nanos": 0
+                    }
+                  },
+                  {
+                    "day": 7,
+                    "startTime": {
+                      "hours": 10,
+                      "minutes": 0,
+                      "seconds": 0,
+                      "nanos": 0
+                    },
+                    "endTime": {
+                      "hours": 21,
+                      "minutes": 45,
+                      "seconds": 0,
+                      "nanos": 0
+                    }
+                  }
+                ],
+                "createTime": "2017-02-06T08:41:00.661Z",
+                "brandUid": "f77ae5fb-65f0-4d90-a072-d2bdd1f4b4ca",
+                "idempotencyKey": "",
+                "badges": [],
+                "notes": "",
+                "blockedReason": "",
+                "shortLink": "https://gofood.link/u/4Ly3K",
+                "nextCloseTime": "2026-02-25T14:45:00.000Z",
+                "brand": {
+                  "key": "tenants/gofood/brands/f77ae5fb-65f0-4d90-a072-d2bdd1f4b4ca",
+                  "tenantUid": "gofood",
+                  "uid": "f77ae5fb-65f0-4d90-a072-d2bdd1f4b4ca",
+                  "displayName": "House of Wok",
+                  "description": "",
+                  "idempotencyKey": ""
+                },
+                "tags": [
+                  {
+                    "key": "tenants/gofood/tags/CUISINE_BAKMIE",
+                    "tenantUid": "gofood",
+                    "uid": "CUISINE_BAKMIE",
+                    "displayName": "Bakmie",
+                    "description": "",
+                    "taxonomy": 2,
+                    "parentKey": ""
+                  },
+                  {
+                    "key": "tenants/gofood/tags/CUISINE_ANEKA_NASI",
+                    "tenantUid": "gofood",
+                    "uid": "CUISINE_ANEKA_NASI",
+                    "displayName": "Aneka nasi",
+                    "description": "",
+                    "taxonomy": 2,
+                    "parentKey": ""
+                  }
+                ]
+              },
+              "delivery": {
+                "enabled": false,
+                "maxRadiusKm": 0,
+                "maxRouteKm": 0,
+                "maxItems": 0,
+                "eta": {
+                  "seconds": 1560,
+                  "nanos": 0
+                },
+                "distanceKm": 1.72,
+                "deliverable": true,
+                "handlingAndDeliveryFee": 0
+              },
+              "pickup": {
+                "enabled": true
+              },
+              "ratings": {
+                "average": 4.8,
+                "total": 0
+              },
+              "maf": {
+                "enabled": true,
+                "autoAcceptEnabled": false
+              },
+              "media": {
+                "logoImgUrl": "",
+                "coverImgUrl": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/8e089fb8-08da-474a-8654-ec4fd2b80b6f_restaurant-image_1614655852304.jpg"
+              },
+              "view": 0,
+              "priceLevel": 3,
+              "brandOutletsGrouped": false,
+              "offers": [],
+              "cannedReviews": [],
+              "offeringToken": "",
+              "path": "/surabaya/restaurant/house-of-wok-east-coast-center-daf7f846-812a-49a7-bfef-153610799af2"
+            }
+          ],
+          "seeAllUrl": "/surabaya/sukolilo-restaurants/near_me"
+        },
+        {
+          "title": "Cek yang lagi trending, yuk",
+          "description": "Coba makanan yang lagi hits di GoFood.",
+          "type": "OUTLET",
+          "data": [
+            {
+              "key": "tenants/gofood/outlets/4f4e1a55-0197-4bdb-b431-2bff13b80389",
+              "tenantUid": "gofood",
+              "uid": "4f4e1a55-0197-4bdb-b431-2bff13b80389",
+              "core": {
+                "key": "tenants/gofood/outlets/4f4e1a55-0197-4bdb-b431-2bff13b80389",
+                "tenantUid": "gofood",
+                "uid": "4f4e1a55-0197-4bdb-b431-2bff13b80389",
+                "displayName": "Bakwan & Mie Santun, Sukolilo",
+                "description": "",
+                "highlights": [],
+                "location": {
+                  "latitude": -7.292477251551675,
+                  "longitude": 112.81124521046877
+                },
+                "countryCode": "ID",
+                "timeZone": "Asia/Jakarta",
+                "serviceArea": {
+                  "id": 4,
+                  "name": "",
+                  "zoneId": 0,
+                  "zoneName": ""
+                },
+                "status": 1,
+                "openPeriods": [
+                  {
+                    "day": 4,
+                    "startTime": {
+                      "hours": 7,
+                      "minutes": 0,
+                      "seconds": 0,
+                      "nanos": 0
+                    },
+                    "endTime": {
+                      "hours": 22,
+                      "minutes": 0,
+                      "seconds": 0,
+                      "nanos": 0
+                    }
+                  },
+                  {
+                    "day": 5,
+                    "startTime": {
+                      "hours": 7,
+                      "minutes": 0,
+                      "seconds": 0,
+                      "nanos": 0
+                    },
+                    "endTime": {
+                      "hours": 22,
+                      "minutes": 0,
+                      "seconds": 0,
+                      "nanos": 0
+                    }
+                  },
+                  {
+                    "day": 6,
+                    "startTime": {
+                      "hours": 7,
+                      "minutes": 0,
+                      "seconds": 0,
+                      "nanos": 0
+                    },
+                    "endTime": {
+                      "hours": 22,
+                      "minutes": 0,
+                      "seconds": 0,
+                      "nanos": 0
+                    }
+                  },
+                  {
+                    "day": 7,
+                    "startTime": {
+                      "hours": 7,
+                      "minutes": 0,
+                      "seconds": 0,
+                      "nanos": 0
+                    },
+                    "endTime": {
+                      "hours": 22,
+                      "minutes": 0,
+                      "seconds": 0,
+                      "nanos": 0
+                    }
+                  },
+                  {
+                    "day": 1,
+                    "startTime": {
+                      "hours": 7,
+                      "minutes": 0,
+                      "seconds": 0,
+                      "nanos": 0
+                    },
+                    "endTime": {
+                      "hours": 22,
+                      "minutes": 0,
+                      "seconds": 0,
+                      "nanos": 0
+                    }
+                  },
+                  {
+                    "day": 2,
+                    "startTime": {
+                      "hours": 7,
+                      "minutes": 0,
+                      "seconds": 0,
+                      "nanos": 0
+                    },
+                    "endTime": {
+                      "hours": 22,
+                      "minutes": 0,
+                      "seconds": 0,
+                      "nanos": 0
+                    }
+                  },
+                  {
+                    "day": 3,
+                    "startTime": {
+                      "hours": 7,
+                      "minutes": 0,
+                      "seconds": 0,
+                      "nanos": 0
+                    },
+                    "endTime": {
+                      "hours": 22,
+                      "minutes": 0,
+                      "seconds": 0,
+                      "nanos": 0
+                    }
+                  }
+                ],
+                "createTime": "2025-01-30T09:23:51.780Z",
+                "brandUid": "9218f1df-7f4d-4f7c-a3bf-8a965031475c",
+                "idempotencyKey": "",
+                "badges": [],
+                "notes": "",
+                "blockedReason": "",
+                "shortLink": "https://gofood.link/a/PdyKpQ1",
+                "nextCloseTime": "2026-02-25T15:00:00.000Z",
+                "brand": {
+                  "key": "tenants/gofood/brands/9218f1df-7f4d-4f7c-a3bf-8a965031475c",
+                  "tenantUid": "gofood",
+                  "uid": "9218f1df-7f4d-4f7c-a3bf-8a965031475c",
+                  "displayName": "Bakwan Santun",
+                  "description": "",
+                  "idempotencyKey": ""
+                },
+                "tags": [
+                  {
+                    "key": "tenants/gofood/tags/CUISINE_SOTO_BAKSO_SOP",
+                    "tenantUid": "gofood",
+                    "uid": "CUISINE_SOTO_BAKSO_SOP",
+                    "displayName": "Bakso & soto",
+                    "description": "",
+                    "taxonomy": 2,
+                    "parentKey": ""
+                  },
+                  {
+                    "key": "tenants/gofood/tags/CUISINE_BAKMIE",
+                    "tenantUid": "gofood",
+                    "uid": "CUISINE_BAKMIE",
+                    "displayName": "Bakmie",
+                    "description": "",
+                    "taxonomy": 2,
+                    "parentKey": ""
+                  },
+                  {
+                    "key": "tenants/gofood/tags/CUISINE_CHINESE",
+                    "tenantUid": "gofood",
+                    "uid": "CUISINE_CHINESE",
+                    "displayName": "Chinese",
+                    "description": "",
+                    "taxonomy": 2,
+                    "parentKey": ""
+                  }
+                ]
+              },
+              "delivery": {
+                "enabled": false,
+                "maxRadiusKm": 0,
+                "maxRouteKm": 0,
+                "maxItems": 0,
+                "eta": {
+                  "seconds": 1500,
+                  "nanos": 0
+                },
+                "distanceKm": 0.75,
+                "deliverable": true,
+                "handlingAndDeliveryFee": 0
+              },
+              "pickup": {
+                "enabled": false
+              },
+              "ratings": {
+                "average": 4.8,
+                "total": 0
+              },
+              "maf": {
+                "enabled": true,
+                "autoAcceptEnabled": false
+              },
+              "media": {
+                "logoImgUrl": "",
+                "coverImgUrl": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/3368ad2d-6b9d-4cfc-ae85-93c7bd933c10_Go-Food-Merchant_20251017_174649.jpeg"
+              },
+              "view": 0,
+              "priceLevel": 1,
+              "brandOutletsGrouped": false,
+              "offers": [],
+              "cannedReviews": [],
+              "offeringToken": "",
+              "path": "/surabaya/restaurant/bakwan-mie-santun-sukolilo-4f4e1a55-0197-4bdb-b431-2bff13b80389"
+            },
+            {
+              "key": "tenants/gofood/outlets/230017ce-18c8-49dd-a45c-4cd5b6a45b3d",
+              "tenantUid": "gofood",
+              "uid": "230017ce-18c8-49dd-a45c-4cd5b6a45b3d",
+              "core": {
+                "key": "tenants/gofood/outlets/230017ce-18c8-49dd-a45c-4cd5b6a45b3d",
+                "tenantUid": "gofood",
+                "uid": "230017ce-18c8-49dd-a45c-4cd5b6a45b3d",
+                "displayName": "Ayam Geprek Mbah Man",
+                "description": "",
+                "highlights": [],
+                "location": {
+                  "latitude": -7.284169057712133,
+                  "longitude": 112.80704822391272
+                },
+                "countryCode": "ID",
+                "timeZone": "Asia/Jakarta",
+                "serviceArea": {
+                  "id": 4,
+                  "name": "",
+                  "zoneId": 0,
+                  "zoneName": ""
+                },
+                "status": 1,
+                "openPeriods": [
+                  {
+                    "day": 1,
+                    "startTime": {
+                      "hours": 6,
+                      "minutes": 0,
+                      "seconds": 0,
+                      "nanos": 0
+                    },
+                    "endTime": {
+                      "hours": 21,
+                      "minutes": 0,
+                      "seconds": 0,
+                      "nanos": 0
+                    }
+                  },
+                  {
+                    "day": 2,
+                    "startTime": {
+                      "hours": 6,
+                      "minutes": 0,
+                      "seconds": 0,
+                      "nanos": 0
+                    },
+                    "endTime": {
+                      "hours": 21,
+                      "minutes": 0,
+                      "seconds": 0,
+                      "nanos": 0
+                    }
+                  },
+                  {
+                    "day": 3,
+                    "startTime": {
+                      "hours": 6,
+                      "minutes": 0,
+                      "seconds": 0,
+                      "nanos": 0
+                    },
+                    "endTime": {
+                      "hours": 21,
+                      "minutes": 0,
+                      "seconds": 0,
+                      "nanos": 0
+                    }
+                  },
+                  {
+                    "day": 4,
+                    "startTime": {
+                      "hours": 6,
+                      "minutes": 0,
+                      "seconds": 0,
+                      "nanos": 0
+                    },
+                    "endTime": {
+                      "hours": 21,
+                      "minutes": 30,
+                      "seconds": 0,
+                      "nanos": 0
+                    }
+                  },
+                  {
+                    "day": 5,
+                    "startTime": {
+                      "hours": 9,
+                      "minutes": 0,
+                      "seconds": 0,
+                      "nanos": 0
+                    },
+                    "endTime": {
+                      "hours": 21,
+                      "minutes": 0,
+                      "seconds": 0,
+                      "nanos": 0
+                    }
+                  },
+                  {
+                    "day": 6,
+                    "startTime": {
+                      "hours": 6,
+                      "minutes": 0,
+                      "seconds": 0,
+                      "nanos": 0
+                    },
+                    "endTime": {
+                      "hours": 21,
+                      "minutes": 0,
+                      "seconds": 0,
+                      "nanos": 0
+                    }
+                  },
+                  {
+                    "day": 7,
+                    "startTime": {
+                      "hours": 6,
+                      "minutes": 0,
+                      "seconds": 0,
+                      "nanos": 0
+                    },
+                    "endTime": {
+                      "hours": 21,
+                      "minutes": 0,
+                      "seconds": 0,
+                      "nanos": 0
+                    }
+                  }
+                ],
+                "createTime": "2022-01-14T14:06:31.838Z",
+                "brandUid": "458f30a4-f2e9-4413-9fdf-4225281eccc2",
+                "idempotencyKey": "",
+                "badges": [],
+                "notes": "",
+                "blockedReason": "",
+                "shortLink": "https://gofood.link/a/D89QfUh",
+                "nextCloseTime": "2026-02-25T14:00:00.000Z",
+                "brand": {
+                  "key": "tenants/gofood/brands/458f30a4-f2e9-4413-9fdf-4225281eccc2",
+                  "tenantUid": "gofood",
+                  "uid": "458f30a4-f2e9-4413-9fdf-4225281eccc2",
+                  "displayName": "Ayam Geprek Mbah Man, Fika Suci Rahayu",
+                  "description": "",
+                  "idempotencyKey": ""
+                },
+                "tags": [
+                  {
+                    "key": "tenants/gofood/tags/CUISINE_MINUMAN",
+                    "tenantUid": "gofood",
+                    "uid": "CUISINE_MINUMAN",
+                    "displayName": "Minuman",
+                    "description": "",
+                    "taxonomy": 2,
+                    "parentKey": ""
+                  },
+                  {
+                    "key": "tenants/gofood/tags/CUISINE_ANEKA_NASI",
+                    "tenantUid": "gofood",
+                    "uid": "CUISINE_ANEKA_NASI",
+                    "displayName": "Aneka nasi",
+                    "description": "",
+                    "taxonomy": 2,
+                    "parentKey": ""
+                  },
+                  {
+                    "key": "tenants/gofood/tags/CUISINE_ANEKA_AYAM_BEBEK",
+                    "tenantUid": "gofood",
+                    "uid": "CUISINE_ANEKA_AYAM_BEBEK",
+                    "displayName": "Ayam & bebek",
+                    "description": "",
+                    "taxonomy": 2,
+                    "parentKey": ""
+                  }
+                ]
+              },
+              "delivery": {
+                "enabled": false,
+                "maxRadiusKm": 0,
+                "maxRouteKm": 0,
+                "maxItems": 0,
+                "eta": {
+                  "seconds": 1080,
+                  "nanos": 0
+                },
+                "distanceKm": 1.14,
+                "deliverable": true,
+                "handlingAndDeliveryFee": 0
+              },
+              "pickup": {
+                "enabled": true
+              },
+              "ratings": {
+                "average": 4.7,
+                "total": 0
+              },
+              "maf": {
+                "enabled": true,
+                "autoAcceptEnabled": false
+              },
+              "media": {
+                "logoImgUrl": "",
+                "coverImgUrl": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/6743ca4c-4672-4fe8-baf4-d9e31f487d84_Go-Biz_20221115_170113.jpeg"
+              },
+              "view": 0,
+              "priceLevel": 2,
+              "brandOutletsGrouped": false,
+              "offers": [],
+              "cannedReviews": [],
+              "offeringToken": "",
+              "path": "/surabaya/restaurant/ayam-geprek-mbah-man-230017ce-18c8-49dd-a45c-4cd5b6a45b3d"
+            },
+            {
+              "key": "tenants/gofood/outlets/e12c7faa-3023-4595-ac8d-eeeeb41eb9f4",
+              "tenantUid": "gofood",
+              "uid": "e12c7faa-3023-4595-ac8d-eeeeb41eb9f4",
+              "core": {
+                "key": "tenants/gofood/outlets/e12c7faa-3023-4595-ac8d-eeeeb41eb9f4",
+                "tenantUid": "gofood",
+                "uid": "e12c7faa-3023-4595-ac8d-eeeeb41eb9f4",
+                "displayName": "Pawon Uti Keputih, Sukolilo",
+                "description": "",
+                "highlights": [],
+                "location": {
+                  "latitude": -7.289615860741919,
+                  "longitude": 112.80403409153224
+                },
+                "countryCode": "ID",
+                "timeZone": "Asia/Jakarta",
+                "serviceArea": {
+                  "id": 4,
+                  "name": "",
+                  "zoneId": 0,
+                  "zoneName": ""
+                },
+                "status": 1,
+                "openPeriods": [
+                  {
+                    "day": 6,
+                    "startTime": {
+                      "hours": 9,
+                      "minutes": 0,
+                      "seconds": 0,
+                      "nanos": 0
+                    },
+                    "endTime": {
+                      "hours": 21,
+                      "minutes": 0,
+                      "seconds": 0,
+                      "nanos": 0
+                    }
+                  },
+                  {
+                    "day": 7,
+                    "startTime": {
+                      "hours": 9,
+                      "minutes": 0,
+                      "seconds": 0,
+                      "nanos": 0
+                    },
+                    "endTime": {
+                      "hours": 21,
+                      "minutes": 0,
+                      "seconds": 0,
+                      "nanos": 0
+                    }
+                  },
+                  {
+                    "day": 1,
+                    "startTime": {
+                      "hours": 9,
+                      "minutes": 0,
+                      "seconds": 0,
+                      "nanos": 0
+                    },
+                    "endTime": {
+                      "hours": 21,
+                      "minutes": 0,
+                      "seconds": 0,
+                      "nanos": 0
+                    }
+                  },
+                  {
+                    "day": 2,
+                    "startTime": {
+                      "hours": 9,
+                      "minutes": 0,
+                      "seconds": 0,
+                      "nanos": 0
+                    },
+                    "endTime": {
+                      "hours": 21,
+                      "minutes": 0,
+                      "seconds": 0,
+                      "nanos": 0
+                    }
+                  },
+                  {
+                    "day": 3,
+                    "startTime": {
+                      "hours": 9,
+                      "minutes": 0,
+                      "seconds": 0,
+                      "nanos": 0
+                    },
+                    "endTime": {
+                      "hours": 21,
+                      "minutes": 0,
+                      "seconds": 0,
+                      "nanos": 0
+                    }
+                  },
+                  {
+                    "day": 4,
+                    "startTime": {
+                      "hours": 9,
+                      "minutes": 0,
+                      "seconds": 0,
+                      "nanos": 0
+                    },
+                    "endTime": {
+                      "hours": 20,
+                      "minutes": 30,
+                      "seconds": 0,
+                      "nanos": 0
+                    }
+                  },
+                  {
+                    "day": 5,
+                    "startTime": {
+                      "hours": 9,
+                      "minutes": 0,
+                      "seconds": 0,
+                      "nanos": 0
+                    },
+                    "endTime": {
+                      "hours": 21,
+                      "minutes": 0,
+                      "seconds": 0,
+                      "nanos": 0
+                    }
+                  }
+                ],
+                "createTime": "2022-05-26T19:02:39.303Z",
+                "brandUid": "cae1b5c4-fe80-456f-b389-5c161b67c52b",
+                "idempotencyKey": "",
+                "badges": [],
+                "notes": "",
+                "blockedReason": "",
+                "shortLink": "https://gofood.link/a/EjLjQhd",
+                "nextCloseTime": "2026-02-25T14:00:00.000Z",
+                "brand": {
+                  "key": "tenants/gofood/brands/cae1b5c4-fe80-456f-b389-5c161b67c52b",
+                  "tenantUid": "gofood",
+                  "uid": "cae1b5c4-fe80-456f-b389-5c161b67c52b",
+                  "displayName": "Nasi Telor Gimbal - Kebonsari, Jambangan/Kebonsari/ElvekaVII, Partini Nur Aeni",
+                  "description": "",
+                  "idempotencyKey": ""
+                },
+                "tags": [
+                  {
+                    "key": "tenants/gofood/tags/CUISINE_SNACKS_JAJANAN",
+                    "tenantUid": "gofood",
+                    "uid": "CUISINE_SNACKS_JAJANAN",
+                    "displayName": "Jajanan",
+                    "description": "",
+                    "taxonomy": 2,
+                    "parentKey": ""
+                  },
+                  {
+                    "key": "tenants/gofood/tags/CUISINE_ANEKA_NASI",
+                    "tenantUid": "gofood",
+                    "uid": "CUISINE_ANEKA_NASI",
+                    "displayName": "Aneka nasi",
+                    "description": "",
+                    "taxonomy": 2,
+                    "parentKey": ""
+                  },
+                  {
+                    "key": "tenants/gofood/tags/CUISINE_FASTFOOD",
+                    "tenantUid": "gofood",
+                    "uid": "CUISINE_FASTFOOD",
+                    "displayName": "Cepat saji",
+                    "description": "",
+                    "taxonomy": 2,
+                    "parentKey": ""
+                  }
+                ]
+              },
+              "delivery": {
+                "enabled": false,
+                "maxRadiusKm": 0,
+                "maxRouteKm": 0,
+                "maxItems": 0,
+                "eta": {
+                  "seconds": 1020,
+                  "nanos": 0
+                },
+                "distanceKm": 1.39,
+                "deliverable": true,
+                "handlingAndDeliveryFee": 0
+              },
+              "pickup": {
+                "enabled": true
+              },
+              "ratings": {
+                "average": 4.8,
+                "total": 0
+              },
+              "maf": {
+                "enabled": true,
+                "autoAcceptEnabled": true
+              },
+              "media": {
+                "logoImgUrl": "",
+                "coverImgUrl": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/1c2d7f5d-43e5-4275-877d-e2c9e7eaa324_Go-Biz_20241228_234913.jpeg"
+              },
+              "view": 0,
+              "priceLevel": 2,
+              "brandOutletsGrouped": false,
+              "offers": [],
+              "cannedReviews": [],
+              "offeringToken": "",
+              "path": "/surabaya/restaurant/pawon-uti-keputih-sukolilo-e12c7faa-3023-4595-ac8d-eeeeb41eb9f4"
+            },
+            {
+              "key": "tenants/gofood/outlets/cdde99fc-0dae-4a27-89b4-bb10b3ac0e27",
+              "tenantUid": "gofood",
+              "uid": "cdde99fc-0dae-4a27-89b4-bb10b3ac0e27",
+              "core": {
+                "key": "tenants/gofood/outlets/cdde99fc-0dae-4a27-89b4-bb10b3ac0e27",
+                "tenantUid": "gofood",
+                "uid": "cdde99fc-0dae-4a27-89b4-bb10b3ac0e27",
+                "displayName": "Mie Marina Delivery, Sukolilo Keputih",
+                "description": "",
+                "highlights": [],
+                "location": {
+                  "latitude": -7.293351561763064,
+                  "longitude": 112.80487898737192
+                },
+                "countryCode": "ID",
+                "timeZone": "Asia/Jakarta",
+                "serviceArea": {
+                  "id": 4,
+                  "name": "",
+                  "zoneId": 0,
+                  "zoneName": ""
+                },
+                "status": 1,
+                "openPeriods": [
+                  {
+                    "day": 1,
+                    "startTime": {
+                      "hours": 8,
+                      "minutes": 0,
+                      "seconds": 0,
+                      "nanos": 0
+                    },
+                    "endTime": {
+                      "hours": 17,
+                      "minutes": 0,
+                      "seconds": 0,
+                      "nanos": 0
+                    }
+                  },
+                  {
+                    "day": 2,
+                    "startTime": {
+                      "hours": 8,
+                      "minutes": 0,
+                      "seconds": 0,
+                      "nanos": 0
+                    },
+                    "endTime": {
+                      "hours": 17,
+                      "minutes": 0,
+                      "seconds": 0,
+                      "nanos": 0
+                    }
+                  },
+                  {
+                    "day": 3,
+                    "startTime": {
+                      "hours": 8,
+                      "minutes": 30,
+                      "seconds": 0,
+                      "nanos": 0
+                    },
+                    "endTime": {
+                      "hours": 17,
+                      "minutes": 0,
+                      "seconds": 0,
+                      "nanos": 0
+                    }
+                  },
+                  {
+                    "day": 4,
+                    "startTime": {
+                      "hours": 8,
+                      "minutes": 30,
+                      "seconds": 0,
+                      "nanos": 0
+                    },
+                    "endTime": {
+                      "hours": 17,
+                      "minutes": 0,
+                      "seconds": 0,
+                      "nanos": 0
+                    }
+                  },
+                  {
+                    "day": 5,
+                    "startTime": {
+                      "hours": 8,
+                      "minutes": 0,
+                      "seconds": 0,
+                      "nanos": 0
+                    },
+                    "endTime": {
+                      "hours": 16,
+                      "minutes": 59,
+                      "seconds": 0,
+                      "nanos": 0
+                    }
+                  },
+                  {
+                    "day": 6,
+                    "startTime": {
+                      "hours": 8,
+                      "minutes": 0,
+                      "seconds": 0,
+                      "nanos": 0
+                    },
+                    "endTime": {
+                      "hours": 17,
+                      "minutes": 0,
+                      "seconds": 0,
+                      "nanos": 0
+                    }
+                  },
+                  {
+                    "day": 7,
+                    "startTime": {
+                      "hours": 8,
+                      "minutes": 0,
+                      "seconds": 0,
+                      "nanos": 0
+                    },
+                    "endTime": {
+                      "hours": 17,
+                      "minutes": 0,
+                      "seconds": 0,
+                      "nanos": 0
+                    }
+                  }
+                ],
+                "createTime": "2024-06-03T16:14:50.617Z",
+                "brandUid": "fe6b95b0-f6b3-40f9-b64e-98babe0c3532",
+                "idempotencyKey": "",
+                "badges": [],
+                "notes": "",
+                "blockedReason": "",
+                "shortLink": "https://gofood.link/a/M2PrYom",
+                "nextCloseTime": "2026-02-25T10:00:00.000Z",
+                "brand": {
+                  "key": "tenants/gofood/brands/fe6b95b0-f6b3-40f9-b64e-98babe0c3532",
+                  "tenantUid": "gofood",
+                  "uid": "fe6b95b0-f6b3-40f9-b64e-98babe0c3532",
+                  "displayName": "Mie Marina Delivery, Sukolilo Keputih, Titin Suhartini",
+                  "description": "",
+                  "idempotencyKey": ""
+                },
+                "tags": [
+                  {
+                    "key": "tenants/gofood/tags/CUISINE_BAKMIE",
+                    "tenantUid": "gofood",
+                    "uid": "CUISINE_BAKMIE",
+                    "displayName": "Bakmie",
+                    "description": "",
+                    "taxonomy": 2,
+                    "parentKey": ""
+                  },
+                  {
+                    "key": "tenants/gofood/tags/CUISINE_ANEKA_NASI",
+                    "tenantUid": "gofood",
+                    "uid": "CUISINE_ANEKA_NASI",
+                    "displayName": "Aneka nasi",
+                    "description": "",
+                    "taxonomy": 2,
+                    "parentKey": ""
+                  },
+                  {
+                    "key": "tenants/gofood/tags/CUISINE_FASTFOOD",
+                    "tenantUid": "gofood",
+                    "uid": "CUISINE_FASTFOOD",
+                    "displayName": "Cepat saji",
+                    "description": "",
+                    "taxonomy": 2,
+                    "parentKey": ""
+                  }
+                ]
+              },
+              "delivery": {
+                "enabled": false,
+                "maxRadiusKm": 0,
+                "maxRouteKm": 0,
+                "maxItems": 0,
+                "eta": {
+                  "seconds": 900,
+                  "nanos": 0
+                },
+                "distanceKm": 1.41,
+                "deliverable": true,
+                "handlingAndDeliveryFee": 0
+              },
+              "pickup": {
+                "enabled": false
+              },
+              "ratings": {
+                "average": 4.9,
+                "total": 0
+              },
+              "maf": {
+                "enabled": true,
+                "autoAcceptEnabled": false
+              },
+              "media": {
+                "logoImgUrl": "",
+                "coverImgUrl": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/5e0eaf3d-c708-4306-9052-87464a1eeee2_Go-Biz_20240623_130032.jpeg"
+              },
+              "view": 0,
+              "priceLevel": 2,
+              "brandOutletsGrouped": false,
+              "offers": [],
+              "cannedReviews": [],
+              "offeringToken": "",
+              "path": "/surabaya/restaurant/mie-marina-delivery-sukolilo-keputih-cdde99fc-0dae-4a27-89b4-bb10b3ac0e27"
+            }
+          ],
+          "seeAllUrl": "/surabaya/sukolilo-restaurants/most_loved"
+        }
+      ],
+      "__lang": "id",
+      "__namespaces": {
+        "common": {
+          "see_all": "Lihat semua",
+          "explore": "Explore",
+          "load_more": "Muat lebih banyak",
+          "more_outlets_cta": "Cabang lainnya",
+          "failed_load_more": "Yah, kontennya gagal ditampilkan. Coba muat ulang, ya.",
+          "failed_load_data": "Yah, halamannya gagal dimuat. Coba muat ulang, ya.",
+          "failed_general": "Ups, ada yang salah nih. Coba muat ulang, ya.",
+          "failed_network_error": "Yah, koneksinya terputus tadi. Yuk, dicoba lagi.",
+          "failed_cta": "Ok",
+          "restaurants": "Restoran",
+          "privacy_policy": "Kebijakan privasi",
+          "terms_of_service": "Syarat dan ketentuan",
+          "download_on_app_store": "Unduh di App Store",
+          "download_on_play_store": "Unduh di Play Store",
+          "follow_us": "Ikuti kami",
+          "footer_trademark": "© {{ year }} Gojek | Gojek adalah merek milik PT GoTo Gojek Tokopedia Tbk. Terdaftar pada Direktorat Jendral Kekayaan Intelektual Republik Indonesia.",
+          "error_general_desc": "Bisa jadi halaman ini gagal dimuat atau sudah tidak ada lagi. Kamu bisa coba lagi atau cari lokasi yang lain, ya.",
+          "error_server_title": "Ups! Harusnya kamu gak melihat ini...",
+          "view_resto_cta": "Tampilkan semua resto",
+          "show_recommendation_cta": "Lihat semua",
+          "show_cuisines_cta": "Tampilkan kuliner lainnya",
+          "show_popular_brand_cta": "Lihat semua",
+          "home": "Beranda",
+          "collections": "Rekomendasi",
+          "gofood_pas": "GoFood HEMAT",
+          "cities_title": "Kota-kota yang ada GoFood",
+          "cities_cta": "Tampilkan kota lainnya",
+          "cities_cta_show_all": "Tampilkan semua kota",
+          "error_not_found_title": "Kamu gak di-ghosting, kok. Beneran!",
+          "error_not_found_desc": "Gak ada yang bisa kami tampilkan saat ini, tapi kamu bisa coba lagi atau cari lokasi yang lain, kok.",
+          "error_rate_limited": "Your finger's lightning fast! Wait a few seconds before trying again.",
+          "error_unserviceable_title": "Waaah, kami belum sampai sana...",
+          "error_unserviceable_desc": "Kami akan terus memperbanyak wilayah layanan GoFood. Untuk sekarang, kamu masih bisa cari makan enak di lokasi lain.",
+          "error_no_location": "Yah, gak nemu lokasinya. Coba cek ejaannya.",
+          "download_banner_title": "Gak perlu repot lagi buat ngemanjain lidahmu, tinggal buka hape aja",
+          "download_banner_desc": "Nikmati banyak pilihan makanan, promo, dan fitur eksklusif di GoFood.",
+          "location_picker_bottomsheet_title": "Pilih lokasimu",
+          "location_picker_bottomsheet_illustration": "Aktifin layanan lokasi biar dapet rekomendasi yang pas di dekatmu",
+          "location_picker_placeholder": "Ketik lokasimu",
+          "location_picker_button": "Eksplor",
+          "location_picker_title": "Lokasimu",
+          "location_picker_desc1": "Mau cari makan di lokasi lain? Eksplor aja!",
+          "location_picker_desc2": "Kalo mau pindah lokasi, tinggal dicari aja, ya.",
+          "location_picker_desc3": "Penasaran ada apa di lokasi lain? Pindah aja.",
+          "location_detector": "Pakai lokasimu saat ini",
+          "location_picker_suggestions_title": "Location yang disarankan",
+          "toaster_turn_on_location": "Aktifin layanan lokasi biar dapet rekomendasi yang pas di dekatmu",
+          "toaster_error_get_location": "Gagal mendapatkan data lokasimu",
+          "toaster_new_account_title": "Hore!",
+          "toaster_new_account_subtitle": "Sekarang kamu udah bisa beli pakai GoFood.",
+          "see_other_collections": "Lihat rekomendasi lainnya",
+          "discount_off": "Diskon {{amount}}",
+          "discount_up_to": ", maks. {{amount}}",
+          "discount_total": "Total diskon s.d. {{amount}}",
+          "open": "Buka",
+          "closed": "Tutup",
+          "closing_soon": "Closing soon",
+          "unavailable": "Delivery gak tersedia",
+          "week_1": "Senin",
+          "week_2": "Selasa",
+          "week_3": "Rabu",
+          "week_4": "Kamis",
+          "week_5": "Jumat",
+          "week_6": "Sabtu",
+          "week_7": "Minggu",
+          "distance": "Jarak",
+          "certified": "Bersertifikat",
+          "new": "Baru",
+          "popular_countries": "Negara Populer",
+          "all_countries": "Semua Negara",
+          "login_signup": "Masuk",
+          "logout": "Keluar",
+          "ongoing_orders": "Pembelian",
+          "coachmark_ongoing_orders": "Mau pantau pembelianmu? Cek pembelian aktif & riwayatnya di sini.",
+          "open_app_title": "Pesen lewat aplikasi?",
+          "open_app_cta": "Buka app",
+          "promo": "Promo pengantaran",
+          "promo_subtitle": "Pilih promo yang kamu mau pas checkout.",
+          "count_promo_available": "Ada {{count}} promo nganggur",
+          "promo_eligible": "Siap pakai",
+          "promo_locked": "Cek detail untuk pakai promo ini",
+          "promo_applied": "Terpasang",
+          "apply_promo_title": "Pasang promo dulu, yuk",
+          "use_promo": "Pakai",
+          "apply_promo": "Pasang",
+          "remove": "Batalin",
+          "my_profile": "Profilku",
+          "read_more": "Selengkapnya",
+          "read_less": "Tutup",
+          "view": "Lihat",
+          "view_all": "Lihat semua",
+          "today_at": "Hari ini pukul",
+          "yesterday_at": "Kemarin pukul",
+          "tenant_generic_error_title": "Oops, something went wrong",
+          "tenant_generic_error_desc": "Please try closing and reopening GoFood on tenant to resolve the issue.",
+          "tenant_generic_error_cta": "Ok, got it",
+          "ongoing_order_title": "Kamu punya pembelian aktif",
+          "ongoing_order_cta": "Lacak",
+          "coachmark_pas": "Cara hemat ngeGoFood. Harga termasuk ongkir, tanpa syarat!",
+          "leave_pas_title": "Keluar dari halaman GoFood HEMAT?",
+          "leave_pas_desc": "Menu yang ada di keranjang gak akan dihapus, buat kamu lihat nanti.",
+          "leave_pas_primary_btn": "Cek lagi",
+          "leave_pas_secondary_btn": "Eksplor GoFood"
+        },
+        "outlet": {
+          "price_level_0": "Kisaran harga",
+          "price_level_1": "Dibawah 16rb",
+          "price_level_2": "16rb-40rb",
+          "price_level_3": "40rb-100rb",
+          "price_level_4": "Diatas 100rb",
+          "no_outlet": "Waah, masih kosong nih...",
+          "no_outlet_desc": "Belum dikurasi nih rekomendasinya. Buat sekarang, kamu bisa cek rekomendasi lainnya.",
+          "ratings": "rating",
+          "review_highlighted": "Apa kata pelanggan",
+          "review_all": "Semua ulasan",
+          "review_latest_ratings": "Rating terbaru",
+          "review_user_since": "Pengguna Gojek sejak",
+          "review_merchant_reply": "Balasan dari",
+          "review_ordered_on": "Dibeli tanggal",
+          "button_content_menu": "Menu",
+          "button_content_reviews": "Ulasan",
+          "button_menu_open": "Menu",
+          "button_menu_close": "Tutup menu",
+          "open_hours": "Jam buka",
+          "recommended": "Rekomendasi",
+          "bestseller": "Bestseller",
+          "resto_rating": "Rating resto",
+          "empty_review_title": "Restonya belum punya ulasan",
+          "see_reviews": "Cek ulasan",
+          "add_to_cart": "Tambah ke keranjang - {{price}}",
+          "update_cart": "Perbaharui keranjang - {{price}}",
+          "remove_item": "Hapus item",
+          "remove_notes": "Hapus catatan",
+          "customize_item": "Custom item",
+          "customize_another": "Tambah custom-an lain",
+          "notes_label": "Catatan",
+          "notes_placeholder": "Contoh: banyakin porsinya, ya",
+          "how_many": "Mau berapa?",
+          "not_customizing": "Tidak dicustom.",
+          "notes": "Catatan",
+          "edit_notes": "Ubah catatan",
+          "edit": "Ubah",
+          "add": "Tambah",
+          "customizable": "Dapat dicustom",
+          "out_of_stock": "Habis",
+          "out_of_stock_items": "{{count}} habis",
+          "free": "gratis",
+          "promo": "Promo",
+          "promo_nudge_ready": "Kamu bakal hemat {{number}}",
+          "promo_nudge_add_more": "Tambah {{number_add}} lagi buat hemat {{number_save}}",
+          "promo_nudge_saved": "Kamu hemat {{number}}",
+          "qty_items": "{{count}} menu",
+          "required": "Wajib",
+          "optional": "Opsional",
+          "required_field_error": "Pilih bagaimana akan dicustom",
+          "field_hint_select_1": "Pilih 1",
+          "field_hint_select_multiple": "Pilih hingga {{number}}",
+          "field_hint_select_multiple_from": "Pilih {{number_from}} hingga {{number_to}}",
+          "outlet_unavailable": "Belum bisa pesen di resto dan area ini. Eksplor resto lain, yuk.",
+          "availability_force_close": "Tutup • Cek lagi nanti",
+          "availability_close": "Tutup",
+          "availability_open_today": "Tutup • Buka hari ini jam {{hour}}",
+          "availability_open_tomorrow": "Tutup • Buka besok jam {{hour}}",
+          "availability_open_day": "Tutup • Buka hari {{day_name}} jam {{hour}}"
+        },
+        "meta": {
+          "default_title": "Cicipin macam-macam resto paling top",
+          "default_description": "Cari-cari makanan enak, pilih yang kamu suka, dan GoFood bisa mengantarkannya untuk kamu.",
+          "404_page_title": "Oops! Halaman tidak ditemukan",
+          "server_error_page_title": "Oops! Terjadi kesalahan di server",
+          "unserviceable_page_title": "Oops! Lokasi ini tidak dapat ditemukan",
+          "landing_page_title": "Restoran di {{location}}",
+          "collections_page_title": "Rekomendasi Restoran",
+          "detail_category_page_title": "Restoran {{category}} di {{location}}",
+          "detail_brand_page_title": "{{brand}} di {{location}}",
+          "orders_page_title": "Your purchases",
+          "order_page_title": "Transaction number {{order_number}}",
+          "checkout_page_title": "Checkout",
+          "ecard_page_title": "Kartu Ucapan"
+        },
+        "cart": {
+          "your-order": "Pembelianmu",
+          "customization": "Customization",
+          "add-more": "Tambah",
+          "total-amount": "Total harga",
+          "checkout": "Lanjut checkout",
+          "checkout_guest": "Masuk buat beli",
+          "empty-cart": "Masih kosong, nih. Yuk, eksplor koleksi makanan di GoFood yang bisa jadi favorit kamu.",
+          "items-count_one": "{{count}} item",
+          "items-count_other": "{{count}} item",
+          "outlet_delivery": "Diantar dari {{outletName}}"
+        },
+        "error-modal": {
+          "total_price_above_limit_title": "Wah, belanjaannya udah penuh",
+          "total_price_above_limit_desc": "Terima kasih buat pembeliannya, tapi maksimum pembelian makanan adalah Rp2.000.000.",
+          "cart_too_big_primary_btn": "Oke",
+          "change_merchant_title": "Mau ganti beli dari resto ini aja?",
+          "change_merchant_desc": "Boleh, kok. Tapi, menu yang kamu pilih dari resto sebelumnya kami hapus, ya.",
+          "change_merchant_primary_btn": "Iya, ganti",
+          "change_merchant_secondary_btn": "Gak jadi",
+          "driver_cancelled_title": "Driver has cancelled your purchase",
+          "driver_cancelled_desc": "Let’s move on and find you another one. Shall we?",
+          "driver_cancelled_primary_btn": "Try again",
+          "drivers_busy_title": "Yah, semua driver lagi sibuk",
+          "drivers_busy_desc": "Ayoo, jangan nyerah. Yuk, cari driver lagi buat pesenanmu dari {{ name }}.",
+          "drivers_busy_primary_btn": "Cek pembelianmu",
+          "empty_cart_title": "Semua menu udah dihapus",
+          "empty_cart_desc": "Mau cari resto lain? GoFood punya banyak resto yang bisa kamu eksplor, lho.",
+          "empty_cart_primary_btn": "Kembali ke halaman resto",
+          "no_internet_connection_title": "You seem to be offline",
+          "no_internet_connection_desc": "Check your Wi-Fi connection or cellular data and try again.",
+          "no_internet_connection_primary_btn": "Try again",
+          "order_cancelled_title": "Pembelian kamu udah dibatalin",
+          "order_cancelled_desc": "Semoga lain waktu kami bisa bantu kamu dapetin makanan enak, ya.",
+          "order_cancelled_primary_btn": "Oke, sip",
+          "item_out_of_stock_title": "Yah, stoknya lagi habis",
+          "item_out_of_stock_desc": "Hapus menu ini dulu, ya buat lanjut beli:",
+          "out_of_stock_primary_btn": "Oke",
+          "sku_quantity_above_limit_title": "Cek lagi pembelianmu, ya",
+          "sku_quantity_above_limit_desc_one": "Kamu cuma bisa beli maks. {{ max_count}} {{ name }} pakai diskon. Kurangi dulu sebelum lanjut, ya.",
+          "sku_quantity_above_limit_desc_other": "{{ name }} dan {{ item_count_left }} menu lainnya sudah melebihi kuota pembelian pakai diskon. Kurangin dulu sebelum lanjut, ya.",
+          "sku_quantity_above_limit_btn": "Oke",
+          "prevent_order_title": "Kamu udah ada beberapa pembelian aktif",
+          "prevent_order_desc": "Tunggu salah satu selesai dulu ya, baru abis itu coba beli lagi.",
+          "prevent_order_primary_btn": "Oke, siap",
+          "prevent_order_secondary_btn": "Lacak pembelian",
+          "total_quantity_above_limit_title": "Stok menu ini tinggal sedikit",
+          "total_quantity_above_limit_desc": "Kurangin dulu jumlah menu yang kamu mau biar bisa lanjut dibeli",
+          "qty_limit_primary_btn": "Oke",
+          "outlet_closed_title": "Restorannya keburu tutup 😖",
+          "outlet_closed_desc": "Menunya kita hapus dari keranjang, ya. Masih banyak resto yang buka, mau cek?",
+          "resto_closed_primary_btn": "Eksplor resto lain",
+          "delivery_distance_out_of_limit_title": "Wah... restorannya kejauhan",
+          "delivery_distance_out_of_limit_desc": "Biar makanan gak keburu dingin, cari restoran yang jaraknya lebih deket yuk!",
+          "resto_too_far_primary_btn": "Eksplor resto",
+          "resto_too_far_secondary_btn": "Ganti lokasi",
+          "gofood_plus_too_far_title": "Mau ganti lokasi pengantaran?",
+          "gofood_plus_too_far_desc": "Langganan Gojek PLUS bisa jadi gak terpasang, ya.",
+          "gofood_plus_too_far_primary_btn": "Oke, sip",
+          "gofood_plus_too_far_secondary_btn": "Gak jadi",
+          "gofood_plus_remove_item_title": "Mau hapus pesanan?",
+          "gofood_plus_remove_item_desc": "Promonya atau langganan Gojek PLUS gak terpasang kalau kamu hapus pesanan, ya.",
+          "gofood_plus_remove_item_primary_btn": "Iya, hapus",
+          "gofood_plus_remove_item_secondary_btn": "Gak jadi",
+          "affordable_offering_not_applicable_title": "GoFood HEMAT lagi gak bisa di resto ini",
+          "affordable_offering_not_applicable_desc": "Mau cek makanan dari resto lain? Ada banyak pilihan pas buatmu, lho.",
+          "affordable_offering_not_applicable_primary_btn": "Cari makanan lain",
+          "affordable_offering_no_longer_applicable_title": "Waktu pakai GoFood HEMAT di sini udah lewat",
+          "affordable_offering_no_longer_applicable_desc": "Yah, kamu kurang cepat belinya. Mau lihat-lihat dulu resto lain?",
+          "affordable_offering_no_longer_applicable_primary_btn": "Cari makanan lain",
+          "affordable_offering_not_applicable_location_changed_title": "Kamu baru ganti lokasi pengantaran",
+          "affordable_offering_not_applicable_location_changed_desc": "Kalau mau tetap pakai GoFood HEMAT, cari makanan dari resto terdekat, yuk.",
+          "affordable_offering_not_applicable_location_changed_primary_btn": "Cari makanan lain"
+        },
+        "action-modal": {
+          "default_primary_btn": "Oke",
+          "default_secondary_btn": "Cancel",
+          "order_confirmation_title": "Pastiin makanannya udah sesuai, ya",
+          "order_confirmation_desc": "Abis dikonfirmasi, Pembelian kamu gak bisa batal. Resto bakal langsung buat, biar cepat diantar.",
+          "order_confirmation_primary_btn": "Beli",
+          "order_confirmation_secondary_btn": "Cek kembali",
+          "session_expired_title": "Kamu keluar dari akunmu",
+          "session_expired_desc": "Masuk lagi, yuk buat pesen di GoFood. Demi keamanan akun, kamu akan keluar otomatis jika kamu gak aktif selama 24 jam.",
+          "session_expired_primary_btn": "Masuk",
+          "session_expired_secondary_btn": "Nanti aja",
+          "tenant_consent_denied_title": "Share your info to place the purchase",
+          "tenant_consent_denied_desc": "Sharing your name, phone number, and email will help drivers contact you easily about your purchase.",
+          "tenant_consent_denied_cta": "Ok, got it",
+          "tenant_location_denied_title": "Enable location service",
+          "tenant_location_denied_desc": "This helps us accurately pinpoint your location so you can get better recommendations.",
+          "tenant_location_denied_cta": "Ok, got it",
+          "ticket_submission_failed_title": "Laporanmu gagal dikirim",
+          "ticket_submission_failed_desc": "Coba lagi, ya sembari kami memperbaikinya.",
+          "ticket_submission_failed_primary_btn": "Oke",
+          "ticket_submission_success_title": "Laporanmu sudah kami terima",
+          "ticket_submission_success_desc": "Kami akan merespon secepatnya. Cek statusnya di email atau di aplikasi Gojek (Profil Saya > Bantuan & Laporan Saya).",
+          "ticket_submission_success_primary_btn": "Oke"
+        },
+        "category": {
+          "MARTABAK": "Martabak",
+          "SOTO_BAKSO_SOP": "Bakso & soto",
+          "ROTI": "Roti",
+          "CHINESE": "Chinese",
+          "BURGER_SANDWICH_STEAK": "Barat",
+          "FASTFOOD": "Cepat saji",
+          "JAPANESE": "Jepang",
+          "SNACKS_JAJANAN": "Jajanan",
+          "SATE": "Sate",
+          "PIZZA_PASTA": "Pizza & pasta",
+          "BAKMIE": "Bakmie",
+          "MINUMAN": "Minuman",
+          "KOREAN": "Korea",
+          "SEAFOOD": "Seafood",
+          "COFFEE_SHOP": "Kopi",
+          "INDIAN_FOOD": "India",
+          "MIDDLE_EASTERN": "Timur Tengah",
+          "NEAR_ME": "Terdekat",
+          "BEST_SELLER": "Terlaris",
+          "NEW_MERCHANT": "Baru minggu ini",
+          "AFFORDABLE_PRICE": "Menu hemat",
+          "MOST_LOVED": "Terfavorit",
+          "24_HOURS": "24 jam",
+          "HEALTHY_FOOD": "Menu sehat",
+          "MKD_MEGAPROMO_ALL": "Pasti Ada Promo",
+          "BESTSELLERS": "Best sellers",
+          "BUDGETMEAL": "Budget meal",
+          "VIETNAMESE_NEW": "Vietnamese food",
+          "MKT_MART": "Daily needs",
+          "RICE_AND_STICKY_RICE": "All Rice",
+          "BOBA_AND_TEA": "Boba World",
+          "NOODLES": "Noodle Paradise",
+          "FAST_FOOD": "Fast Food",
+          "COFFEE": "Coffee World",
+          "SNACK": "Great Snack",
+          "JUICE_AND_SMOOTHIES": "Fruity Smoothie",
+          "VEGETARIAN": "Peaceful Vegan",
+          "INTERNATIONAL_FOOD": "Global Cuisines",
+          "VIETNAMESE": "Vietnamese",
+          "UNDER_THE_SEA": "Under The Sea",
+          "WINGS_ON_WINGS": "Wings On Wings",
+          "SWEET_TOOTH": "Sweet Tooth",
+          "THAI": "Thai",
+          "BANH_MI": "Banh Mi",
+          "ITALIAN": "Pizza & Pasta"
+        },
+        "landing": {
+          "most_loved_title": "Cek yang lagi trending, yuk",
+          "most_loved_desc": "Coba makanan yang lagi hits di GoFood.",
+          "nearme_title": "Rekomendasi resto di areamu",
+          "nearme_desc": "Kami pilihin yang enak dan dekat.",
+          "popular_title": "Populer di areamu",
+          "popular_desc": "Orang-orang doyan pesen dari sini.",
+          "location_title": "Menarik untuk dikunjungi",
+          "location_desc": "Inilah kota dan daerah yang banyak mamam enaknya!",
+          "banner_collection_title": "Rekomendasi {{ location }}",
+          "banner_collection_desc": "Eksplor kumpulan rekomendasi yang kami buat untuk berbagai kebutuhanmu",
+          "cuisine_title": "Aneka kuliner menarik",
+          "cuisine_desc": "Liat-liat aja dulu siapa tau jadi ngidam.",
+          "cuisine_cta_more": "Lihat semua kuliner",
+          "cuisine_cta_less": "Sembunyikan",
+          "collections_title": "Rekomendasi kami",
+          "collections_desc": "Ini nih jalan pintas menuju nikmat.",
+          "banner_desc": "Cari yang enak di sini, dari resto dengan rating jempolan sampai hidangan legendaris.",
+          "breadcrumbs_restaurants": "Restoran {{ location }}",
+          "breadcrumbs_cities": "Kota",
+          "banner_cities_title": "Kota-kota yang ada GoFood",
+          "banner_cities_desc": "GoFood udah ada di 74 kota di Indonesia! Nah, kamu mau pesen dari mana?",
+          "cities_title": "Menarik untuk dikunjungi",
+          "cities_desc": "Inilah kota dan daerah yang banyak mamam enaknya!"
+        }
+      }
+    },
+    "__N_SSP": true
+  },
+  "page": "/[service_area]/[locality]",
+  "query": {
+    "service_area": "surabaya",
+    "locality": "sukolilo-restaurants"
+  },
+  "buildId": "17.19.0",
+  "isFallback": false,
+  "isExperimentalCompile": false,
+  "gssp": true,
+  "locale": "id",
+  "locales": [
+    "id",
+    "en"
+  ],
+  "defaultLocale": "id",
+  "scriptLoader": []
+}

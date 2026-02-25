@@ -1,0 +1,52 @@
+[
+  {
+    "name": "x-waf-captcha-referer",
+    "value": "",
+    "domain": "gofood.co.id",
+    "path": "/",
+    "expires": 1772007723.243161,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "csrfSecret",
+    "value": "wB93ELnNepQ05-PMilrHxYZq",
+    "domain": "gofood.co.id",
+    "path": "/",
+    "expires": 1772011263.944841,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": "Strict"
+  },
+  {
+    "name": "XSRF-TOKEN",
+    "value": "StRaXVOj-u3aPMnMMvx-QaeuA5B9brKgX0BQ.vy7eswi3zvdpdrp1BBg3k7bAjvngqbbt%2BVyu%2FV6sjzk",
+    "domain": "gofood.co.id",
+    "path": "/",
+    "expires": 1772011263.944957,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": "Strict"
+  },
+  {
+    "name": "OptanonConsent",
+    "value": "isGpcEnabled=0&datestamp=Wed+Feb+25+2026+15%3A21%3A05+GMT%2B0700+(Waktu+Indonesia+Barat)&version=202405.2.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=6ffc6fd6-fa40-48dc-9e4c-f734a205ea7d&interactionCount=0&isAnonUser=1&landingPath=https%3A%2F%2Fgofood.co.id%2Fsurabaya%2Fsukolilo-restaurants&groups=C0001%3A1%2CC0002%3A0%2CC0003%3A0",
+    "domain": "gofood.co.id",
+    "path": "/",
+    "expires": 1803543665,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "w_tsfp",
+    "value": "ltvuV0MF2utBvS0Q7qjplEyoETAncj84h0wpEaR0f5thQLErU5mC04Z6uc3wOXXY5Mxnvd7DsZoyJTLYCJI3dwMQRs3Hd9oViQzEldMi3dhCVRAzEpLcUVcfK7kgvTNGfnhCNxS00jA8eIUd379yilkMsyN1zap3TO14fstJ019E6KDQmI5uDW3HlFWQRzaLbjcMcuqPr6g18L5a5Wzft1yvKVx1C+4X1hTD0n4YDypw5RTtduoMMByodc2rSqA=",
+    "domain": "gofood.co.id",
+    "path": "/",
+    "expires": 1772007694,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  }
+]
