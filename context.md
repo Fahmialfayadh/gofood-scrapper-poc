@@ -6,6 +6,7 @@
   - Surabaya: `sukolilo-restaurants`, `gubeng-restaurants`, `wonokromo-restaurants`, `tandes-restaurants`, `tambaksari-restaurants`, `mulyorejo-restaurants`
   - Medan: `medan-selayang-restaurants`
 - Fokus: ekstraksi outlet + menu GoFood dengan Playwright, berbasis JSON (`__NEXT_DATA__` dan network interception).
+- dokumen yang harus dibaca: `documentation.md` (terutama bagian 0-1.6)
 
 ### Hasil Run Terakhir (Empiris)
 - Surabaya multi-area (`scrap_sby.py`, limit=20 per area):
