@@ -37,14 +37,39 @@ WIB = timezone(timedelta(hours=7))
 CITY = "surabaya"
 
 # Daftar lengkap kecamatan di Surabaya
+# Daftar lengkap 31 kecamatan di Surabaya
 LIST_AREA = [
-    "sukolilo-restaurants",
+    #"asemrowo-restaurants",
+    #"benowo-restaurants",
+    #"bubutan-restaurants",
+    #"bulak-restaurants",
+    #"dukuh-pakis-restaurants",
+    #"gayungan-restaurants",
+    #"genteng-restaurants",
     "gubeng-restaurants",
-    "wonokromo-restaurants",
-    "tandes-restaurants",
-    "tambaksari-restaurants",
+    #"gunung-anyar-restaurants",
+    #"jambangan-restaurants",
+    #"karang-pilang-restaurants",
+    #"kenjeran-restaurants",
+    #"krembangan-restaurants",
+    #"lakarsantri-restaurants",
     "mulyorejo-restaurants",
-
+    #"pabean-cantian-restaurants",
+    #"pakal-restaurants",
+    #"rungkut-restaurants",
+    #"sambikerep-restaurants",
+    #"sawahan-restaurants",
+    #"semampir-restaurants",
+    #"simokerto-restaurants",
+    "sukolilo-restaurants",
+    #"sukomanunggal-restaurants",
+    #"tambaksari-restaurants",
+    #"tandes-restaurants",
+    #"tegal-sari-restaurants",
+    #"tenggilis-mejoyo-restaurants",
+    #"wiyung-restaurants",
+    #"wonocolo-restaurants",
+    #"wonokromo-restaurants",
 ]
 
 # Hapus duplikat sambil pertahankan urutan
@@ -106,14 +131,14 @@ def run_pipeline_for_area(
     # Delay setelah bootstrap (manusiawi: orang baca dulu halamannya)
     human_delay(5, 12, "Membaca halaman listing")
 
-    # ── STEP 2: Outlet Discovery ──
+    # ── STEP 2: Outlet Discovery (agresif: scroll lebih banyak, sabar lebih lama) ──
     outlets = step2_outlet_discovery(
         browser=browser,
         nearme_url=nearme_url,
         service_area=CITY,
         storage_state=storage_state,
-        max_scrolls=150,
-        patience=4,
+        max_scrolls=500,
+        patience=8,
         scroll_delay=random.uniform(2.0, 4.0),  # variasi scroll speed
         wait_ms=wait_ms,
     )
@@ -128,14 +153,14 @@ def run_pipeline_for_area(
     # Delay setelah discovery (manusiawi: scroll panjang lalu istirahat)
     human_delay(8, 18, "Istirahat setelah scrolling")
 
-    # ── STEP 3: Batch Menu Extraction ──
+    # ── STEP 3: Batch Menu Extraction (agresif: scrape semua outlet) ──
     menu_results = step3_batch_menu(
         browser=browser,
         outlets=outlets,
         storage_state=storage_state,
-        limit=limit,
+        limit=limit if limit > 0 else len(outlets),
         wait_ms=wait_ms,
-        delay_min=4.0,   # delay antar outlet lebih panjang
+        delay_min=4.0,
         delay_max=10.0,
     )
 
@@ -166,8 +191,8 @@ def main() -> int:
         description="GoFood Surabaya Multi-Area Scraper",
     )
     parser.add_argument(
-        "--limit", type=int, default=20,
-        help="Jumlah outlet per area yang di-scrape menunya (default: 20).",
+        "--limit", type=int, default=0,
+        help="Jumlah outlet per area yang di-scrape menunya (default: 0 = semua).",
     )
     parser.add_argument(
         "--wait-ms", type=int, default=8000,

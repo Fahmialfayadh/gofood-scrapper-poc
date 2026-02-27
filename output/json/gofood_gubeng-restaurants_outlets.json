@@ -1,15 +1,15 @@
 [
   {
-    "uid": "f4390f1a-3d30-4417-9347-f69e46d391a0",
-    "name": "Aliung Asli Bangka, Raya Mulyosari",
-    "path": "/surabaya/restaurant/aliung-asli-bangka-raya-mulyosari-f4390f1a-3d30-4417-9347-f69e46d391a0",
-    "full_url": "https://gofood.co.id/surabaya/restaurant/aliung-asli-bangka-raya-mulyosari-f4390f1a-3d30-4417-9347-f69e46d391a0",
-    "latitude": -7.269905223953757,
-    "longitude": 112.79654402285814,
+    "uid": "79f9a917-c620-417d-a7de-f4ddded9f161",
+    "name": "A&W Wijaya Kusuma",
+    "path": "/surabaya/restaurant/a-w-wijaya-kusuma-79f9a917-c620-417d-a7de-f4ddded9f161",
+    "full_url": "https://gofood.co.id/surabaya/restaurant/a-w-wijaya-kusuma-79f9a917-c620-417d-a7de-f4ddded9f161",
+    "latitude": -7.2562155,
+    "longitude": 112.7484417,
     "status": 1,
     "rating_average": 4.9,
     "rating_total": 0,
-    "delivery_distance_km": 4.82,
+    "delivery_distance_km": 2.58,
     "price_level": 3
   },
   {
@@ -23,32 +23,6 @@
     "rating_average": 4.9,
     "rating_total": 0,
     "delivery_distance_km": 2.01,
-    "price_level": 2
-  },
-  {
-    "uid": "aa66a96b-d40e-4f26-9c98-7d88342dd21d",
-    "name": "Ayam Geprek Jaya, Kalirungkut",
-    "path": "/surabaya/restaurant/ayam-geprek-jaya-kalirungkut-aa66a96b-d40e-4f26-9c98-7d88342dd21d",
-    "full_url": "https://gofood.co.id/surabaya/restaurant/ayam-geprek-jaya-kalirungkut-aa66a96b-d40e-4f26-9c98-7d88342dd21d",
-    "latitude": -7.317622,
-    "longitude": 112.76738,
-    "status": 1,
-    "rating_average": 4.7,
-    "rating_total": 0,
-    "delivery_distance_km": 4.53,
-    "price_level": 2
-  },
-  {
-    "uid": "594f87d9-b1b4-4ed5-847e-5cdae65f0b63",
-    "name": "Bakso Dan Mie Ayam Goli, Semolowaru",
-    "path": "/surabaya/restaurant/bakso-dan-mie-ayam-goli-semolowaru-594f87d9-b1b4-4ed5-847e-5cdae65f0b63",
-    "full_url": "https://gofood.co.id/surabaya/restaurant/bakso-dan-mie-ayam-goli-semolowaru-594f87d9-b1b4-4ed5-847e-5cdae65f0b63",
-    "latitude": -7.300132,
-    "longitude": 112.774063,
-    "status": 1,
-    "rating_average": 4.7,
-    "rating_total": 0,
-    "delivery_distance_km": 3.23,
     "price_level": 2
   },
   {
@@ -78,6 +52,32 @@
     "price_level": 2
   },
   {
+    "uid": "aba6dbe6-4f1d-4c4c-88dc-02cfd8e76f7f",
+    "name": "Belut Khas Surabaya, Gubeng",
+    "path": "/surabaya/restaurant/belut-khas-surabaya-gubeng-aba6dbe6-4f1d-4c4c-88dc-02cfd8e76f7f",
+    "full_url": "https://gofood.co.id/surabaya/restaurant/belut-khas-surabaya-gubeng-aba6dbe6-4f1d-4c4c-88dc-02cfd8e76f7f",
+    "latitude": -7.292894951888489,
+    "longitude": 112.75211993604898,
+    "status": 1,
+    "rating_average": 4.9,
+    "rating_total": 0,
+    "delivery_distance_km": 1.56,
+    "price_level": 2
+  },
+  {
+    "uid": "b2ad4a37-47d5-4a44-8689-cd6c4f11cccc",
+    "name": "Beta Bakso, Tenggilis Mejoyo",
+    "path": "/surabaya/restaurant/beta-bakso-tenggilis-mejoyo-b2ad4a37-47d5-4a44-8689-cd6c4f11cccc",
+    "full_url": "https://gofood.co.id/surabaya/restaurant/beta-bakso-tenggilis-mejoyo-b2ad4a37-47d5-4a44-8689-cd6c4f11cccc",
+    "latitude": -7.320293,
+    "longitude": 112.764444,
+    "status": 1,
+    "rating_average": 0,
+    "rating_total": 0,
+    "delivery_distance_km": 4.72,
+    "price_level": 1
+  },
+  {
     "uid": "a3b7fcc0-a4b8-4943-b962-e37c9e8b4104",
     "name": "Burger King (Burger dan Ayam), Jemursari",
     "path": "/surabaya/restaurant/burger-king-burger-dan-ayam-jemursari-a3b7fcc0-a4b8-4943-b962-e37c9e8b4104",
@@ -89,6 +89,19 @@
     "rating_total": 0,
     "delivery_distance_km": 3.8,
     "price_level": 3
+  },
+  {
+    "uid": "003b7c1a-2155-4945-b65b-f04f354dad81",
+    "name": "Cahaya Minang, Arief Rachman Hakim",
+    "path": "/surabaya/restaurant/cahaya-minang-arief-rachman-hakim-003b7c1a-2155-4945-b65b-f04f354dad81",
+    "full_url": "https://gofood.co.id/surabaya/restaurant/cahaya-minang-arief-rachman-hakim-003b7c1a-2155-4945-b65b-f04f354dad81",
+    "latitude": -7.289806,
+    "longitude": 112.798051,
+    "status": 1,
+    "rating_average": 4.8,
+    "rating_total": 0,
+    "delivery_distance_km": 5.03,
+    "price_level": 2
   },
   {
     "uid": "7ac4b62c-56a9-4340-bd62-663045b179f3",
@@ -169,17 +182,17 @@
     "price_level": 3
   },
   {
-    "uid": "ead2cd49-6311-4d36-afa2-36a9bf987d2f",
-    "name": "Dejavu Cafe & Eatery, Surabaya",
-    "path": "/surabaya/restaurant/dejavu-cafe-eatery-surabaya-ead2cd49-6311-4d36-afa2-36a9bf987d2f",
-    "full_url": "https://gofood.co.id/surabaya/restaurant/dejavu-cafe-eatery-surabaya-ead2cd49-6311-4d36-afa2-36a9bf987d2f",
-    "latitude": -7.292565,
-    "longitude": 112.751147,
+    "uid": "b7138e38-2def-4992-9494-8b6bff26faed",
+    "name": "Depot Tiga Putri",
+    "path": "/surabaya/restaurant/depot-tiga-putri-b7138e38-2def-4992-9494-8b6bff26faed",
+    "full_url": "https://gofood.co.id/surabaya/restaurant/depot-tiga-putri-b7138e38-2def-4992-9494-8b6bff26faed",
+    "latitude": -7.327664,
+    "longitude": 112.733536,
     "status": 1,
-    "rating_average": 4.7,
+    "rating_average": 0,
     "rating_total": 0,
-    "delivery_distance_km": 1.54,
-    "price_level": 2
+    "delivery_distance_km": 5.85,
+    "price_level": 1
   },
   {
     "uid": "276e6665-51f2-418b-9a24-7ce840a586e7",
@@ -205,6 +218,19 @@
     "rating_average": 4.9,
     "rating_total": 0,
     "delivery_distance_km": 3.03,
+    "price_level": 3
+  },
+  {
+    "uid": "3069d7ae-e12e-4448-a02e-0bdf28946493",
+    "name": "KFC, Ahmad Yani Surabaya",
+    "path": "/surabaya/restaurant/kfc-ahmad-yani-surabaya-3069d7ae-e12e-4448-a02e-0bdf28946493",
+    "full_url": "https://gofood.co.id/surabaya/restaurant/kfc-ahmad-yani-surabaya-3069d7ae-e12e-4448-a02e-0bdf28946493",
+    "latitude": -7.3193854,
+    "longitude": 112.7325207,
+    "status": 1,
+    "rating_average": 4.9,
+    "rating_total": 0,
+    "delivery_distance_km": 5.06,
     "price_level": 3
   },
   {
@@ -234,6 +260,19 @@
     "price_level": 3
   },
   {
+    "uid": "b473f023-0a0a-4ef7-b4d1-990e5fe3152f",
+    "name": "KFC, Mulyosari Surabaya",
+    "path": "/surabaya/restaurant/kfc-mulyosari-surabaya-b473f023-0a0a-4ef7-b4d1-990e5fe3152f",
+    "full_url": "https://gofood.co.id/surabaya/restaurant/kfc-mulyosari-surabaya-b473f023-0a0a-4ef7-b4d1-990e5fe3152f",
+    "latitude": -7.2664306,
+    "longitude": 112.7963268,
+    "status": 1,
+    "rating_average": 4.8,
+    "rating_total": 0,
+    "delivery_distance_km": 4.89,
+    "price_level": 3
+  },
+  {
     "uid": "a8615bde-a458-4103-88c0-b788f3e33f63",
     "name": "KFC, Raya Darmo",
     "path": "/surabaya/restaurant/kfc-raya-darmo-a8615bde-a458-4103-88c0-b788f3e33f63",
@@ -245,6 +284,19 @@
     "rating_total": 0,
     "delivery_distance_km": 2,
     "price_level": 2
+  },
+  {
+    "uid": "890c018c-d89d-43b6-9039-99c55351ee7a",
+    "name": "Kebab Turki Baba Rafi, Indomart Merr",
+    "path": "/surabaya/restaurant/kebab-turki-baba-rafi-indomart-merr-890c018c-d89d-43b6-9039-99c55351ee7a",
+    "full_url": "https://gofood.co.id/surabaya/restaurant/kebab-turki-baba-rafi-indomart-merr-890c018c-d89d-43b6-9039-99c55351ee7a",
+    "latitude": -7.317958900000001,
+    "longitude": 112.7810321,
+    "status": 1,
+    "rating_average": 4.9,
+    "rating_total": 0,
+    "delivery_distance_km": 5.26,
+    "price_level": 3
   },
   {
     "uid": "532e01b7-6721-4252-9292-a94674366680",
@@ -286,6 +338,19 @@
     "price_level": 2
   },
   {
+    "uid": "2c1f8eb5-4378-4538-bff1-1b91454ede11",
+    "name": "Kwetiaw Medan Akiat, Mayjend Sungkono",
+    "path": "/surabaya/restaurant/kwetiaw-medan-akiat-mayjend-sungkono-2c1f8eb5-4378-4538-bff1-1b91454ede11",
+    "full_url": "https://gofood.co.id/surabaya/restaurant/kwetiaw-medan-akiat-mayjend-sungkono-2c1f8eb5-4378-4538-bff1-1b91454ede11",
+    "latitude": -7.2894100021904995,
+    "longitude": 112.71130241453648,
+    "status": 1,
+    "rating_average": 4.7,
+    "rating_total": 0,
+    "delivery_distance_km": 4.86,
+    "price_level": 3
+  },
+  {
     "uid": "ee939c19-3fe9-45f6-a621-7d7969890a5a",
     "name": "Malika Kebab 14, Tambaksari",
     "path": "/surabaya/restaurant/malika-kebab-14-tambaksari-ee939c19-3fe9-45f6-a621-7d7969890a5a",
@@ -299,32 +364,6 @@
     "price_level": 2
   },
   {
-    "uid": "6d760461-d886-4fe9-a6a9-18af25ecfdb1",
-    "name": "Martabak & Terang Bulan Holland, Manyar",
-    "path": "/surabaya/restaurant/martabak-terang-bulan-holland-manyar-6d760461-d886-4fe9-a6a9-18af25ecfdb1",
-    "full_url": "https://gofood.co.id/surabaya/restaurant/martabak-terang-bulan-holland-manyar-6d760461-d886-4fe9-a6a9-18af25ecfdb1",
-    "latitude": -7.295937,
-    "longitude": 112.762448,
-    "status": 1,
-    "rating_average": 4.9,
-    "rating_total": 0,
-    "delivery_distance_km": 2.11,
-    "price_level": 4
-  },
-  {
-    "uid": "158c4890-7fdc-4b52-9cd8-b6267625fe8c",
-    "name": "Martabak & Terang Bulan Holland, Mayjend Sungkono",
-    "path": "/surabaya/restaurant/martabak-terang-bulan-holland-mayjend-sungkono-158c4890-7fdc-4b52-9cd8-b6267625fe8c",
-    "full_url": "https://gofood.co.id/surabaya/restaurant/martabak-terang-bulan-holland-mayjend-sungkono-158c4890-7fdc-4b52-9cd8-b6267625fe8c",
-    "latitude": -7.292364,
-    "longitude": 112.722871,
-    "status": 1,
-    "rating_average": 4.8,
-    "rating_total": 0,
-    "delivery_distance_km": 3.75,
-    "price_level": 4
-  },
-  {
     "uid": "fe8e6062-e451-46cf-89b6-8d287ea8f228",
     "name": "Martabak Hollene, Tenggilis Mejoyo",
     "path": "/surabaya/restaurant/martabak-hollene-tenggilis-mejoyo-fe8e6062-e451-46cf-89b6-8d287ea8f228",
@@ -335,19 +374,6 @@
     "rating_average": 4.7,
     "rating_total": 0,
     "delivery_distance_km": 4.75,
-    "price_level": 3
-  },
-  {
-    "uid": "21cc5872-7ff5-4163-a28f-f80b7ac0e5b4",
-    "name": "Martabak Hu-Wenakk!!,  Sukolilo",
-    "path": "/surabaya/restaurant/martabak-hu-wenakk-sukolilo-21cc5872-7ff5-4163-a28f-f80b7ac0e5b4",
-    "full_url": "https://gofood.co.id/surabaya/restaurant/martabak-hu-wenakk-sukolilo-21cc5872-7ff5-4163-a28f-f80b7ac0e5b4",
-    "latitude": -7.294774,
-    "longitude": 112.77671,
-    "status": 1,
-    "rating_average": 4.8,
-    "rating_total": 0,
-    "delivery_distance_km": 3.07,
     "price_level": 3
   },
   {
@@ -377,19 +403,6 @@
     "price_level": 3
   },
   {
-    "uid": "8b95f6be-b60b-4bba-a0d5-6e8e69056916",
-    "name": "Masakan Padang Surya Indah, Sukolilo",
-    "path": "/surabaya/restaurant/masakan-padang-surya-indah-sukolilo-8b95f6be-b60b-4bba-a0d5-6e8e69056916",
-    "full_url": "https://gofood.co.id/surabaya/restaurant/masakan-padang-surya-indah-sukolilo-8b95f6be-b60b-4bba-a0d5-6e8e69056916",
-    "latitude": -7.290445945314089,
-    "longitude": 112.7954999729991,
-    "status": 1,
-    "rating_average": 4.8,
-    "rating_total": 0,
-    "delivery_distance_km": 4.77,
-    "price_level": 2
-  },
-  {
     "uid": "cc89875b-fb34-4c9c-98c9-b9da35f0edf4",
     "name": "McDonald's, Basuki Rahmat",
     "path": "/surabaya/restaurant/mcdonald-s-basuki-rahmat-cc89875b-fb34-4c9c-98c9-b9da35f0edf4",
@@ -403,16 +416,29 @@
     "price_level": 3
   },
   {
-    "uid": "68adcc25-eb59-4285-b6d3-dc44d39e1780",
-    "name": "McDonald's, Darmo Surabaya",
-    "path": "/surabaya/restaurant/mcdonald-s-darmo-surabaya-68adcc25-eb59-4285-b6d3-dc44d39e1780",
-    "full_url": "https://gofood.co.id/surabaya/restaurant/mcdonald-s-darmo-surabaya-68adcc25-eb59-4285-b6d3-dc44d39e1780",
-    "latitude": -7.282314,
-    "longitude": 112.740692,
+    "uid": "70075ba6-39de-4425-a6a7-81cc0ce0908b",
+    "name": "McDonald's, Mayjen Sungkono",
+    "path": "/surabaya/restaurant/mcdonald-s-mayjen-sungkono-70075ba6-39de-4425-a6a7-81cc0ce0908b",
+    "full_url": "https://gofood.co.id/surabaya/restaurant/mcdonald-s-mayjen-sungkono-70075ba6-39de-4425-a6a7-81cc0ce0908b",
+    "latitude": -7.2887,
+    "longitude": 112.706592,
     "status": 1,
     "rating_average": 4.8,
     "rating_total": 0,
-    "delivery_distance_km": 1.51,
+    "delivery_distance_km": 5.35,
+    "price_level": 3
+  },
+  {
+    "uid": "ca43fc5b-5916-4d9b-9a90-a900389fc2a8",
+    "name": "McDonald's, Mulyosari Surabaya",
+    "path": "/surabaya/restaurant/mcdonald-s-mulyosari-surabaya-ca43fc5b-5916-4d9b-9a90-a900389fc2a8",
+    "full_url": "https://gofood.co.id/surabaya/restaurant/mcdonald-s-mulyosari-surabaya-ca43fc5b-5916-4d9b-9a90-a900389fc2a8",
+    "latitude": -7.266734,
+    "longitude": 112.796409,
+    "status": 1,
+    "rating_average": 4.8,
+    "rating_total": 0,
+    "delivery_distance_km": 4.89,
     "price_level": 3
   },
   {
@@ -442,19 +468,6 @@
     "price_level": 3
   },
   {
-    "uid": "18bcfc0e-f359-418f-8e8c-ccef61fc3c29",
-    "name": "Mie Ayam Jakarta Asli, Tidar",
-    "path": "/surabaya/restaurant/mie-ayam-jakarta-asli-tidar-18bcfc0e-f359-418f-8e8c-ccef61fc3c29",
-    "full_url": "https://gofood.co.id/surabaya/restaurant/mie-ayam-jakarta-asli-tidar-18bcfc0e-f359-418f-8e8c-ccef61fc3c29",
-    "latitude": -7.258311305691464,
-    "longitude": 112.73253068793224,
-    "status": 1,
-    "rating_average": 4.9,
-    "rating_total": 0,
-    "delivery_distance_km": 3.29,
-    "price_level": 2
-  },
-  {
     "uid": "f2b28d10-e19d-4b69-9eb9-dc84c280b0f2",
     "name": "Mie Tidar, Sawahan",
     "path": "/surabaya/restaurant/mie-tidar-sawahan-f2b28d10-e19d-4b69-9eb9-dc84c280b0f2",
@@ -465,19 +478,6 @@
     "rating_average": 4.7,
     "rating_total": 0,
     "delivery_distance_km": 3.34,
-    "price_level": 3
-  },
-  {
-    "uid": "cf360d42-7922-48b1-bcf2-65df27385ebe",
-    "name": "Mr. Kebab, Tidar",
-    "path": "/surabaya/restaurant/mr-kebab-tidar-cf360d42-7922-48b1-bcf2-65df27385ebe",
-    "full_url": "https://gofood.co.id/surabaya/restaurant/mr-kebab-tidar-cf360d42-7922-48b1-bcf2-65df27385ebe",
-    "latitude": -7.256078,
-    "longitude": 112.718666,
-    "status": 1,
-    "rating_average": 3.7,
-    "rating_total": 0,
-    "delivery_distance_km": 4.65,
     "price_level": 3
   },
   {
@@ -504,32 +504,6 @@
     "rating_average": 4.7,
     "rating_total": 0,
     "delivery_distance_km": 3.53,
-    "price_level": 2
-  },
-  {
-    "uid": "6671d237-54f1-4617-b22b-906fc9edce88",
-    "name": "Nasi Bebek & Nasi Ayam H Fauzi, Krukah Lama",
-    "path": "/surabaya/restaurant/nasi-bebek-nasi-ayam-h-fauzi-krukah-lama-6671d237-54f1-4617-b22b-906fc9edce88",
-    "full_url": "https://gofood.co.id/surabaya/restaurant/nasi-bebek-nasi-ayam-h-fauzi-krukah-lama-6671d237-54f1-4617-b22b-906fc9edce88",
-    "latitude": -7.295332305396816,
-    "longitude": 112.75411885231733,
-    "status": 1,
-    "rating_average": 4.8,
-    "rating_total": 0,
-    "delivery_distance_km": 1.82,
-    "price_level": 2
-  },
-  {
-    "uid": "73281fac-27d5-4057-bd0f-91747688a0d8",
-    "name": "Nasi Bebek Tugu Pahlawan, Bubutan",
-    "path": "/surabaya/restaurant/nasi-bebek-tugu-pahlawan-bubutan-73281fac-27d5-4057-bd0f-91747688a0d8",
-    "full_url": "https://gofood.co.id/surabaya/restaurant/nasi-bebek-tugu-pahlawan-bubutan-73281fac-27d5-4057-bd0f-91747688a0d8",
-    "latitude": -7.245257,
-    "longitude": 112.736912,
-    "status": 1,
-    "rating_average": 4.7,
-    "rating_total": 0,
-    "delivery_distance_km": 4.17,
     "price_level": 2
   },
   {
@@ -566,7 +540,7 @@
     "latitude": -7.294226,
     "longitude": 112.734155,
     "status": 1,
-    "rating_average": 4.8,
+    "rating_average": 4.9,
     "rating_total": 0,
     "delivery_distance_km": 2.77,
     "price_level": 2
@@ -583,6 +557,19 @@
     "rating_total": 0,
     "delivery_distance_km": 2.84,
     "price_level": 3
+  },
+  {
+    "uid": "b8160cd3-2a2d-41cc-8f00-a1705972b2af",
+    "name": "Pisang Kipas Blora, Sukolilo",
+    "path": "/surabaya/restaurant/pisang-kipas-blora-sukolilo-b8160cd3-2a2d-41cc-8f00-a1705972b2af",
+    "full_url": "https://gofood.co.id/surabaya/restaurant/pisang-kipas-blora-sukolilo-b8160cd3-2a2d-41cc-8f00-a1705972b2af",
+    "latitude": -7.286638,
+    "longitude": 112.7739,
+    "status": 1,
+    "rating_average": 4.8,
+    "rating_total": 0,
+    "delivery_distance_km": 2.37,
+    "price_level": 2
   },
   {
     "uid": "ba049b4f-024e-488c-8939-a615213e9b90",
@@ -637,30 +624,17 @@
     "price_level": 4
   },
   {
-    "uid": "eb38abf5-53b8-43f7-b42b-2d1a4b171b11",
-    "name": "Pizza Hut, Basuki Rahmat Surabaya",
-    "path": "/surabaya/restaurant/pizza-hut-basuki-rahmat-surabaya-eb38abf5-53b8-43f7-b42b-2d1a4b171b11",
-    "full_url": "https://gofood.co.id/surabaya/restaurant/pizza-hut-basuki-rahmat-surabaya-eb38abf5-53b8-43f7-b42b-2d1a4b171b11",
-    "latitude": -7.264317,
-    "longitude": 112.74252,
+    "uid": "810f6df7-94c0-4a45-8023-f72369e2421e",
+    "name": "Pizza Hut Delivery - PHD, Ketintang",
+    "path": "/surabaya/restaurant/pizza-hut-delivery-phd-ketintang-810f6df7-94c0-4a45-8023-f72369e2421e",
+    "full_url": "https://gofood.co.id/surabaya/restaurant/pizza-hut-delivery-phd-ketintang-810f6df7-94c0-4a45-8023-f72369e2421e",
+    "latitude": -7.3233574,
+    "longitude": 112.7267268,
     "status": 1,
-    "rating_average": 4.9,
+    "rating_average": 4.8,
     "rating_total": 0,
-    "delivery_distance_km": 2.05,
+    "delivery_distance_km": 5.76,
     "price_level": 4
-  },
-  {
-    "uid": "86321e69-296b-4d32-9cd4-4cd1688eeef0",
-    "name": "RM Sederhana SA, Kertajaya Indah 100",
-    "path": "/surabaya/restaurant/rm-sederhana-sa-kertajaya-indah-100-86321e69-296b-4d32-9cd4-4cd1688eeef0",
-    "full_url": "https://gofood.co.id/surabaya/restaurant/rm-sederhana-sa-kertajaya-indah-100-86321e69-296b-4d32-9cd4-4cd1688eeef0",
-    "latitude": -7.280903538188579,
-    "longitude": 112.78120804580794,
-    "status": 1,
-    "rating_average": 4.9,
-    "rating_total": 0,
-    "delivery_distance_km": 3.02,
-    "price_level": 3
   },
   {
     "uid": "b98697fe-ac33-4ced-b37f-c4ffa13e5e17",
@@ -741,17 +715,30 @@
     "price_level": 3
   },
   {
-    "uid": "94c6c390-b572-4fd7-b592-ee1844b1d957",
-    "name": "Tahu Tek Pak Jayen, Dharmahusada",
-    "path": "/surabaya/restaurant/tahu-tek-pak-jayen-dharmahusada-94c6c390-b572-4fd7-b592-ee1844b1d957",
-    "full_url": "https://gofood.co.id/surabaya/restaurant/tahu-tek-pak-jayen-dharmahusada-94c6c390-b572-4fd7-b592-ee1844b1d957",
-    "latitude": -7.2665654,
-    "longitude": 112.7680948,
+    "uid": "1e4533c2-fd11-4e87-b500-c738fbce9ce2",
+    "name": "Terang Bulan Bangka C.N.K, Karang Empat Besar",
+    "path": "/surabaya/restaurant/terang-bulan-bangka-c-n-k-karang-empat-besar-1e4533c2-fd11-4e87-b500-c738fbce9ce2",
+    "full_url": "https://gofood.co.id/surabaya/restaurant/terang-bulan-bangka-c-n-k-karang-empat-besar-1e4533c2-fd11-4e87-b500-c738fbce9ce2",
+    "latitude": -7.251441618451955,
+    "longitude": 112.77222946286201,
     "status": 1,
     "rating_average": 4.9,
     "rating_total": 0,
-    "delivery_distance_km": 2.08,
-    "price_level": 2
+    "delivery_distance_km": 3.65,
+    "price_level": 3
+  },
+  {
+    "uid": "5f6d1100-7179-4ac8-9915-dffad050fbd9",
+    "name": "Warung Bu Ega (Mie Ayam Ceker Hot dan Bakso Bunting/Beranak)",
+    "path": "/surabaya/restaurant/warung-bu-ega-mie-ayam-ceker-hot-dan-bakso-bunting-beranak-5f6d1100-7179-4ac8-9915-dffad050fbd9",
+    "full_url": "https://gofood.co.id/surabaya/restaurant/warung-bu-ega-mie-ayam-ceker-hot-dan-bakso-bunting-beranak-5f6d1100-7179-4ac8-9915-dffad050fbd9",
+    "latitude": -7.330394,
+    "longitude": 112.748708,
+    "status": 1,
+    "rating_average": 4.4,
+    "rating_total": 0,
+    "delivery_distance_km": 5.72,
+    "price_level": 1
   },
   {
     "uid": "a8148c2b-34e7-4831-8fcb-5f3a08452171",
@@ -764,6 +751,19 @@
     "rating_average": 4.6,
     "rating_total": 0,
     "delivery_distance_km": 3.72,
+    "price_level": 2
+  },
+  {
+    "uid": "12309511-6d78-4b94-94b9-cd2acdebd2b1",
+    "name": "Warung Sasak, Mulyosari",
+    "path": "/surabaya/restaurant/warung-sasak-mulyosari-12309511-6d78-4b94-94b9-cd2acdebd2b1",
+    "full_url": "https://gofood.co.id/surabaya/restaurant/warung-sasak-mulyosari-12309511-6d78-4b94-94b9-cd2acdebd2b1",
+    "latitude": -7.264976390175767,
+    "longitude": 112.79565185840511,
+    "status": 1,
+    "rating_average": 5,
+    "rating_total": 0,
+    "delivery_distance_km": 4.87,
     "price_level": 2
   },
   {
